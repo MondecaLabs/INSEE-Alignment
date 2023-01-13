@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE LIMES SYSTEM "limes.dtd">
+<LIMES>
+<PREFIX>
+  <NAMESPACE>http://www.w3.org/2002/07/owl#</NAMESPACE>
+  <LABEL>owl</LABEL>
+</PREFIX>
+<PREFIX>
+  <NAMESPACE>http://www.w3.org/2004/02/skos/core#</NAMESPACE>
+  <LABEL>skos</LABEL>
+</PREFIX>
+<PREFIX>
+  <NAMESPACE>http://schema.org/</NAMESPACE>
+  <LABEL>url</LABEL>
+</PREFIX>
+<PREFIX>
+  <NAMESPACE>http://www.w3.org/1999/02/22-rdf-syntax-ns#</NAMESPACE>
+  <LABEL>rdf</LABEL>
+</PREFIX>
+<PREFIX>
+  <NAMESPACE>http://dbpedia.org/ontology/</NAMESPACE>
+  <LABEL>dbpo</LABEL>
+</PREFIX>
+<PREFIX>
+  <NAMESPACE>http://www.w3.org/2000/01/rdf-schema#</NAMESPACE>
+  <LABEL>rdfs</LABEL>
+</PREFIX>
+<SOURCE>
+    <ID>data_source</ID>
+    <ENDPOINT>/Users/gatemezing/limes/limes-core/target/naf08_insee.ttl</ENDPOINT>
+    <VAR>?y</VAR>
+    <PAGESIZE>5000</PAGESIZE>
+    <RESTRICTION>?y rdf:type skos:Concept</RESTRICTION>
+    <PROPERTY>skos:prefLabel</PROPERTY>
+    <TYPE>TTL</TYPE>
+</SOURCE>    
+<TARGET>
+    <ID>target_source</ID>
+    <ENDPOINT>/Users/gatemezing/limes/limes-core/target/naf08_insee.ttl</ENDPOINT>
+    <VAR>?x</VAR>
+    <PAGESIZE>5000</PAGESIZE>
+    <RESTRICTION>?x rdf:type skos:Concept</RESTRICTION>
+    <PROPERTY>skos:prefLabel</PROPERTY>
+	<TYPE>TTL</TYPE>
+</TARGET>
+
+<METRIC>
+  exactmatch(y.skos:prefLabel,x.skos:prefLabel)|0.9
+</METRIC>
+<ACCEPTANCE>
+  <THRESHOLD>0.99</THRESHOLD>
+  <FILE>accepted.nt</FILE>
+  <RELATION>owl:sameAs</RELATION>
+</ACCEPTANCE>
+<REVIEW>
+  <THRESHOLD>0.95</THRESHOLD>
+  <FILE>reviewme.nt</FILE>
+  <RELATION>owl:sameAs</RELATION>
+</REVIEW>
+<EXECUTION>
+  <REWRITER>DEFAULT</REWRITER>
+  <PLANNER>DEFAULT</PLANNER>
+  <ENGINE>DEFAULT</ENGINE>
+</EXECUTION>
+<OUTPUT>NT</OUTPUT>
+</LIMES>
