@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE LIMES SYSTEM "limes.dtd">
+<LIMES>
+<PREFIX>
+  <NAMESPACE>http://www.w3.org/2002/07/owl#</NAMESPACE>
+  <LABEL>owl</LABEL>
+</PREFIX>
+<PREFIX>
+  <NAMESPACE>http://www.w3.org/2004/02/skos/core#</NAMESPACE>
+  <LABEL>skos</LABEL>
+</PREFIX>
+<PREFIX>
+  <NAMESPACE>http://schema.org/</NAMESPACE>
+  <LABEL>url</LABEL>
+</PREFIX>
+<PREFIX>
+  <NAMESPACE>http://www.w3.org/1999/02/22-rdf-syntax-ns#</NAMESPACE>
+  <LABEL>rdf</LABEL>
+</PREFIX>
+<PREFIX>
+  <NAMESPACE>http://dbpedia.org/ontology/</NAMESPACE>
+  <LABEL>dbpo</LABEL>
+</PREFIX>
+<PREFIX>
+  <NAMESPACE>http://www.w3.org/2000/01/rdf-schema#</NAMESPACE>
+  <LABEL>rdfs</LABEL>
+</PREFIX>
+<SOURCE>
+    <ID>data_source</ID>
+    <ENDPOINT>file:///C:/Users/Caroline/Documents/Mondeca/Client/INSEE/LIMES/dataset/concepts-local.ttl</ENDPOINT>
+    <VAR>?y</VAR>
+    <PAGESIZE>5000</PAGESIZE>
+    <RESTRICTION>?y rdf:type skos:Concept</RESTRICTION>
+    <PROPERTY>skos:prefLabel</PROPERTY>
+    <PROPERTY>skos:prefLabel AS lowercase RENAME inseepreflabel</PROPERTY>
+    <PROPERTY>skos:altLabel</PROPERTY>
+    <PROPERTY>skos:altLabel AS lowercase RENAME inseealtlabel</PROPERTY>
+    <TYPE>TTL</TYPE>
+</SOURCE>    
+<TARGET>
+    <ID>target_source</ID>
+    <ENDPOINT>file:///C:/Users/Caroline/Documents/Mondeca/Client/INSEE/LIMES/dataset/eurovoc_in_skos_core_concepts.rdf</ENDPOINT>
+    <VAR>?x</VAR>
+    <PAGESIZE>5000</PAGESIZE>
+    <RESTRICTION>?x rdf:type skos:Concept</RESTRICTION>
+    <PROPERTY>skos:prefLabel</PROPERTY>
+    <PROPERTY>skos:prefLabel AS lowercase RENAME eurovocpreflabel</PROPERTY>
+    <PROPERTY>skos:altLabel</PROPERTY>
+    <PROPERTY>skos:altLabel AS lowercase RENAME eurovocaltlabel</PROPERTY>
+	<TYPE>RDF</TYPE>
+</TARGET>
+
+<METRIC>
+  AND(exactmatch(y.inseepreflabel,x.eurovocpreflabel)|0.9, exactmatch(y.inseealtlabel,x.eurovocaltlabel)|0.9)
+</METRIC>
+<ACCEPTANCE>
+  <THRESHOLD>0.95</THRESHOLD>
+  <FILE>accepted/accepted-eurovoc_altlabel.nt</FILE>
+  <RELATION>skos:exactMatch</RELATION>
+</ACCEPTANCE>
+<REVIEW>
+  <THRESHOLD>0.90</THRESHOLD>
+  <FILE>review/reviewme-eurovoc_altlabel.nt</FILE>
+  <RELATION>skos:exactMatch</RELATION>
+</REVIEW>
+<EXECUTION>
+  <REWRITER>DEFAULT</REWRITER>
+  <PLANNER>DEFAULT</PLANNER>
+  <ENGINE>DEFAULT</ENGINE>
+</EXECUTION>
+<OUTPUT>NT</OUTPUT>
+</LIMES>
