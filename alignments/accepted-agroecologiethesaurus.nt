@@ -1,0 +1,6 @@
+<http://id.insee.fr/concepts/definition/c1083> <http://www.w3.org/2004/02/skos/core#exactMatch> <http://opendata.inra.fr/ThesAE/surface_boisee> .
+<http://id.insee.fr/concepts/definition/c2218> <http://www.w3.org/2004/02/skos/core#exactMatch> <http://opendata.inra.fr/ThesAE/agriculture_biologique> .
+<http://id.insee.fr/concepts/definition/c1538> <http://www.w3.org/2004/02/skos/core#exactMatch> <http://opendata.inra.fr/ThesAE/excedent_brut_d_exploitation> .
+<http://id.insee.fr/concepts/definition/c2205> <http://www.w3.org/2004/02/skos/core#exactMatch> <http://opendata.inra.fr/ThesAE/economie_circulaire> .
+<http://id.insee.fr/concepts/definition/c2203> <http://www.w3.org/2004/02/skos/core#exactMatch> <http://opendata.inra.fr/ThesAE/changement_climatique> .
+<http://id.insee.fr/concepts/definition/c1644> <http://www.w3.org/2004/02/skos/core#exactMatch> <http://opendata.inra.fr/ThesAE/developpement_durable> .
