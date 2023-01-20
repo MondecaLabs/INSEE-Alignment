@@ -29,11 +29,16 @@ project
 │       │   ...
 └───candidates
 │       │   reviewme-xxx.nt
+│       │   ...
 │
 └───void
 │       │   void-insee.ttl
 │
 └───query
+│       │   metadataConstruct_closeMatch.rq
+│       │   metadataConstruct_exactMatch.rq
+│
+│
 
 
 ```
