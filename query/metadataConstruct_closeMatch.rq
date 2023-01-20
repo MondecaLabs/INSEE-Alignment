@@ -1,0 +1,36 @@
+## This query enriches the output of the alignment with skos:closeMatch assertions.
+## It can be modified to include a filtering for other languages, like FR.
+## Authors: @gatemezing, @CarolineDaneau
+## Issued date: 2023-01-20
+
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX xkos: <http://rdf-vocabulary.ddialliance.org/xkos#>
+PREFIX afo-meta: <http://www.yso.fi/onto/afo-meta/>
+CONSTRUCT {
+  ?sub skos:closeMatch ?obj.
+  ?sub skos:prefLabel ?sLabel.
+  ?sub skos:definition ?sdefuri.
+  ?sub xkos:plainText ?sdef.
+  ?obj skos:prefLabel ?oLabel.
+  ?obj skos:altLabel ?oAltLabel.
+  ?obj afo-meta:scientificName ?oAfo.
+  
+}
+
+WHERE 
+{
+  ?sub skos:closeMatch ?obj .
+  ?sub skos:prefLabel ?sLabel.
+  ?obj skos:prefLabel ?oLabel.
+ # filter for EN 
+ OPTIONAL{?sub skos:definition ?sdefuri.
+    ?sdefuri xkos:plainText ?sdef.
+    filter (contains(str(?sdefuri), "EN"))
+   }
+ OPTIONAL{?obj skos:altLabel ?oAltLabel 
+    filter (langMatches(lang(?oAltLabel), "EN") )}
+	
+ OPTIONAL{?obj afo-meta:scientificName ?oAfo }
+} 
