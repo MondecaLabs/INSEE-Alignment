@@ -1,0 +1,77 @@
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <http://purl.org/iso25964/DataSet/Versioning#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+@prefix map: <http://id.insee.fr/mapping/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix sd: <http://www.w3.org/ns/sparql-service-description#> .
+
+## VoID files of the mapping INSEE with Wikidata
+## rdf.insee.fr/.wellknown/void ou rdf.insee.fr/mapping/void.ttl
+
+<http://http://rdf.insee.fr/mapping/void.ttl>
+    a void:DatasetDescription ;
+    dcterms:title "INSEE SKOS mapping dataspace"@en ;
+    dcterms:creator <https://dbpedia.org/resource/INSEE> ;
+    dcterms:issued "2023-01-19"^^xsd:date;
+    dcterms:modified "2023-01-20"^^xsd:date;
+    foaf:primaryTopic map:insee-dataset;
+    .
+
+map:insee-dataset
+    a void:Dataset ;
+    dcterms:title "INSEE datasets containing mapping with relevant datasets"@en ;
+    foaf:homepage <https://github.com/MondecaLabs/INSEE-Alignment> ; # à modifier
+    dcterms:publisher <https://dbpedia.org/resource/INSEE> ;
+    dcterms:modified "2023-01-20"^^xsd:date ;
+    dcterms:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+    void:subset map:insee, map:insee_wikidata, map:wikidata ; 
+    .
+
+## insee dataset
+map:insee  a void:Dataset; 
+		dcterms:publisher <https://dbpedia.org/resource/INSEE> ; 
+		void:dataDump <https://github.com/MondecaLabs/INSEE-Alignment/blob/main/dataset/source/concepts-local.ttl> ;
+		void:sparqlEndpoint <https://rdf.insee.fr/sparql> ;
+		dcterms:title "INSEE SKOS dataset"@en , "Base de connaissance SKOS de l'INSEE"@fr;
+    .
+
+## insee mapping to wikidata
+map:insee_wikidata a void:Linsket ;
+	dc:creator "The quality data team at INSEE"@en ;
+	dc:publisher "INSEE - French statistical institute"@en, "INSEE - Institut National de Statistique"@fr ;
+	dcterms:description "Alignment of concepts SKOS in INSEE with Wikidata"@en, ""@fr ;
+	dcterms:license <http://creativecommons.org/licenses/by/4.0/> ;
+	dcterms:title "Mapping INSEE Concepts - Wikidata"@en, "Alignement INSEE - Wikidata"@fr ;
+	void:target map:insee ;
+	void:target map:wikidata ;
+	void:triples 24;
+	void:linkPredicate skos:exactMatch;
+	void:propertyPartition _:pa1, _:pa2 ;
+	.
+
+## wikidata dataset
+map:wikidata a void:Dataset ;
+	dc:creator "Wikidata.org"@fr, "Wikidata.org"@en ;
+	dcterms:description "Wikidata is a collaboratively edited knowledge base\n    hosted by the Wikimedia Foundation. It is intended to provide a common source\n    of data which can be used by Wikimedia projects such as Wikipedia, and by\n    anyone else. (Wikipedia)"@en, 
+	"Wikidata est une base de connaissances libre et gratuite qui peut être lue et modifiée tant par des personnes que par des dispositifs informatisés. (Wikidata)"@fr ;
+	dcterms:title "Wikidata"@fr, "Wikidata"@en ;
+	owl:versionInfo "2022-12-30" ;
+	foaf:homepage <https://www.wikidata.org/wiki/Wikidata:Main_Page> ;
+	void:sparqlEndpoint <https://query.wikidata.org/bigdata/namespace/wdq/sparql> ;
+	.
+
+#void:dataDump to provide a dump
+
+
+_:pa1 void:property "skos:exactMatch"@en ;
+	void:triples 24 .
+_:pa2 void:property "skos:closeMatch"@en ;
+	void:triples 3 .
+
