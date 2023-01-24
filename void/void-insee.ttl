@@ -15,9 +15,9 @@
 ## VoID files of the mapping INSEE with Wikidata
 ## rdf.insee.fr/.wellknown/void ou rdf.insee.fr/mapping/void.ttl
 
-<http://http://rdf.insee.fr/mapping/void.ttl>
+<http://rdf.insee.fr/mapping/vDataset>
     a void:DatasetDescription ;
-    dcterms:title "INSEE SKOS mapping dataspace"@en ;
+    dcterms:title "INSEE SKOS mapping dataspace"@en, "Espace des alignements des bases SKOS avec INSEE"@fr;
     dcterms:creator <https://dbpedia.org/resource/INSEE> ;
     dcterms:issued "2023-01-19"^^xsd:date;
     dcterms:modified "2023-01-20"^^xsd:date;
@@ -30,30 +30,119 @@ map:insee-dataset
     foaf:homepage <https://github.com/MondecaLabs/INSEE-Alignment> ; # à modifier
     dcterms:publisher <https://dbpedia.org/resource/INSEE> ;
     dcterms:modified "2023-01-20"^^xsd:date ;
-    dcterms:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
-    void:subset map:insee, map:insee_wikidata, map:wikidata ; 
+    dcterms:license <http://creativecommons.org/publicdomain/zero/1.0/> ; #check the final license
+    void:subset map:insee_wikidata, map:insee_eurovoc, map:insee_eclas, map:insee_det  ; 
     .
 
-## insee dataset
+## INSEE dataset
 map:insee  a void:Dataset; 
 		dcterms:publisher <https://dbpedia.org/resource/INSEE> ; 
 		void:dataDump <https://github.com/MondecaLabs/INSEE-Alignment/blob/main/dataset/source/concepts-local.ttl> ;
 		void:sparqlEndpoint <https://rdf.insee.fr/sparql> ;
 		dcterms:title "INSEE SKOS dataset"@en , "Base de connaissance SKOS de l'INSEE"@fr;
+		void:triples 46506 ;
+		void:uriSpace "http://id.insee.fr/concepts/definition/";
     .
 
-## insee mapping to wikidata
+## INSEE mapping to Wikidata
 map:insee_wikidata a void:Linsket ;
 	dc:creator "The quality data team at INSEE"@en ;
 	dc:publisher "INSEE - French statistical institute"@en, "INSEE - Institut National de Statistique"@fr ;
 	dcterms:description "Alignment of concepts SKOS in INSEE with Wikidata"@en, ""@fr ;
 	dcterms:license <http://creativecommons.org/licenses/by/4.0/> ;
+	dcterms:issued "2022-01-19"^^xsd:date;
 	dcterms:title "Mapping INSEE Concepts - Wikidata"@en, "Alignement INSEE - Wikidata"@fr ;
 	void:target map:insee ;
 	void:target map:wikidata ;
-	void:triples 24;
+	void:triples 25;
+	void:linkPredicate skos:exactMatch, skos:closeMatch;
+	void:propertyPartition [
+							void:property "skos:exactMatch"@en ;
+							void:triples 24 ],
+							[
+								void:property "skos:closeMatch"@en ;
+								void:triples 3 ];
+	
+	.
+
+## INSEE mapping to Eurovoc
+
+map:insee_eurovoc a void:Linsket ;
+	dc:creator "The quality data team at INSEE"@en ;
+	dc:publisher "INSEE - French statistical institute"@en, "INSEE - Institut National de Statistique"@fr ;
+	dcterms:description "Alignment of concepts SKOS in INSEE with Eurovoc"@en, "Alignement des concepts SKOS INSEE avec EuroVoc"@fr ;
+	dcterms:license <http://creativecommons.org/licenses/by/4.0/> ;
+	dcterms:issued "2023-01-19"^^xsd:date;
+	dcterms:title "Mapping INSEE Concepts - Eurovoc"@en, "Alignement INSEE - Eurovoc"@fr ;
+	void:target map:insee ;
+	void:target map:eurovoc ;
+	void:triples 150;
 	void:linkPredicate skos:exactMatch;
-	void:propertyPartition _:pa1, _:pa2 ;
+	.
+
+## INSEE mapping to ECLAS
+
+map:insee_eclas a void:Linsket ;
+	dc:creator "The quality data team at INSEE"@en ;
+	dc:publisher "INSEE - French statistical institute"@en, "INSEE - Institut National de Statistique"@fr ;
+	dcterms:description "Alignment of concepts SKOS in INSEE with ECLAS"@en, "Alignement des concepts SKOS INSEE avec ECLAS"@fr ;
+	dcterms:license <http://creativecommons.org/licenses/by/4.0/> ;
+	dcterms:issued "2023-01-24"^^xsd:date;
+	dcterms:title "Mapping INSEE Concepts - Eclas"@en, "Alignement INSEE - Eclas"@fr ;
+	void:target map:insee ;
+	void:target map:eclas ;
+	void:triples 111;
+	void:linkPredicate skos:exactMatch;
+	.
+
+## INSEE mapping to DET
+
+map:insee_det a void:Linsket ;
+	dc:creator "The quality data team at INSEE"@en ;
+	dc:publisher "INSEE - French statistical institute"@en, "INSEE - Institut National de Statistique"@fr ;
+	dcterms:description "Alignment of concepts SKOS in INSEE with DET"@en, "Alignement des concepts SKOS INSEE avec DET"@fr ;
+	dcterms:license <http://creativecommons.org/licenses/by/4.0/> ;
+	dcterms:issued "2023-01-24"^^xsd:date;
+	dcterms:title "Mapping INSEE Concepts - DET"@en, "Alignement INSEE - DET"@fr ;
+	void:target map:insee ;
+	void:target map:det ;
+	void:triples 64;
+	void:linkPredicate skos:exactMatch;
+	.
+
+## Eurovoc dataset
+map:eurovoc a void:Dataset ;
+	dc:creator <http://publications.europa.eu/resource/authority/corporate-body/PUBL> ;
+	dcterms:description "EuroVoc is a multilingual, multidisciplinary thesaurus covering the activities of the EU"@en;
+	dcterms:title "EuroVoc"@fr, "EuroVoc"@en ;
+	dcterms:issued "2022-11-18"^^xsd:date ;
+	void:triples 3647675;
+	foaf:homepage <https://op.europa.eu/en/web/eu-vocabularies/dataset/-/resource?uri=http://publications.europa.eu/resource/dataset/eurovoc> ;
+	void:dataDump <https://op.europa.eu/o/opportal-service/euvoc-download-handler?cellarURI=http%3A%2F%2Fpublications.europa.eu%2Fresource%2Fcellar%2F80628113-6fe0-11ed-9887-01aa75ed71a1.0001.04%2FDOC_1&fileName=eurovoc_in_skos_core_concepts.zip> ;
+	.
+
+## Eclas dataset 
+
+map:eclas a void:Dataset ;
+	dc:creator <http://publications.europa.eu/resource/authority/corporate-body/PUBL> ;
+	dcterms:description "ECLAS is a thesaurus created by the Central Library of the Commission of the European Communities "@en;
+	dcterms:title "ECLAS"@fr, "ECLAS"@en ;
+	dcterms:issued "2022-11-18"^^xsd:date ;
+	void:triples 503192;
+	foaf:homepage <https://op.europa.eu/en/web/eu-vocabularies/dataset/-/resource?uri=http://publications.europa.eu/resource/dataset/eclas> ;
+	void:dataDump <https://op.europa.eu/o/opportal-service/euvoc-download-handler?cellarURI=http%3A%2F%2Fpublications.europa.eu%2Fresource%2Fcellar%2F50b7d78e-0f14-11eb-bc07-01aa75ed71a1.0001.01%2FDOC_1&fileName=eclas-skos-ap-eu.rdf> ;
+	.
+
+## DET dataset
+
+map:det a void:Dataset ;
+	dc:creator <http://publications.europa.eu/resource/authority/corporate-body/PUBL> ;
+	dcterms:description "The Digital Europa Thesaurus (DET) is a multilingual thesaurus covering the main subject matters of the European Commission's public communications"@en;
+	dcterms:title "Taxonomie DET "@fr, "The Digital Europa Thesaurus (DET)"@en ;
+	dcterms:issued "2022-12-14"^^xsd:date ;
+	void:triples 1163583;
+	foaf:homepage <https://op.europa.eu/en/web/eu-vocabularies/dataset/-/resource?uri=http://publications.europa.eu/resource/dataset/det> ;
+	void:dataDump <https://op.europa.eu/o/opportal-service/euvoc-download-handler?cellarURI=http%3A%2F%2Fpublications.europa.eu%2Fresource%2Fcellar%2F620b4d27-7b93-11ed-9887-01aa75ed71a1.0001.01%2FDOC_1&fileName=DET-skos-ap-eu.rdf> ;
 	.
 
 ## wikidata dataset
@@ -62,16 +151,12 @@ map:wikidata a void:Dataset ;
 	dcterms:description "Wikidata is a collaboratively edited knowledge base\n    hosted by the Wikimedia Foundation. It is intended to provide a common source\n    of data which can be used by Wikimedia projects such as Wikipedia, and by\n    anyone else. (Wikipedia)"@en, 
 	"Wikidata est une base de connaissances libre et gratuite qui peut être lue et modifiée tant par des personnes que par des dispositifs informatisés. (Wikidata)"@fr ;
 	dcterms:title "Wikidata"@fr, "Wikidata"@en ;
-	owl:versionInfo "2022-12-30" ;
+	dcterms:issued "2022-12-30"^^xsd:date ;
 	foaf:homepage <https://www.wikidata.org/wiki/Wikidata:Main_Page> ;
 	void:sparqlEndpoint <https://query.wikidata.org/bigdata/namespace/wdq/sparql> ;
 	.
 
-#void:dataDump to provide a dump
 
+# add more alignments and datasets
 
-_:pa1 void:property "skos:exactMatch"@en ;
-	void:triples 24 .
-_:pa2 void:property "skos:closeMatch"@en ;
-	void:triples 3 .
 
