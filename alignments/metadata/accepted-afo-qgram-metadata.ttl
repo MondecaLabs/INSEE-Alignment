@@ -1,0 +1,851 @@
+<http://www.yso.fi/onto/yso/p11370> <http://www.w3.org/2004/02/skos/core#prefLabel> "dividender"@sv .
+<http://www.yso.fi/onto/yso/p11370> <http://www.w3.org/2004/02/skos/core#prefLabel> "osingot"@fi .
+<http://www.yso.fi/onto/yso/p11370> <http://www.w3.org/2004/02/skos/core#prefLabel> "dividends"@en .
+<http://www.yso.fi/onto/afo/p1038> <http://www.w3.org/2004/02/skos/core#prefLabel> "kurjenmiekat"@fi .
+<http://www.yso.fi/onto/afo/p1038> <http://www.yso.fi/onto/afo-meta/scientificName> "Iris" .
+<http://www.yso.fi/onto/afo/p1038> <http://www.w3.org/2004/02/skos/core#prefLabel> "Iris"@en .
+<http://www.yso.fi/onto/yso/p14002> <http://www.w3.org/2004/02/skos/core#prefLabel> "vähittäiskauppa"@fi .
+<http://www.yso.fi/onto/yso/p14002> <http://www.w3.org/2004/02/skos/core#prefLabel> "minuthandel"@sv .
+<http://www.yso.fi/onto/yso/p14002> <http://www.w3.org/2004/02/skos/core#prefLabel> "retail trade"@en .
+<http://www.yso.fi/onto/yso/p20758> <http://www.w3.org/2004/02/skos/core#prefLabel> "unemployment rate"@en .
+<http://www.yso.fi/onto/yso/p20758> <http://www.w3.org/2004/02/skos/core#prefLabel> "arbetslöshetsgrad"@sv .
+<http://www.yso.fi/onto/yso/p20758> <http://www.w3.org/2004/02/skos/core#prefLabel> "työttömyysaste"@fi .
+<http://id.insee.fr/concepts/definition/c1400> <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.yso.fi/onto/afo/p3009> .
+<http://id.insee.fr/concepts/definition/c1400> <http://www.w3.org/2004/02/skos/core#prefLabel> "Énergie"@fr .
+<http://id.insee.fr/concepts/definition/c1400> <http://rdf-vocabulary.ddialliance.org/xkos#plainText> "These industries correspond to code EG of the NES classification, the summary economic classification which was in use until december 2007 :- production of fuels (extraction of fossil coal, lignite and peat, extraction of hydrocarbons, extraction of uranium ore, coking and nuclear industry, petroleum refining) ;- water, gas, electricity (production and distribution of electricity, gas and heat, collection, treatment and distribution of water).There is no such grouping in NA, the agregated economic classification which replaced NES since 2008. The precise perimeter of energy in each statistical operation is given by the list of the items taken into account in the economic classification to which the operation refers."@en .
+<http://id.insee.fr/concepts/definition/c1400> <http://www.w3.org/2004/02/skos/core#definition> <http://id.insee.fr/concepts/definition/c1400/definition/v1/en> .
+<http://id.insee.fr/concepts/definition/c1400> <http://www.w3.org/2004/02/skos/core#prefLabel> "Energy"@en .
+<http://id.insee.fr/concepts/definition/c1400> <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.yso.fi/onto/yso/p1310> .
+<http://id.insee.fr/concepts/definition/c1734> <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.yso.fi/onto/yso/p998> .
+<http://id.insee.fr/concepts/definition/c1734> <http://www.w3.org/2004/02/skos/core#prefLabel> "Industry"@en .
+<http://id.insee.fr/concepts/definition/c1734> <http://rdf-vocabulary.ddialliance.org/xkos#plainText> "The industry usually indicates all the complementary activities which contribute, of upstream downstream, to the realization of a finished product. So we speak about electronics industry (from silicon to the computer including the components) or of automobile industry (from steel to the vehicle including the equipments). The industry intégre generally several branches"@en .
+<http://id.insee.fr/concepts/definition/c1734> <http://www.w3.org/2004/02/skos/core#definition> <http://id.insee.fr/concepts/definition/c1734/definition/v2/en> .
+<http://id.insee.fr/concepts/definition/c1734> <http://rdf-vocabulary.ddialliance.org/xkos#plainText> "Une branche (ou branche d'activité) regroupe des unités de production homogènes, c'est-à-dire qui fabriquent des produits (ou rendent des services) qui appartiennent au même item de la nomenclature d'activité économique considérée. Ces unités de production peuvent être des portions d'établissement. Au contraire, un secteur regroupe des établissements entiers classés selon leur activité principale."@en .
+<http://id.insee.fr/concepts/definition/c1734> <http://www.w3.org/2004/02/skos/core#definition> <http://id.insee.fr/concepts/definition/c1734/definition/v1/en> .
+<http://id.insee.fr/concepts/definition/c1734> <http://www.w3.org/2004/02/skos/core#prefLabel> "Filière"@fr .
+<http://id.insee.fr/concepts/definition/c1734> <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.yso.fi/onto/afo/p664> .
+<http://www.yso.fi/onto/yso/p5882> <http://www.w3.org/2004/02/skos/core#prefLabel> "byten  (fångst)"@sv .
+<http://www.yso.fi/onto/yso/p5882> <http://www.w3.org/2004/02/skos/core#prefLabel> "saaliit"@fi .
+<http://www.yso.fi/onto/yso/p5882> <http://www.w3.org/2004/02/skos/core#prefLabel> "catches"@en .
+<http://www.yso.fi/onto/yso/p16017> <http://www.w3.org/2004/02/skos/core#prefLabel> "rakennuttaminen"@fi .
+<http://www.yso.fi/onto/yso/p16017> <http://www.w3.org/2004/02/skos/core#prefLabel> "byggentreprenad"@sv .
+<http://www.yso.fi/onto/yso/p16017> <http://www.w3.org/2004/02/skos/core#prefLabel> "real estate development"@en .
+<http://id.insee.fr/concepts/definition/c1137> <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.yso.fi/onto/afo/p3967> .
+<http://id.insee.fr/concepts/definition/c1137> <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.yso.fi/onto/yso/p4923> .
+<http://id.insee.fr/concepts/definition/c1137> <http://www.w3.org/2004/02/skos/core#prefLabel> "Handicraft"@en .
+<http://id.insee.fr/concepts/definition/c1137> <http://rdf-vocabulary.ddialliance.org/xkos#plainText> "The craft industry includes natural or legal persons having more than 10 employees and exercising as their principal or secondary activity an independent professional activity which involves production, transformation, repair of handicrafts or handicraft service provisions. Relevant activities are listed by decree in Council of State."@en .
+<http://id.insee.fr/concepts/definition/c1137> <http://www.w3.org/2004/02/skos/core#definition> <http://id.insee.fr/concepts/definition/c1137/definition/v1/en> .
+<http://id.insee.fr/concepts/definition/c1137> <http://www.w3.org/2004/02/skos/core#prefLabel> "Artisanat"@fr .
+<http://id.insee.fr/concepts/definition/c1137> <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.yso.fi/onto/yso/p485> .
+<http://www.yso.fi/onto/yso/p4259> <http://www.w3.org/2004/02/skos/core#prefLabel> "produktivitet"@sv .
+<http://www.yso.fi/onto/yso/p4259> <http://www.w3.org/2004/02/skos/core#prefLabel> "tuottavuus"@fi .
+<http://www.yso.fi/onto/yso/p4259> <http://www.w3.org/2004/02/skos/core#prefLabel> "productivity"@en .
+<http://id.insee.fr/concepts/definition/c1279> <http://www.w3.org/2004/02/skos/core#prefLabel> "Taux de mortalité infantile"@fr .
+<http://id.insee.fr/concepts/definition/c1279> <http://rdf-vocabulary.ddialliance.org/xkos#plainText> "The infant mortality rate is the ratio between the number of infants dying before the age of one and all live-born children."@en .
+<http://id.insee.fr/concepts/definition/c1279> <http://www.w3.org/2004/02/skos/core#definition> <http://id.insee.fr/concepts/definition/c1279/definition/v1/en> .
+<http://id.insee.fr/concepts/definition/c1279> <http://www.w3.org/2004/02/skos/core#prefLabel> "Infant mortality rate"@en .
+<http://id.insee.fr/concepts/definition/c1279> <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.yso.fi/onto/yso/p22924> .
+<http://www.yso.fi/onto/yso/p3266> <http://www.w3.org/2004/02/skos/core#prefLabel> "yrkesfiske"@sv .
+<http://www.yso.fi/onto/yso/p3266> <http://www.w3.org/2004/02/skos/core#prefLabel> "ammattikalastus"@fi .
+<http://www.yso.fi/onto/yso/p3266> <http://www.w3.org/2004/02/skos/core#prefLabel> "professional fishing"@en .
+<http://www.yso.fi/onto/yso/p3387> <http://www.w3.org/2004/02/skos/core#prefLabel> "andra stadiets utbildning"@sv .
+<http://www.yso.fi/onto/yso/p3387> <http://www.w3.org/2004/02/skos/core#prefLabel> "secondary education"@en .
+<http://www.yso.fi/onto/yso/p3387> <http://www.w3.org/2004/02/skos/core#prefLabel> "toisen asteen koulutus"@fi .
+<http://id.insee.fr/concepts/definition/c1913> <http://www.w3.org/2004/02/skos/core#prefLabel> "Standard deviation"@en .
+<http://id.insee.fr/concepts/definition/c1913> <http://rdf-vocabulary.ddialliance.org/xkos#plainText> "The standard deviation is used to measure the dispersion, or the spread, of a set of values around their mean. The lower the standard deviation, the more homogeneous the population."@en .
+<http://id.insee.fr/concepts/definition/c1913> <http://www.w3.org/2004/02/skos/core#definition> <http://id.insee.fr/concepts/definition/c1913/definition/v1/en> .
+<http://id.insee.fr/concepts/definition/c1913> <http://www.w3.org/2004/02/skos/core#prefLabel> "Écart-type"@fr .
+<http://id.insee.fr/concepts/definition/c1913> <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.yso.fi/onto/yso/p1878> .
+<http://id.insee.fr/concepts/definition/c1187> <http://www.w3.org/2004/02/skos/core#prefLabel> "Âge"@fr .
+<http://id.insee.fr/concepts/definition/c1187> <http://rdf-vocabulary.ddialliance.org/xkos#plainText> "Are distinguished: age by generation or age reached in the year: difference between the year considered and the year of birth of the individual, age in completed years or age at last birthday. In the same generation, the age in completed years is not the same for all people. For example, an individual born on 10 October 1925 dies on 18 April 1999. He is 74 years old in age reached in the year: 1999 - 1925 = 74. But he is 73 in number of years passed: 18 April 1999 - 10 October 1925 = 73 years 6 months and 8 days. As such, for an individual who is x years old in age reached in the year, if the event takes place on date d: the individual having his birthday after the date d will have his age in number of years passed (x-1); the individual having his birthday on the date d or before will have his age in number of years passed (x). The only exception: the event takes place on 31 December. On this date, the classification by age reached in the year and by age in years passed are the same. And on 1 January, the age reached in the year is equal to the age in years passed plus one."@en .
+<http://id.insee.fr/concepts/definition/c1187> <http://www.w3.org/2004/02/skos/core#definition> <http://id.insee.fr/concepts/definition/c1187/definition/v2/en> .
+<http://id.insee.fr/concepts/definition/c1187> <http://rdf-vocabulary.ddialliance.org/xkos#plainText> "Age is the amount of time passed since birth. It may be calculated according to two definitions : age by generation or age reached in the year ; age in number of years passed. The age that is generally used is the age reached in the year. It corresponds to the difference between the year of the event and the year of the individual's birth. Age in years passed is the age of the last birthday. Therefore, on the date of the event, within the same generation, the age in number of years passed is not the same for all people. For example, an individual born on 10 October 1925 dies on 18 April 1999. He is 74 years old in age reached in the year: 1999 minus 1925 equals 74. But he is 73 in number of years passed: 18 April 1999 minus 10 October 1925 equals 73 years 6 months and 8 days. As such, for an individual who is x years old in age reached in the year, if the event takes place on date d : the individual having his birthday after the date d will have his age in number of years passed (x-1) ; the individual having his birthday on the date d or before will have his age in number of years passed (x). The only exception: the event takes place on 31 December. On this date, the classification by age reached in the year and by age in years passed are the same. And on 1 January, the age reached in the year is equal to the age in years passed plus one."@en .
+<http://id.insee.fr/concepts/definition/c1187> <http://www.w3.org/2004/02/skos/core#definition> <http://id.insee.fr/concepts/definition/c1187/definition/v1/en> .
+<http://id.insee.fr/concepts/definition/c1187> <http://www.w3.org/2004/02/skos/core#prefLabel> "Age"@en .
+<http://id.insee.fr/concepts/definition/c1187> <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.yso.fi/onto/yso/p1229> .
+<http://www.yso.fi/onto/afo/p97> <http://www.w3.org/2004/02/skos/core#prefLabel> "raakapuu"@fi .
+<http://www.yso.fi/onto/afo/p97> <http://www.w3.org/2004/02/skos/core#prefLabel> "roundwood"@en .
+<http://www.yso.fi/onto/yso/p20482> <http://www.w3.org/2004/02/skos/core#prefLabel> "business services"@en .
+<http://www.yso.fi/onto/yso/p20482> <http://www.w3.org/2004/02/skos/core#prefLabel> "yrityspalvelut"@fi .
+<http://www.yso.fi/onto/yso/p20482> <http://www.w3.org/2004/02/skos/core#prefLabel> "företagstjänster"@sv .
+<http://id.insee.fr/concepts/definition/c1287> <http://www.w3.org/2004/02/skos/core#prefLabel> "Interests"@en .
+<http://id.insee.fr/concepts/definition/c1287> <http://rdf-vocabulary.ddialliance.org/xkos#plainText> "Interests are a form of income from property received by the owners of the following financial assets: deposits, securities (other than shares), loans and other accounts receivable.The interests paid by households are the following :- interests on short-term loans (consumer loans) ;- interests on long-term loans (home loans).The interests received by households are the following :- interests on deposit investments ;- interests on bonds."@en .
+<http://id.insee.fr/concepts/definition/c1287> <http://www.w3.org/2004/02/skos/core#definition> <http://id.insee.fr/concepts/definition/c1287/definition/v1/en> .
+<http://id.insee.fr/concepts/definition/c1287> <http://www.w3.org/2004/02/skos/core#prefLabel> "Intérêts (comptabilité nationale)"@fr .
+<http://id.insee.fr/concepts/definition/c1287> <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.yso.fi/onto/yso/p18519> .
+<http://www.yso.fi/onto/yso/p15324> <http://www.w3.org/2004/02/skos/core#prefLabel> "järnvägstransport"@sv .
+<http://www.yso.fi/onto/yso/p15324> <http://www.w3.org/2004/02/skos/core#prefLabel> "rautatiekuljetus"@fi .
+<http://www.yso.fi/onto/yso/p15324> <http://www.w3.org/2004/02/skos/core#prefLabel> "railway transport"@en .
+<http://id.insee.fr/concepts/definition/c1074> <http://www.w3.org/2004/02/skos/core#prefLabel> "Espace urbain"@fr .
+<http://id.insee.fr/concepts/definition/c1074> <http://rdf-vocabulary.ddialliance.org/xkos#plainText> "The urban space refers to several urban areas and their related multicentric municipalities forming a whole in a single stretch. In the multicentric urban space, the urban areas are either adjoining or linked together by multicentric municipalities. This space forms a connected whole. An urban space comprising just a single urban area is said to be monocentric.France currently has 96 urban spaces. As urban areas are not defined in the overseas departments, urban spaces are not defined there either."@en .
+<http://id.insee.fr/concepts/definition/c1074> <http://www.w3.org/2004/02/skos/core#definition> <http://id.insee.fr/concepts/definition/c1074/definition/v1/en> .
+<http://id.insee.fr/concepts/definition/c1074> <http://www.w3.org/2004/02/skos/core#prefLabel> "Urban space"@en .
+<http://id.insee.fr/concepts/definition/c1074> <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.yso.fi/onto/yso/p18147> .
+<http://www.yso.fi/onto/afo/p644> <http://www.w3.org/2004/02/skos/core#prefLabel> "agriculture"@en .
+<http://www.yso.fi/onto/afo/p644> <http://www.w3.org/2004/02/skos/core#prefLabel> "maatalous"@fi .
+<http://id.insee.fr/concepts/definition/c1032> <http://www.w3.org/2004/02/skos/core#prefLabel> "Birth"@en .
+<http://id.insee.fr/concepts/definition/c1032> <http://rdf-vocabulary.ddialliance.org/xkos#plainText> "Any birth occurring on the French territory gives rise to a declaration to the registry of births, deaths and marriages. This declaration must be made within three days following the birth, and the day on which birth occurs is not included in this period. Additionally, if the last day of the period is a holiday, the period is extended until the first business day following the holiday. Since March 1993, the registrar records a birth certificate if the child has breathed. Otherwise, a stillborn birth is recorded. The information is requested from the person making the declaration and checked against the family record book."@en .
+<http://id.insee.fr/concepts/definition/c1032> <http://www.w3.org/2004/02/skos/core#definition> <http://id.insee.fr/concepts/definition/c1032/definition/v1/en> .
+<http://id.insee.fr/concepts/definition/c1032> <http://rdf-vocabulary.ddialliance.org/xkos#plainText> "Any birth occurring on the French territory gives rise to a declaration to the registry of births. This declaration must be made within five days (eight days for some districts of Guyane) following the birth, and the day on which birth occurs is not included in this period. Additionally, if the last day of the period is a holiday, the period is extended until the first business day following the holiday. Since March 1993, the registrar records a birth certificate if the child has breathed. Otherwise, a stillborn birth is recorded."@en .
+<http://id.insee.fr/concepts/definition/c1032> <http://www.w3.org/2004/02/skos/core#definition> <http://id.insee.fr/concepts/definition/c1032/definition/v2/en> .
+<http://id.insee.fr/concepts/definition/c1032> <http://www.w3.org/2004/02/skos/core#prefLabel> "Naissance"@fr .
+<http://id.insee.fr/concepts/definition/c1032> <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.yso.fi/onto/yso/p13026> .
+<http://id.insee.fr/concepts/definition/c1387> <http://www.w3.org/2004/02/skos/core#prefLabel> "Subsidies"@en .
+<http://id.insee.fr/concepts/definition/c1387> <http://rdf-vocabulary.ddialliance.org/xkos#plainText> "Standard transfers without any consideration that general government or institutions of the European Union pay to resident producers in order to influence their levels of production, their prices or the remuneration of production factors. A distinction is made between subsidies on products (D31), paid per unit of goods or service produced or imported, and other subsidies on production (D39)."@en .
+<http://id.insee.fr/concepts/definition/c1387> <http://www.w3.org/2004/02/skos/core#definition> <http://id.insee.fr/concepts/definition/c1387/definition/v1/en> .
+<http://id.insee.fr/concepts/definition/c1387> <http://www.w3.org/2004/02/skos/core#prefLabel> "Subventions"@fr .
+<http://id.insee.fr/concepts/definition/c1387> <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.yso.fi/onto/yso/p10103> .
+<http://www.yso.fi/onto/afo/p5297> <http://www.w3.org/2004/02/skos/core#prefLabel> "kalasaaliit"@fi .
+<http://www.yso.fi/onto/afo/p5297> <http://www.w3.org/2004/02/skos/core#altLabel> "drafts [Am]"@en .
+<http://www.yso.fi/onto/afo/p5297> <http://www.w3.org/2004/02/skos/core#altLabel> "catch rates"@en .
+<http://www.yso.fi/onto/afo/p5297> <http://www.w3.org/2004/02/skos/core#prefLabel> "catches"@en .
+<http://id.insee.fr/concepts/definition/c2125> <http://www.w3.org/2004/02/skos/core#prefLabel> "Dépenses publiques"@fr .
+<http://id.insee.fr/concepts/definition/c2125> <http://rdf-vocabulary.ddialliance.org/xkos#plainText> "Public expenditure is expenditure made by the State, social security administrations, local authorities and the administrations and bodies attached to them. They can be classified into three main categories: - operating expenses, which are used to ensure the smooth running of public services (current staff and maintenance costs, purchase of supplies, etc.); - redistribution expenditure: cash benefits paid to households (e.g. retirement pensions, family allowances, minimum social benefits, etc.), subsidies paid to companies and households, etc; - investment expenditure, which aims to renew or increase public productive capital (e.g. research and development expenditure, arms purchases, construction of buildings and infrastructure, etc.)."@en .
+<http://id.insee.fr/concepts/definition/c2125> <http://www.w3.org/2004/02/skos/core#definition> <http://id.insee.fr/concepts/definition/c2125/definition/v1/en> .
+<http://id.insee.fr/concepts/definition/c2125> <http://www.w3.org/2004/02/skos/core#prefLabel> "Public expenditure"@en .
+<http://id.insee.fr/concepts/definition/c2125> <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.yso.fi/onto/yso/p3889> .
+<http://id.insee.fr/concepts/definition/c1153> <http://www.w3.org/2004/02/skos/core#prefLabel> "Compte satellite"@fr .
+<http://id.insee.fr/concepts/definition/c1153> <http://rdf-vocabulary.ddialliance.org/xkos#plainText> "A satellite account is a framework of presentation for the economic data of a particular area in relation to the overall economic analysis of the central framework of the national accounts. Education, health, social protection and the environment are some examples."@en .
+<http://id.insee.fr/concepts/definition/c1153> <http://www.w3.org/2004/02/skos/core#definition> <http://id.insee.fr/concepts/definition/c1153/definition/v1/en> .
+<http://id.insee.fr/concepts/definition/c1153> <http://www.w3.org/2004/02/skos/core#prefLabel> "Satellite account"@en .
+<http://id.insee.fr/concepts/definition/c1153> <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.yso.fi/onto/yso/p24553> .
+<http://id.insee.fr/concepts/definition/c1850> <http://www.w3.org/2004/02/skos/core#prefLabel> "Business services"@en .
+<http://id.insee.fr/concepts/definition/c1850> <http://rdf-vocabulary.ddialliance.org/xkos#plainText> "Services provided to businesses include scientific and technical activities and (administrative and support services… Scientific and technical activities require a high level of training and provide users with specialized knowledge and skills, unlike administrative and support services, which do not have as their primary objective the transfer of specialized knowledge."@en .
+<http://id.insee.fr/concepts/definition/c1850> <http://www.w3.org/2004/02/skos/core#definition> <http://id.insee.fr/concepts/definition/c1850/definition/v1/en> .
+<http://id.insee.fr/concepts/definition/c1850> <http://www.w3.org/2004/02/skos/core#prefLabel> "Services rendus aux entreprises"@fr .
+<http://id.insee.fr/concepts/definition/c1850> <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.yso.fi/onto/yso/p20482> .
+<http://id.insee.fr/concepts/definition/c1303> <http://www.w3.org/2004/02/skos/core#prefLabel> "Chômage"@fr .
+<http://id.insee.fr/concepts/definition/c1303> <http://rdf-vocabulary.ddialliance.org/xkos#plainText> "Unemployment represents all people aged 15 and older who do not have a job and are looking for one. Its measurement is complex. The borders between employment, unemployment and inactivity are not always easy to define, what often brings to speak about a \"halo\" around the unemployment.In France there are two main statistical sources concerning employment : the monthly statistics of the Ministry of Labour, developed based on job seeker files recorded by the Pole Emploi (Pole Employment), and Insee's Labour Force Survey (LFS), which measures unemployment in the sense of the ILO."@en .
+<http://id.insee.fr/concepts/definition/c1303> <http://www.w3.org/2004/02/skos/core#definition> <http://id.insee.fr/concepts/definition/c1303/definition/v4/en> .
+<http://id.insee.fr/concepts/definition/c1303> <http://www.w3.org/2004/02/skos/core#prefLabel> "Unemployment"@en .
+<http://id.insee.fr/concepts/definition/c1303> <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.yso.fi/onto/yso/p11571> .
+<http://www.yso.fi/onto/yso/p2702> <http://www.w3.org/2004/02/skos/core#prefLabel> "rent"@en .
+<http://www.yso.fi/onto/yso/p2702> <http://www.w3.org/2004/02/skos/core#prefLabel> "maanvuokra"@fi .
+<http://www.yso.fi/onto/yso/p2702> <http://www.w3.org/2004/02/skos/core#prefLabel> "arrende"@sv .
+<http://www.yso.fi/onto/yso/p6160> <http://www.w3.org/2004/02/skos/core#prefLabel> "skilsmässa"@sv .
+<http://www.yso.fi/onto/yso/p6160> <http://www.w3.org/2004/02/skos/core#prefLabel> "avioero"@fi .
+<http://www.yso.fi/onto/yso/p6160> <http://www.w3.org/2004/02/skos/core#prefLabel> "divorce"@en .
+<http://id.insee.fr/concepts/definition/c1403> <http://www.w3.org/2004/02/skos/core#prefLabel> "Crime"@en .
+<http://id.insee.fr/concepts/definition/c1403> <http://rdf-vocabulary.ddialliance.org/xkos#plainText> "The felonies and misdemeanours recorded in France are evidentiary facts brought for the first time to the knowledge of police and gendarmerie services. Their qualification may be modified by the judicial authority. Excluded from crime statistics are all offences and misdemeanours relative to road circulation, offences covered by the administrative police and offences recorded by other administrations (customs, tax services and fraud prevention, labour inspection, etc.)."@en .
+<http://id.insee.fr/concepts/definition/c1403> <http://www.w3.org/2004/02/skos/core#definition> <http://id.insee.fr/concepts/definition/c1403/definition/v1/en> .
+<http://id.insee.fr/concepts/definition/c1403> <http://www.w3.org/2004/02/skos/core#prefLabel> "Criminalité"@fr .
+<http://id.insee.fr/concepts/definition/c1403> <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.yso.fi/onto/yso/p11490> .
+<http://www.yso.fi/onto/yso/p2794> <http://www.w3.org/2004/02/skos/core#prefLabel> "family"@en .
+<http://www.yso.fi/onto/yso/p2794> <http://www.w3.org/2004/02/skos/core#prefLabel> "familj (fenomen)"@sv .
+<http://www.yso.fi/onto/yso/p2794> <http://www.w3.org/2004/02/skos/core#prefLabel> "perhe (ilmiöt)"@fi .
+<http://id.insee.fr/concepts/definition/c1374> <http://www.w3.org/2004/02/skos/core#prefLabel> "Espérance de vie"@fr .
+<http://id.insee.fr/concepts/definition/c1374> <http://www.w3.org/2004/02/skos/core#definition> <http://id.insee.fr/concepts/definition/c1374/definition/v2/en> .
+<http://id.insee.fr/concepts/definition/c1374> <http://rdf-vocabulary.ddialliance.org/xkos#plainText> "Life expectancy at birth represents the average life span of a fictitious generation subject to the age-specific mortality conditions of the year. It is a special case of life expectancy at age x, i.e. the average number of years remaining to live beyond age x under the age-specific mortality conditions of the year in question."@en .
+<http://id.insee.fr/concepts/definition/c1374> <http://www.w3.org/2004/02/skos/core#definition> <http://id.insee.fr/concepts/definition/c1374/definition/v4/en> .
+<http://id.insee.fr/concepts/definition/c1374> <http://rdf-vocabulary.ddialliance.org/xkos#plainText> "Life expectancy at birth (or at age 0) represents the mean length of life – i.e. the mean age at death – of a synthetic cohort exposed at each age to the mortality patterns of a given year. It is a measure of mortality that is independent of the effects of age structure. Life expectancy at birth is a particular case of life expectancy at age x, which represents the mean number of remaining years of life beyond age x (or mean survival duration at age x), under the mortality conditions of the year in question."@en .
+<http://id.insee.fr/concepts/definition/c1374> <http://www.w3.org/2004/02/skos/core#definition> <http://id.insee.fr/concepts/definition/c1374/definition/v3/en> .
+<http://id.insee.fr/concepts/definition/c1374> <http://www.w3.org/2004/02/skos/core#prefLabel> "Life expectancy"@en .
+<http://id.insee.fr/concepts/definition/c1374> <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.yso.fi/onto/yso/p1228> .
+<http://www.yso.fi/onto/yso/p11452> <http://www.w3.org/2004/02/skos/core#prefLabel> "nativitet"@sv .
+<http://www.yso.fi/onto/yso/p11452> <http://www.w3.org/2004/02/skos/core#prefLabel> "birth rate"@en .
+<http://www.yso.fi/onto/yso/p11452> <http://www.w3.org/2004/02/skos/core#prefLabel> "syntyvyys"@fi .
+<http://id.insee.fr/concepts/definition/c1182> <http://www.w3.org/2004/02/skos/core#prefLabel> "Innovation"@fr .
+<http://id.insee.fr/concepts/definition/c1182> <http://rdf-vocabulary.ddialliance.org/xkos#plainText> "An innovation is a new or improved product or business process that differs significantly from the legal unit's previous products or business processes and which has been implemented on the market. Two kinds of innovation are distinguished : product innovations (goods or services) and business process innovation (including organizational and marketing innovations). More precisely: - Product innovation includes significant design changes and digital goods or services. It excludes the resale in the same condition as new goods or services and changes of an aesthetic nature; - Business process innovation concerns production and development methods, logistics and distribution, information and communication systems, administrative tasks and accounting, procedure organisation, supplier relationship management, work organisation, decision-making processes, human resources, marketing, packaging, pricing and after-sales service."@en .
+<http://id.insee.fr/concepts/definition/c1182> <http://www.w3.org/2004/02/skos/core#definition> <http://id.insee.fr/concepts/definition/c1182/definition/v2/en> .
+<http://id.insee.fr/concepts/definition/c1182> <http://rdf-vocabulary.ddialliance.org/xkos#plainText> "The latest version of the Oslo Manual defines four categories of innovations : products or services (for a commercial or service company) : creation of a new product or a new commercial offering or service ; processes: implementation of new techniques for the production of goods or of services ; organisation: quality circles are an example of this ; marketing: for example, franchising or promotion on the internet."@en .
+<http://id.insee.fr/concepts/definition/c1182> <http://www.w3.org/2004/02/skos/core#definition> <http://id.insee.fr/concepts/definition/c1182/definition/v1/en> .
+<http://id.insee.fr/concepts/definition/c1182> <http://www.w3.org/2004/02/skos/core#prefLabel> "Innovation"@en .
+<http://id.insee.fr/concepts/definition/c1182> <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.yso.fi/onto/yso/p21039> .
+<http://id.insee.fr/concepts/definition/c1332> <http://www.w3.org/2004/02/skos/core#prefLabel> "Employment rate"@en .
+<http://id.insee.fr/concepts/definition/c1332> <http://rdf-vocabulary.ddialliance.org/xkos#plainText> "Percentage of employed persons in relation to the comparable total population."@en .
+<http://id.insee.fr/concepts/definition/c1332> <http://www.w3.org/2004/02/skos/core#definition> <http://id.insee.fr/concepts/definition/c1332/definition/v2/en> .
+<http://id.insee.fr/concepts/definition/c1332> <http://www.w3.org/2004/02/skos/core#prefLabel> "Taux d'emploi"@fr .
+<http://id.insee.fr/concepts/definition/c1332> <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.yso.fi/onto/yso/p20759> .
+<http://www.yso.fi/onto/yso/p5864> <http://www.w3.org/2004/02/skos/core#prefLabel> "tuloksellisuus"@fi .
+<http://www.yso.fi/onto/yso/p5864> <http://www.w3.org/2004/02/skos/core#prefLabel> "profitability"@en .
+<http://www.yso.fi/onto/yso/p5864> <http://www.w3.org/2004/02/skos/core#prefLabel> "prestationsnivå"@sv .
+<http://id.insee.fr/concepts/definition/c1161> <http://www.w3.org/2004/02/skos/core#prefLabel> "Services"@fr .
+<http://id.insee.fr/concepts/definition/c1161> <http://rdf-vocabulary.ddialliance.org/xkos#plainText> "A service activity is essentially characterized by the provision of a technical or intellectual service. Unlike an industrial activity, it cannot be described solely by the characteristics of a tangible asset acquired by the customer. Its final product is immaterial, it is neither storable nor transportable. In their broadest sense, tertiary services or activities encompass a wide range of activities: trade, transport, financial activities, real estate, business services, personal services, education, health, social action. In French statistical practice, service activities do not include transport or trade. They include business services, personal services, mixed services (hotels and restaurants, real estate, information and communication) and mainly non-market services."@en .
+<http://id.insee.fr/concepts/definition/c1161> <http://www.w3.org/2004/02/skos/core#definition> <http://id.insee.fr/concepts/definition/c1161/definition/v1/en> .
+<http://id.insee.fr/concepts/definition/c1161> <http://www.w3.org/2004/02/skos/core#prefLabel> "Services"@en .
+<http://id.insee.fr/concepts/definition/c1161> <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.yso.fi/onto/yso/p838> .
+<http://www.yso.fi/onto/yso/p15048> <http://www.w3.org/2004/02/skos/core#prefLabel> "infant mortality"@en .
+<http://www.yso.fi/onto/yso/p15048> <http://www.w3.org/2004/02/skos/core#prefLabel> "lapsikuolleisuus"@fi .
+<http://www.yso.fi/onto/yso/p15048> <http://www.w3.org/2004/02/skos/core#prefLabel> "barndödlighet"@sv .
+<http://id.insee.fr/concepts/definition/c1687> <http://www.w3.org/2004/02/skos/core#prefLabel> "Unemployment rate"@en .
+<http://id.insee.fr/concepts/definition/c1687> <http://rdf-vocabulary.ddialliance.org/xkos#plainText> "The unemployment rate is the percentage of unemployed people in the labour force (occupied labour force + the unemployed). An unemployment rate per age can be calculated by calculating the ratio of the unemployed persons in an age group to the labour force of the said age. Likewise, unemployment rates can be calculated by sex, by socioprofessional category, by region, by nationality, by qualification level, etc."@en .
+<http://id.insee.fr/concepts/definition/c1687> <http://www.w3.org/2004/02/skos/core#definition> <http://id.insee.fr/concepts/definition/c1687/definition/v4/en> .
+<http://id.insee.fr/concepts/definition/c1687> <http://www.w3.org/2004/02/skos/core#prefLabel> "Taux de chômage"@fr .
+<http://id.insee.fr/concepts/definition/c1687> <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.yso.fi/onto/yso/p20758> .
+<http://id.insee.fr/concepts/definition/c1495> <http://www.w3.org/2004/02/skos/core#prefLabel> "Dividends"@en .
+<http://id.insee.fr/concepts/definition/c1495> <http://rdf-vocabulary.ddialliance.org/xkos#plainText> "Income from property paid to shareholders that have made capital available to a company. For a company, the issuing of shares represents a way to obtain capital other than through borrowing. Unlike borrowed capital, share capital is not at the origin of a fixed debt in monetary terms, and does not enable holders of shares to receive a fixed or pre-defined income."@en .
+<http://id.insee.fr/concepts/definition/c1495> <http://www.w3.org/2004/02/skos/core#definition> <http://id.insee.fr/concepts/definition/c1495/definition/v1/en> .
+<http://id.insee.fr/concepts/definition/c1495> <http://www.w3.org/2004/02/skos/core#prefLabel> "Dividendes"@fr .
+<http://id.insee.fr/concepts/definition/c1495> <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.yso.fi/onto/yso/p11370> .
+<http://www.yso.fi/onto/yso/p15553> <http://www.w3.org/2004/02/skos/core#prefLabel> "vakuutusyhtiöt"@fi .
+<http://www.yso.fi/onto/yso/p15553> <http://www.w3.org/2004/02/skos/core#prefLabel> "insurance companies"@en .
+<http://www.yso.fi/onto/yso/p15553> <http://www.w3.org/2004/02/skos/core#prefLabel> "försäkringsbolag"@sv .
+<http://www.yso.fi/onto/yso/p13617> <http://www.w3.org/2004/02/skos/core#prefLabel> "fragmentation"@en .
+<http://www.yso.fi/onto/yso/p13617> <http://www.w3.org/2004/02/skos/core#prefLabel> "fragmentering"@sv .
+<http://www.yso.fi/onto/yso/p13617> <http://www.w3.org/2004/02/skos/core#prefLabel> "pirstoutuminen"@fi .
+<http://www.yso.fi/onto/yso/p10943> <http://www.w3.org/2004/02/skos/core#prefLabel> "maanviljely"@fi .
+<http://www.yso.fi/onto/yso/p10943> <http://www.w3.org/2004/02/skos/core#prefLabel> "agriculture"@en .
+<http://www.yso.fi/onto/yso/p10943> <http://www.w3.org/2004/02/skos/core#prefLabel> "jordbruk"@sv .
+<http://id.insee.fr/concepts/definition/c1603> <http://www.w3.org/2004/02/skos/core#prefLabel> "Zone euro"@fr .
+<http://id.insee.fr/concepts/definition/c1603> <http://rdf-vocabulary.ddialliance.org/xkos#plainText> "The eurozone (or Economic and Monetary Union- EMU) is the geographic area made up of the 19 countries of the European Union that have adopted the euro as the single currency. Several criteria are required to join the eurozone : these are the convergence criteria in the Maastricht Treaty.The eurozone was created in 1999 by 11 of the 15 countries that were then in the EU, joined by Greece in 2001, Slovenia in 2007, Cyprus and Malta in 2008, Slovakia in 2009, Estonia in 2011, Latvia in 2014 and Lithuania in 2015.Sweden and Denmark decided in referendums not to adopt the euro for the moment; the United Kingdom is not part of the single currency."@en .
+<http://id.insee.fr/concepts/definition/c1603> <http://www.w3.org/2004/02/skos/core#definition> <http://id.insee.fr/concepts/definition/c1603/definition/v2/en> .
+<http://id.insee.fr/concepts/definition/c1603> <http://www.w3.org/2004/02/skos/core#prefLabel> "Eurozone"@en .
+<http://id.insee.fr/concepts/definition/c1603> <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.yso.fi/onto/yso/p9827> .
+<http://www.yso.fi/onto/yso/p13041> <http://www.w3.org/2004/02/skos/core#prefLabel> "lainkäyttö"@fi .
+<http://www.yso.fi/onto/yso/p13041> <http://www.w3.org/2004/02/skos/core#prefLabel> "jurisdiction"@en .
+<http://www.yso.fi/onto/yso/p13041> <http://www.w3.org/2004/02/skos/core#prefLabel> "rättskipning"@sv .
+<http://id.insee.fr/concepts/definition/c1766> <http://www.w3.org/2004/02/skos/core#prefLabel> "Birth rate"@en .
+<http://id.insee.fr/concepts/definition/c1766> <http://rdf-vocabulary.ddialliance.org/xkos#plainText> "The birth rate is the ratio between the number of live-born births in the year and the average total population of that year."@en .
+<http://id.insee.fr/concepts/definition/c1766> <http://www.w3.org/2004/02/skos/core#definition> <http://id.insee.fr/concepts/definition/c1766/definition/v1/en> .
+<http://id.insee.fr/concepts/definition/c1766> <http://www.w3.org/2004/02/skos/core#prefLabel> "Taux de natalité"@fr .
+<http://id.insee.fr/concepts/definition/c1766> <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.yso.fi/onto/yso/p11452> .
+<http://id.insee.fr/concepts/definition/c1219> <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.yso.fi/onto/yso/p4029> .
+<http://id.insee.fr/concepts/definition/c1219> <http://www.w3.org/2004/02/skos/core#prefLabel> "Trade"@en .
+<http://id.insee.fr/concepts/definition/c1219> <http://rdf-vocabulary.ddialliance.org/xkos#plainText> "Trade includes statistical units (enterprises, legal units or establishments) whose main activity is to resell goods purchased from third parties without processing them. The activity of trade intermediary, who puts buyers and vendors into contact (or who performs commercial operations for a third party), without being the owner of the products in question, is included in trade."@en .
+<http://id.insee.fr/concepts/definition/c1219> <http://www.w3.org/2004/02/skos/core#definition> <http://id.insee.fr/concepts/definition/c1219/definition/v2/en> .
+<http://id.insee.fr/concepts/definition/c1219> <http://www.w3.org/2004/02/skos/core#prefLabel> "Commerce"@fr .
+<http://id.insee.fr/concepts/definition/c1219> <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.yso.fi/onto/afo/p2043> .
+<http://id.insee.fr/concepts/definition/c1703> <http://www.w3.org/2004/02/skos/core#prefLabel> "Turnover"@en .
+<http://id.insee.fr/concepts/definition/c1703> <http://rdf-vocabulary.ddialliance.org/xkos#plainText> "Turnover represents the amount of business (excluding taxes) done by a statistical unit (legal unit, enterprise) with third parties when exercising its normal and routine professional activity. It corresponds to the sum of sales of goods, manufactured products, service provisions and products from related activities."@en .
+<http://id.insee.fr/concepts/definition/c1703> <http://www.w3.org/2004/02/skos/core#definition> <http://id.insee.fr/concepts/definition/c1703/definition/v1/en> .
+<http://id.insee.fr/concepts/definition/c1703> <http://www.w3.org/2004/02/skos/core#prefLabel> "Chiffre d'affaires"@fr .
+<http://id.insee.fr/concepts/definition/c1703> <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.yso.fi/onto/yso/p4628> .
+<http://www.yso.fi/onto/yso/p18147> <http://www.w3.org/2004/02/skos/core#prefLabel> "urban space"@en .
+<http://www.yso.fi/onto/yso/p18147> <http://www.w3.org/2004/02/skos/core#prefLabel> "kaupunkitila"@fi .
+<http://www.yso.fi/onto/yso/p18147> <http://www.w3.org/2004/02/skos/core#prefLabel> "stadsrum"@sv .
+<http://id.insee.fr/concepts/definition/c1482> <http://www.w3.org/2004/02/skos/core#prefLabel> "Travel"@en .
+<http://id.insee.fr/concepts/definition/c1482> <http://rdf-vocabulary.ddialliance.org/xkos#plainText> "Travel is a period including at least two nights spent away from home for leisure purposes. Travel may include several holiday locations and several stays. Some travel lasts less than four nights; this is referred to as a short stay."@en .
+<http://id.insee.fr/concepts/definition/c1482> <http://www.w3.org/2004/02/skos/core#definition> <http://id.insee.fr/concepts/definition/c1482/definition/v1/en> .
+<http://id.insee.fr/concepts/definition/c1482> <http://www.w3.org/2004/02/skos/core#prefLabel> "Déplacement"@fr .
+<http://id.insee.fr/concepts/definition/c1482> <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.yso.fi/onto/yso/p3917> .
+<http://id.insee.fr/concepts/definition/c2220> <http://www.w3.org/2004/02/skos/core#prefLabel> "Promotion immobilière"@fr .
+<http://id.insee.fr/concepts/definition/c2220> <http://rdf-vocabulary.ddialliance.org/xkos#plainText> "Consists of bringing together the legal, financial, technical and human resources needed to carry out real estate projects intended for sale at a later date."@en .
+<http://id.insee.fr/concepts/definition/c2220> <http://www.w3.org/2004/02/skos/core#definition> <http://id.insee.fr/concepts/definition/c2220/definition/v1/en> .
+<http://id.insee.fr/concepts/definition/c2220> <http://www.w3.org/2004/02/skos/core#prefLabel> "Real estate development"@en .
+<http://id.insee.fr/concepts/definition/c2220> <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.yso.fi/onto/yso/p16017> .
+<http://www.yso.fi/onto/afo/p3285> <http://www.w3.org/2004/02/skos/core#prefLabel> "coal"@en .
+<http://www.yso.fi/onto/afo/p3285> <http://www.w3.org/2004/02/skos/core#prefLabel> "kivihiili"@fi .
+<http://www.yso.fi/onto/yso/p4207> <http://www.w3.org/2004/02/skos/core#prefLabel> "befolkning"@sv .
+<http://www.yso.fi/onto/yso/p4207> <http://www.w3.org/2004/02/skos/core#prefLabel> "population"@en .
+<http://www.yso.fi/onto/yso/p4207> <http://www.w3.org/2004/02/skos/core#prefLabel> "väestö"@fi .
+<http://www.yso.fi/onto/yso/p12290> <http://www.w3.org/2004/02/skos/core#prefLabel> "time series"@en .
+<http://www.yso.fi/onto/yso/p12290> <http://www.w3.org/2004/02/skos/core#prefLabel> "aikasarjat"@fi .
+<http://www.yso.fi/onto/yso/p12290> <http://www.w3.org/2004/02/skos/core#prefLabel> "tidsserier"@sv .
+<http://www.yso.fi/onto/yso/p6176> <http://www.w3.org/2004/02/skos/core#prefLabel> "vikande konjunktur"@sv .
+<http://www.yso.fi/onto/yso/p6176> <http://www.w3.org/2004/02/skos/core#prefLabel> "laskusuhdanne"@fi .
+<http://www.yso.fi/onto/yso/p6176> <http://www.w3.org/2004/02/skos/core#prefLabel> "recession"@en .
+<http://id.insee.fr/concepts/definition/c1056> <http://www.w3.org/2004/02/skos/core#prefLabel> "Divorce"@fr .
+<http://id.insee.fr/concepts/definition/c1056> <http://rdf-vocabulary.ddialliance.org/xkos#plainText> "There are several forms of divorce (law of May 26th, 2004, come into effect on January 1st, 2005):- by mutual consent (by joint or accepted request);- for separation (after 2 years of separation);- or for fault.Three types of judgements may be pronounced :- A legal separation order. This judgement must be written in the margin of the marriage certificate but does not authorise remarriage. It is revocable further to the simple agreement of the spouses when they resume living together ;- A conversion of separation. It transforms a separation into a divorce and authorises remarriage ;- A divorce following a direct request. This judgement must be written in the margin of the marriage certificate. It is irrevocable and authorises remarriage."@en .
+<http://id.insee.fr/concepts/definition/c1056> <http://www.w3.org/2004/02/skos/core#definition> <http://id.insee.fr/concepts/definition/c1056/definition/v2/en> .
+<http://id.insee.fr/concepts/definition/c1056> <http://www.w3.org/2004/02/skos/core#prefLabel> "Divorce"@en .
+<http://id.insee.fr/concepts/definition/c1056> <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.yso.fi/onto/yso/p6160> .
+<http://www.yso.fi/onto/afo/p597> <http://www.w3.org/2004/02/skos/core#prefLabel> "ozone"@en .
+<http://www.yso.fi/onto/afo/p597> <http://www.w3.org/2004/02/skos/core#prefLabel> "otsoni"@fi .
+<http://www.yso.fi/onto/yso/p5496> <http://www.w3.org/2004/02/skos/core#prefLabel> "biodiversiteetti"@fi .
+<http://www.yso.fi/onto/yso/p5496> <http://www.w3.org/2004/02/skos/core#prefLabel> "biodiversity"@en .
+<http://www.yso.fi/onto/yso/p5496> <http://www.w3.org/2004/02/skos/core#prefLabel> "biodiversitet"@sv .
+<http://www.yso.fi/onto/afo/p3009> <http://www.w3.org/2004/02/skos/core#prefLabel> "energy"@en .
+<http://www.yso.fi/onto/afo/p3009> <http://www.w3.org/2004/02/skos/core#prefLabel> "energia"@fi .
+<http://www.yso.fi/onto/yso/p1228> <http://www.w3.org/2004/02/skos/core#prefLabel> "elinajanodote"@fi .
+<http://www.yso.fi/onto/yso/p1228> <http://www.w3.org/2004/02/skos/core#prefLabel> "förväntad livslängd"@sv .
+<http://www.yso.fi/onto/yso/p1228> <http://www.w3.org/2004/02/skos/core#prefLabel> "life expectancy"@en .
+<http://www.yso.fi/onto/yso/p4257> <http://www.w3.org/2004/02/skos/core#prefLabel> "kannattavuus"@fi .
+<http://www.yso.fi/onto/yso/p4257> <http://www.w3.org/2004/02/skos/core#prefLabel> "lönsamhet"@sv .
+<http://www.yso.fi/onto/yso/p4257> <http://www.w3.org/2004/02/skos/core#prefLabel> "profitability"@en .
+<http://www.yso.fi/onto/yso/p21039> <http://www.w3.org/2004/02/skos/core#prefLabel> "innovationsverksamhet"@sv .
+<http://www.yso.fi/onto/yso/p21039> <http://www.w3.org/2004/02/skos/core#prefLabel> "innovation"@en .
+<http://www.yso.fi/onto/yso/p21039> <http://www.w3.org/2004/02/skos/core#prefLabel> "innovaatiotoiminta"@fi .
+<http://id.insee.fr/concepts/definition/c2207> <http://www.w3.org/2004/02/skos/core#prefLabel> "Pesticides"@fr .
+<http://id.insee.fr/concepts/definition/c2207> <http://rdf-vocabulary.ddialliance.org/xkos#plainText> "Substances or products designed to control organisms considered harmful, whether plants, animals, fungi or bacteria. They can be classified by type of use (herbicides, insecticides, fungicides, nematicides, rotondicides, etc.), by chemical family or by mode of action."@en .
+<http://id.insee.fr/concepts/definition/c2207> <http://www.w3.org/2004/02/skos/core#definition> <http://id.insee.fr/concepts/definition/c2207/definition/v1/en> .
+<http://id.insee.fr/concepts/definition/c2207> <http://www.w3.org/2004/02/skos/core#prefLabel> "Pesticides"@en .
+<http://id.insee.fr/concepts/definition/c2207> <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.yso.fi/onto/yso/p10441> .
+<http://id.insee.fr/concepts/definition/c1256> <http://www.w3.org/2004/02/skos/core#prefLabel> "Sans-domicile"@fr .
+<http://id.insee.fr/concepts/definition/c1256> <http://rdf-vocabulary.ddialliance.org/xkos#plainText> "In the context of the survey of persons frequenting residential shelters and free restaurants, a person is considered to be homeless on any given day if he or she spent the previous night in sheltered accommodation or if he or she slept in a place not intended for habitation (on the street, in a squat etc.)."@en .
+<http://id.insee.fr/concepts/definition/c1256> <http://www.w3.org/2004/02/skos/core#definition> <http://id.insee.fr/concepts/definition/c1256/definition/v1/en> .
+<http://id.insee.fr/concepts/definition/c1256> <http://www.w3.org/2004/02/skos/core#prefLabel> "Homeless"@en .
+<http://id.insee.fr/concepts/definition/c1256> <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.yso.fi/onto/yso/p8915> .
+<http://www.yso.fi/onto/yso/p21899> <http://www.w3.org/2004/02/skos/core#prefLabel> "hiilijalanjälki"@fi .
+<http://www.yso.fi/onto/yso/p21899> <http://www.w3.org/2004/02/skos/core#prefLabel> "carbon footprint"@en .
+<http://www.yso.fi/onto/yso/p21899> <http://www.w3.org/2004/02/skos/core#prefLabel> "koldioxidavtryck"@sv .
+<http://id.insee.fr/concepts/definition/c1761> <http://www.w3.org/2004/02/skos/core#prefLabel> "Suspension"@en .
+<http://id.insee.fr/concepts/definition/c1761> <http://rdf-vocabulary.ddialliance.org/xkos#plainText> "The term suspension involves the total or partial suspension of enforcement of a sentence. A suspended prison sentence may be alone or accompanied by probation. Suspension may be revoked in the event of any new sentencing to a criminal or correctional sentence without suspension for a felony or a common law offence. The conviction disappears if not revoked within a period of 5 years."@en .
+<http://id.insee.fr/concepts/definition/c1761> <http://www.w3.org/2004/02/skos/core#definition> <http://id.insee.fr/concepts/definition/c1761/definition/v1/en> .
+<http://id.insee.fr/concepts/definition/c1761> <http://www.w3.org/2004/02/skos/core#prefLabel> "Sursis"@fr .
+<http://id.insee.fr/concepts/definition/c1761> <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.yso.fi/onto/yso/p5421> .
+<http://id.insee.fr/concepts/definition/c1377> <http://www.w3.org/2004/02/skos/core#prefLabel> "Establishment"@en .
+<http://id.insee.fr/concepts/definition/c1377> <http://rdf-vocabulary.ddialliance.org/xkos#plainText> "A local unit is a production unit that is geographically individual but legally dependent on a legal unit.An establishment produces goods or services: it can be a factory, a bakery, a clothing store, one of the hotels of a hotel chain, the \"shop\" of a repairer of computer hardware ... The establishment or production unit is the most suitable level for a geographical approach to the economy."@en .
+<http://id.insee.fr/concepts/definition/c1377> <http://www.w3.org/2004/02/skos/core#definition> <http://id.insee.fr/concepts/definition/c1377/definition/v2/en> .
+<http://id.insee.fr/concepts/definition/c1377> <http://www.w3.org/2004/02/skos/core#prefLabel> "Établissement"@fr .
+<http://id.insee.fr/concepts/definition/c1377> <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.yso.fi/onto/yso/p13600> .
+<http://www.yso.fi/onto/yso/p20885> <http://www.w3.org/2004/02/skos/core#prefLabel> "apparatur"@sv .
+<http://www.yso.fi/onto/yso/p20885> <http://www.w3.org/2004/02/skos/core#prefLabel> "equipment"@en .
+<http://www.yso.fi/onto/yso/p20885> <http://www.w3.org/2004/02/skos/core#altLabel> "apparatus"@en .
+<http://www.yso.fi/onto/yso/p20885> <http://www.w3.org/2004/02/skos/core#prefLabel> "laitteistot"@fi .
+<http://www.yso.fi/onto/yso/p10441> <http://www.w3.org/2004/02/skos/core#prefLabel> "torjunta-aineet"@fi .
+<http://www.yso.fi/onto/yso/p10441> <http://www.w3.org/2004/02/skos/core#prefLabel> "pesticides"@en .
+<http://www.yso.fi/onto/yso/p10441> <http://www.w3.org/2004/02/skos/core#prefLabel> "bekämpningsmedel"@sv .
+<http://www.yso.fi/onto/yso/p8470> <http://www.w3.org/2004/02/skos/core#prefLabel> "hållbar utveckling"@sv .
+<http://www.yso.fi/onto/yso/p8470> <http://www.w3.org/2004/02/skos/core#prefLabel> "sustainable development"@en .
+<http://www.yso.fi/onto/yso/p8470> <http://www.w3.org/2004/02/skos/core#prefLabel> "kestävä kehitys"@fi .
+<http://www.yso.fi/onto/afo/p2550> <http://www.w3.org/2004/02/skos/core#prefLabel> "matkailu"@fi .
+<http://www.yso.fi/onto/afo/p2550> <http://www.w3.org/2004/02/skos/core#prefLabel> "tourism"@en .
+<http://id.insee.fr/concepts/definition/c1819> <http://www.w3.org/2004/02/skos/core#prefLabel> "Professional fishing"@en .
+<http://id.insee.fr/concepts/definition/c1819> <http://rdf-vocabulary.ddialliance.org/xkos#plainText> "Sea fishing is carried out at sea or in estuaries. Depending on the processing carried out on board vessels, a distinction is made between fresh and frozen (or processed) fishing. Inland fishing is practised in fresh water (pond, river), it is not very developed in France. Fishing navigation is subdivided into four types of fishing : - small-scale fishing: absence from port less than or equal to 24 hours. - coastal fishing: absence from the upper port between 24 and 96 hours. - offshore fishing: absence from port for more than 96 hours, when this type of navigation does not meet the definition of large-scale fishing. - large-scale fishing: it includes vessels of more than 1,000 gross registered tonnes (GRT), vessels of more than 150 GRT which are usually absent from their port of operation or supply for more than 20 days, and vessels of more than 150 GRT whose port of registry is more than 20 days away from the port of operation or supply."@en .
+<http://id.insee.fr/concepts/definition/c1819> <http://www.w3.org/2004/02/skos/core#definition> <http://id.insee.fr/concepts/definition/c1819/definition/v1/en> .
+<http://id.insee.fr/concepts/definition/c1819> <http://www.w3.org/2004/02/skos/core#prefLabel> "Pêches professionnelles"@fr .
+<http://id.insee.fr/concepts/definition/c1819> <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.yso.fi/onto/yso/p3266> .
+<http://id.insee.fr/concepts/definition/c1264> <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.yso.fi/onto/yso/p5496> .
+<http://id.insee.fr/concepts/definition/c1264> <http://www.w3.org/2004/02/skos/core#prefLabel> "Biodiversity"@en .
+<http://id.insee.fr/concepts/definition/c1264> <http://rdf-vocabulary.ddialliance.org/xkos#plainText> "Biodiversity is defined by the Convention on biological diversity as: \"the variability of living beings of all origins including, among others, aquatic ecosystems and the ecological complexes they are a part of: this includes diversity within species and the diversity of ecosystems\" (art. 2). The concept of biodiversity thus concerns all of the components and variations of the living world. Scientists distinguish between three levels : ecological diversity (ecosystems) ; specific diversity (species) ; genetic diversity (genes)."@en .
+<http://id.insee.fr/concepts/definition/c1264> <http://www.w3.org/2004/02/skos/core#definition> <http://id.insee.fr/concepts/definition/c1264/definition/v1/en> .
+<http://id.insee.fr/concepts/definition/c1264> <http://rdf-vocabulary.ddialliance.org/xkos#plainText> "Biodiversity is the diversity of living organisms, which is assessed by considering the diversity of species, the diversity of genes within each species, and the organisation and distribution of ecosystems. Biodiversity is defined by the Convention on biological diversity as \"the variability of living beings of all origins including, among others, aquatic ecosystems and the ecological complexes they are a part of: this includes diversity within species and the diversity of ecosystems\" (art. 2). The concept of biodiversity thus concerns all of the components and variations of the living world. Scientists distinguish between three levels: ecological diversity (ecosystems) ; specific diversity (species) ; genetic diversity (genes). Another essential constituent of the biodiversity are the interactions within and between each of these three levels of organization."@en .
+<http://id.insee.fr/concepts/definition/c1264> <http://www.w3.org/2004/02/skos/core#definition> <http://id.insee.fr/concepts/definition/c1264/definition/v2/en> .
+<http://id.insee.fr/concepts/definition/c1264> <http://www.w3.org/2004/02/skos/core#prefLabel> "Biodiversité"@fr .
+<http://id.insee.fr/concepts/definition/c1264> <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.yso.fi/onto/afo/p3799> .
+<http://id.insee.fr/concepts/definition/c2023> <http://www.w3.org/2004/02/skos/core#prefLabel> "Déflation"@fr .
+<http://id.insee.fr/concepts/definition/c2023> <http://rdf-vocabulary.ddialliance.org/xkos#plainText> "Deflation is an increase in a currency's purchasing power which leads to a general and lasting drop in prices; it is negative inflation."@en .
+<http://id.insee.fr/concepts/definition/c2023> <http://www.w3.org/2004/02/skos/core#definition> <http://id.insee.fr/concepts/definition/c2023/definition/v1/en> .
+<http://id.insee.fr/concepts/definition/c2023> <http://www.w3.org/2004/02/skos/core#prefLabel> "Deflation"@en .
+<http://id.insee.fr/concepts/definition/c2023> <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.yso.fi/onto/yso/p619> .
+<http://www.yso.fi/onto/yso/p1691> <http://www.w3.org/2004/02/skos/core#prefLabel> "offentligrättsliga samfund"@sv .
+<http://www.yso.fi/onto/yso/p1691> <http://www.w3.org/2004/02/skos/core#prefLabel> "julkisyhteisöt"@fi .
+<http://www.yso.fi/onto/yso/p1691> <http://www.w3.org/2004/02/skos/core#prefLabel> "general government"@en .
+<http://www.yso.fi/onto/yso/p4515> <http://www.w3.org/2004/02/skos/core#prefLabel> "luonnonvarat"@fi .
+<http://www.yso.fi/onto/yso/p4515> <http://www.w3.org/2004/02/skos/core#prefLabel> "naturresurser"@sv .
+<http://www.yso.fi/onto/yso/p4515> <http://www.w3.org/2004/02/skos/core#prefLabel> "natural resources"@en .
+<http://id.insee.fr/concepts/definition/c2144> <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.yso.fi/onto/yso/p475> .
+<http://id.insee.fr/concepts/definition/c2144> <http://www.w3.org/2004/02/skos/core#prefLabel> "Vocational training"@en .
+<http://id.insee.fr/concepts/definition/c2144> <http://rdf-vocabulary.ddialliance.org/xkos#plainText> "Vocational training is a process for acquiring knowledge and skills needed in specific jobs or more broadly to be useful in the labour market. It can take place within initial education (for instance through apprenticeship) or after initial education."@en .
+<http://id.insee.fr/concepts/definition/c2144> <http://www.w3.org/2004/02/skos/core#definition> <http://id.insee.fr/concepts/definition/c2144/definition/v1/en> .
+<http://id.insee.fr/concepts/definition/c2144> <http://www.w3.org/2004/02/skos/core#prefLabel> "Formation professionnelle"@fr .
+<http://id.insee.fr/concepts/definition/c2144> <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.yso.fi/onto/afo/p5175> .
+<http://id.insee.fr/concepts/definition/c1009> <http://www.w3.org/2004/02/skos/core#prefLabel> "Euro"@fr .
+<http://id.insee.fr/concepts/definition/c1009> <http://rdf-vocabulary.ddialliance.org/xkos#plainText> "The Euro is the name of the European single currency created by the Maastricht Treaty. Although it has only been in circulation since 1st January 2002, it has existed since 1999, the date when the exchange rates were pegged between the currencies of the 11 countries in the Euro Zone. The number of these countries then increased to 12 with the arrival of Greece in January 2001, to 13 with Slovenia in 2007, to 15 with the arrival of Cyprus and Malta in 2008, to 16 with the arrival of Slovakia in 2009, to 17 with Estonia in 2011 and to 18 with Latvia in 2014 and 19 with Lithuania in 2015. The Euro is managed by the European Central Bank."@en .
+<http://id.insee.fr/concepts/definition/c1009> <http://www.w3.org/2004/02/skos/core#definition> <http://id.insee.fr/concepts/definition/c1009/definition/v3/en> .
+<http://id.insee.fr/concepts/definition/c1009> <http://rdf-vocabulary.ddialliance.org/xkos#plainText> "The Euro is the name of the European single currency created by the Maastricht Treaty. Although it has only been in circulation since 1st January 2002, it has existed since 1999, the date when the exchange rates were pegged between the currencies of the 11 countries in the Euro Zone. The number of these countries then increased to 12 with the arrival of Greece in January 2001, to 13 with Slovenia in 2007, to 15 with the arrival of Cyprus and Malta in 2008, to 16 with the arrival of Slovakia in 2009, to 17 with Estonia in January 2011 and to 18 with Latvia in January 2014. The Euro is managed by the European Central Bank."@en .
+<http://id.insee.fr/concepts/definition/c1009> <http://www.w3.org/2004/02/skos/core#definition> <http://id.insee.fr/concepts/definition/c1009/definition/v2/en> .
+<http://id.insee.fr/concepts/definition/c1009> <http://www.w3.org/2004/02/skos/core#prefLabel> "Euro"@en .
+<http://id.insee.fr/concepts/definition/c1009> <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.yso.fi/onto/yso/p14651> .
+<http://id.insee.fr/concepts/definition/c1890> <http://www.w3.org/2004/02/skos/core#prefLabel> "Standard of living"@en .
+<http://id.insee.fr/concepts/definition/c1890> <http://rdf-vocabulary.ddialliance.org/xkos#plainText> "The standard of living is equal to the disposable income of the household divided by the number of consumer units. The standard of living is therefore the same for all the individuals in a given household. Eurostat calls it \"equivalised disposible income\". The consumer units are generally calculated using the modified OECD scale which allocates 1 consumer unit to the first adult in the household, 0.5 to the persons of 14 years or older and 0.3 to children under the age of 14 years."@en .
+<http://id.insee.fr/concepts/definition/c1890> <http://www.w3.org/2004/02/skos/core#definition> <http://id.insee.fr/concepts/definition/c1890/definition/v2/en> .
+<http://id.insee.fr/concepts/definition/c1890> <http://rdf-vocabulary.ddialliance.org/xkos#plainText> "The standard of living is equal to the disposable income of the household divided by the number of consumer units. The standard of living is therefore the same for all the individuals in a given household. The consumer units are generally calculated using the modified OECD scale which allocates 1 consumer unit to the first adult in the household, 0.5 to the persons of 14 years or older and 0.3 to children under the age of 14 years."@en .
+<http://id.insee.fr/concepts/definition/c1890> <http://www.w3.org/2004/02/skos/core#definition> <http://id.insee.fr/concepts/definition/c1890/definition/v1/en> .
+<http://id.insee.fr/concepts/definition/c1890> <http://www.w3.org/2004/02/skos/core#prefLabel> "Niveau de vie"@fr .
+<http://id.insee.fr/concepts/definition/c1890> <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.yso.fi/onto/yso/p10762> .
+<http://id.insee.fr/concepts/definition/c1535> <http://www.w3.org/2004/02/skos/core#prefLabel> "Économie nationale"@fr .
+<http://id.insee.fr/concepts/definition/c1535> <http://rdf-vocabulary.ddialliance.org/xkos#plainText> "Set of resident units on the economic territory. The French economic territory includes Metropolitan France and overseas departments.The overseas departments were brought under the jurisdiction of the economic territory from the national accounts base 95. In the previous bases (56, 59, 62, 71 and 80) they were part of the rest of the world."@en .
+<http://id.insee.fr/concepts/definition/c1535> <http://www.w3.org/2004/02/skos/core#definition> <http://id.insee.fr/concepts/definition/c1535/definition/v2/en> .
+<http://id.insee.fr/concepts/definition/c1535> <http://www.w3.org/2004/02/skos/core#prefLabel> "National economy"@en .
+<http://id.insee.fr/concepts/definition/c1535> <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.yso.fi/onto/yso/p15057> .
+<http://id.insee.fr/concepts/definition/c1706> <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.yso.fi/onto/yso/p6170> .
+<http://id.insee.fr/concepts/definition/c1706> <http://www.w3.org/2004/02/skos/core#prefLabel> "Biomasse"@fr .
+<http://id.insee.fr/concepts/definition/c1706> <http://rdf-vocabulary.ddialliance.org/xkos#plainText> "The biomass is all the organic matters which can become sources of energy. They can be used either directly (wood energy) or after a methanation of the organic matter (biogas) or the new chemical transformations (biofuel). They can be also used for the composting."@en .
+<http://id.insee.fr/concepts/definition/c1706> <http://www.w3.org/2004/02/skos/core#definition> <http://id.insee.fr/concepts/definition/c1706/definition/v2/en> .
+<http://id.insee.fr/concepts/definition/c1706> <http://rdf-vocabulary.ddialliance.org/xkos#plainText> "Il existe deux définitions de l'emploi public qui renvoient à chacune des approches, juridique ou économique, choisies pour le mesurer. L'approche au sens de l'Observatoire de l'emploi public repose sur des critères juridiques combinant statut de l'employeur et statut de l'agent : relève de la fonction publique tout agent qui travaille dans un organisme à caractère administratif recrutant des agents de droit public. L'approche économique est celle de la comptabilité nationale qui comptabilise l'ensemble des personnels des services publics financés majoritairement par prélèvements obligatoires."@en .
+<http://id.insee.fr/concepts/definition/c1706> <http://www.w3.org/2004/02/skos/core#definition> <http://id.insee.fr/concepts/definition/c1706/definition/v1/en> .
+<http://id.insee.fr/concepts/definition/c1706> <http://www.w3.org/2004/02/skos/core#prefLabel> "Biomass"@en .
+<http://id.insee.fr/concepts/definition/c1706> <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.yso.fi/onto/afo/p1181> .
+<http://id.insee.fr/concepts/definition/c1151> <http://www.w3.org/2004/02/skos/core#prefLabel> "Balance des paiements"@fr .
+<http://id.insee.fr/concepts/definition/c1151> <http://rdf-vocabulary.ddialliance.org/xkos#plainText> "The balance of payments is a statistical report that traces, in accounting form, all flows of real, financial and monetary assets between the residents of an economy and non-residents over a defined period. The economic and financial flows at the origin of these operations are divided up with a distinction made between the current transaction account (exchanges of goods, services, revenues and current transfers), the capital account (capital transfers) and the financial account (direct or portfolio investments).For France, it is developed by the Banque de France, on behalf of the DGTPE."@en .
+<http://id.insee.fr/concepts/definition/c1151> <http://www.w3.org/2004/02/skos/core#definition> <http://id.insee.fr/concepts/definition/c1151/definition/v1/en> .
+<http://id.insee.fr/concepts/definition/c1151> <http://www.w3.org/2004/02/skos/core#prefLabel> "Balance of payments"@en .
+<http://id.insee.fr/concepts/definition/c1151> <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.yso.fi/onto/yso/p10644> .
+<http://www.yso.fi/onto/yso/p13315> <http://www.w3.org/2004/02/skos/core#prefLabel> "stenkol"@sv .
+<http://www.yso.fi/onto/yso/p13315> <http://www.w3.org/2004/02/skos/core#prefLabel> "coal"@en .
+<http://www.yso.fi/onto/yso/p13315> <http://www.w3.org/2004/02/skos/core#prefLabel> "kivihiili"@fi .
+<http://id.insee.fr/concepts/definition/c2223> <http://www.w3.org/2004/02/skos/core#prefLabel> "Transport ferroviaire intérieur"@fr .
+<http://id.insee.fr/concepts/definition/c2223> <http://rdf-vocabulary.ddialliance.org/xkos#plainText> "Domestic railway transport includes all passenger movements on national territory using trains, RER and metros (excluding trams, considered as road transport)."@en .
+<http://id.insee.fr/concepts/definition/c2223> <http://www.w3.org/2004/02/skos/core#definition> <http://id.insee.fr/concepts/definition/c2223/definition/v1/en> .
+<http://id.insee.fr/concepts/definition/c2223> <http://www.w3.org/2004/02/skos/core#prefLabel> "Railway transport"@en .
+<http://id.insee.fr/concepts/definition/c2223> <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.yso.fi/onto/yso/p15324> .
+<http://www.yso.fi/onto/yso/p10762> <http://www.w3.org/2004/02/skos/core#prefLabel> "levnadsstandard"@sv .
+<http://www.yso.fi/onto/yso/p10762> <http://www.w3.org/2004/02/skos/core#prefLabel> "standard of living"@en .
+<http://www.yso.fi/onto/yso/p10762> <http://www.w3.org/2004/02/skos/core#prefLabel> "elintaso"@fi .
+<http://www.yso.fi/onto/afo/p19> <http://www.w3.org/2004/02/skos/core#prefLabel> "vesiviljely"@fi .
+<http://www.yso.fi/onto/afo/p19> <http://www.w3.org/2004/02/skos/core#altLabel> "hydroponic culture"@en .
+<http://www.yso.fi/onto/afo/p19> <http://www.w3.org/2004/02/skos/core#altLabel> "soil-free growing"@en .
+<http://www.yso.fi/onto/afo/p19> <http://www.w3.org/2004/02/skos/core#altLabel> "hydroponic cultivation"@en .
+<http://www.yso.fi/onto/afo/p19> <http://www.w3.org/2004/02/skos/core#altLabel> "water culture"@en .
+<http://www.yso.fi/onto/afo/p19> <http://www.w3.org/2004/02/skos/core#altLabel> "hydroponics"@en .
+<http://www.yso.fi/onto/afo/p19> <http://www.w3.org/2004/02/skos/core#altLabel> "soilless culture"@en .
+<http://www.yso.fi/onto/afo/p19> <http://www.w3.org/2004/02/skos/core#prefLabel> "aquaculture"@en .
+<http://www.yso.fi/onto/yso/p20759> <http://www.w3.org/2004/02/skos/core#prefLabel> "employment rate"@en .
+<http://www.yso.fi/onto/yso/p20759> <http://www.w3.org/2004/02/skos/core#prefLabel> "työllisyysaste"@fi .
+<http://www.yso.fi/onto/yso/p20759> <http://www.w3.org/2004/02/skos/core#prefLabel> "sysselsättningsgrad"@sv .
+<http://id.insee.fr/concepts/definition/c2194> <http://www.w3.org/2004/02/skos/core#prefLabel> "Fragmentation"@fr .
+<http://id.insee.fr/concepts/definition/c2194> <http://rdf-vocabulary.ddialliance.org/xkos#plainText> "Artificial phenomenon of spatial fragmentation, which can or could prevent one or more species from moving as they should and could in the absence of a fragmentation factor. The presence of obstacles, particularly linear obstacles linked to road and communication networks (paved or stabilised ground, guardrails, barriers or fences along them, vehicle traffic) is particularly detrimental to the proper movement of plant and animal species. Watercourses are also confronted with this phenomenon. Indeed, rivers and streams are living environments that are shaped around the water and sediments they carry, and which transform their beds, thus creating rich and diverse habitats for flora and fauna. Many animal species use them to reach areas that are favourable for their reproduction, growth, feeding or refuge. The free movement of living organisms and the smooth natural transport of sediment is one of the major challenges of the European Water Framework Directive. However, the structures installed in riverbeds (weirs, bridge rims, bushings, dams, etc.), whose height can vary from a few dozen centimetres to several metres, are likely to alter the migration of aquatic species and the diversity and quality of the natural habitats available. In January 2020, more than 101,500 structures were inventoried."@en .
+<http://id.insee.fr/concepts/definition/c2194> <http://www.w3.org/2004/02/skos/core#definition> <http://id.insee.fr/concepts/definition/c2194/definition/v1/en> .
+<http://id.insee.fr/concepts/definition/c2194> <http://www.w3.org/2004/02/skos/core#prefLabel> "Fragmentation"@en .
+<http://id.insee.fr/concepts/definition/c2194> <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.yso.fi/onto/yso/p13617> .
+<http://www.yso.fi/onto/afo/p1181> <http://www.w3.org/2004/02/skos/core#prefLabel> "biomassa"@fi .
+<http://www.yso.fi/onto/afo/p1181> <http://www.w3.org/2004/02/skos/core#prefLabel> "biomass"@en .
+<http://www.yso.fi/onto/yso/p6684> <http://www.w3.org/2004/02/skos/core#prefLabel> "industrial economy"@en .
+<http://www.yso.fi/onto/yso/p6684> <http://www.w3.org/2004/02/skos/core#prefLabel> "industriell ekonomi"@sv .
+<http://www.yso.fi/onto/yso/p6684> <http://www.w3.org/2004/02/skos/core#prefLabel> "teollisuustalous"@fi .
+<http://www.yso.fi/onto/yso/p619> <http://www.w3.org/2004/02/skos/core#prefLabel> "deflaatio"@fi .
+<http://www.yso.fi/onto/yso/p619> <http://www.w3.org/2004/02/skos/core#prefLabel> "deflation"@en .
+<http://www.yso.fi/onto/yso/p619> <http://www.w3.org/2004/02/skos/core#prefLabel> "deflation"@sv .
+<http://www.yso.fi/onto/yso/p22924> <http://www.w3.org/2004/02/skos/core#prefLabel> "spädbarnsdödlighet"@sv .
+<http://www.yso.fi/onto/yso/p22924> <http://www.w3.org/2004/02/skos/core#prefLabel> "infant mortality rate"@en .
+<http://www.yso.fi/onto/yso/p22924> <http://www.w3.org/2004/02/skos/core#prefLabel> "imeväiskuolleisuus"@fi .
+<http://www.yso.fi/onto/yso/p6976> <http://www.w3.org/2004/02/skos/core#prefLabel> "imprisonment"@en .
+<http://www.yso.fi/onto/yso/p6976> <http://www.w3.org/2004/02/skos/core#prefLabel> "vangitseminen"@fi .
+<http://www.yso.fi/onto/yso/p6976> <http://www.w3.org/2004/02/skos/core#prefLabel> "häktning"@sv .
+<http://www.yso.fi/onto/yso/p11571> <http://www.w3.org/2004/02/skos/core#prefLabel> "unemployment"@en .
+<http://www.yso.fi/onto/yso/p11571> <http://www.w3.org/2004/02/skos/core#prefLabel> "työttömyys"@fi .
+<http://www.yso.fi/onto/yso/p11571> <http://www.w3.org/2004/02/skos/core#prefLabel> "arbetslöshet"@sv .
+<http://id.insee.fr/concepts/definition/c2231> <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.yso.fi/onto/afo/p3512> .
+<http://id.insee.fr/concepts/definition/c2231> <http://www.w3.org/2004/02/skos/core#prefLabel> "Nitrates"@fr .
+<http://id.insee.fr/concepts/definition/c2231> <http://rdf-vocabulary.ddialliance.org/xkos#plainText> "Nitrates (NO3-) are one of nitrogen forms. Useful for plant growth, they are of natural or non-natural origin (mineral nitrogen fertilisers). Nitrate is a compound combining the nitrate ion (NO3-) with one or more cations. It is found in salt form (sodium nitrate, potassium nitrate, etc.) or ester form (ethyl nitrate, amyl nitrate, cellulose nitrate, etc.). All nitrogen sources are potential sources of nitrate. It is used in inorganic fertilisers and explosives, and also as a food preservative or raw chemical in various industrial processes. Nitrate is a major nutrient for plant growth. However, the presence of too many nitrates in water can lead to ecological imbalances, resulting in eutrophication."@en .
+<http://id.insee.fr/concepts/definition/c2231> <http://www.w3.org/2004/02/skos/core#definition> <http://id.insee.fr/concepts/definition/c2231/definition/v1/en> .
+<http://id.insee.fr/concepts/definition/c2231> <http://www.w3.org/2004/02/skos/core#prefLabel> "Nitrates"@en .
+<http://id.insee.fr/concepts/definition/c2231> <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.yso.fi/onto/yso/p2567> .
+<http://www.yso.fi/onto/yso/p1878> <http://www.w3.org/2004/02/skos/core#prefLabel> "keskihajonta"@fi .
+<http://www.yso.fi/onto/yso/p1878> <http://www.w3.org/2004/02/skos/core#prefLabel> "standard deviation"@en .
+<http://www.yso.fi/onto/yso/p1878> <http://www.w3.org/2004/02/skos/core#prefLabel> "standardavvikelse"@sv .
+<http://www.yso.fi/onto/yso/p1310> <http://www.w3.org/2004/02/skos/core#prefLabel> "energi"@sv .
+<http://www.yso.fi/onto/yso/p1310> <http://www.w3.org/2004/02/skos/core#prefLabel> "energy"@en .
+<http://www.yso.fi/onto/yso/p1310> <http://www.w3.org/2004/02/skos/core#prefLabel> "energia"@fi .
+<http://id.insee.fr/concepts/definition/c1025> <http://www.w3.org/2004/02/skos/core#prefLabel> "Company takeover"@en .
+<http://id.insee.fr/concepts/definition/c1025> <http://rdf-vocabulary.ddialliance.org/xkos#plainText> "Takeover occurs when a legal entity partially or totally takes over the business of one or more economic entities of another legal entity."@en .
+<http://id.insee.fr/concepts/definition/c1025> <http://www.w3.org/2004/02/skos/core#definition> <http://id.insee.fr/concepts/definition/c1025/definition/v1/en> .
+<http://id.insee.fr/concepts/definition/c1025> <http://www.w3.org/2004/02/skos/core#prefLabel> "Reprise d'entreprise"@fr .
+<http://id.insee.fr/concepts/definition/c1025> <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.yso.fi/onto/yso/p6482> .
+<http://id.insee.fr/concepts/definition/c1004> <http://www.w3.org/2004/02/skos/core#prefLabel> "Community service"@en .
+<http://id.insee.fr/concepts/definition/c1004> <http://rdf-vocabulary.ddialliance.org/xkos#plainText> "When a misdemeanour is punished by a prison sentence, the court may choose, instead of imprisonment, to order the convicted person to carry out unpaid work for a public corporate body or an accredited association, for a duration of between 40 and 210 hours. Whether handed down as the main sentence or as one of the terms of a suspended sentence, community service is intended, like probation, to favour the reintegration of the convicted person by avoiding short prison terms. The convicted person performs unpaid work of a duration of between 40 and 240 hours for a public authority, a public institution or an association"@en .
+<http://id.insee.fr/concepts/definition/c1004> <http://www.w3.org/2004/02/skos/core#definition> <http://id.insee.fr/concepts/definition/c1004/definition/v1/en> .
+<http://id.insee.fr/concepts/definition/c1004> <http://www.w3.org/2004/02/skos/core#prefLabel> "Travail d'intérêt général"@fr .
+<http://id.insee.fr/concepts/definition/c1004> <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.yso.fi/onto/yso/p20086> .
+<http://id.insee.fr/concepts/definition/c1359> <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.yso.fi/onto/yso/p2156> .
+<http://id.insee.fr/concepts/definition/c1359> <http://www.w3.org/2004/02/skos/core#prefLabel> "Goods"@en .
+<http://id.insee.fr/concepts/definition/c1359> <http://rdf-vocabulary.ddialliance.org/xkos#plainText> "Goods are physical, produced objects for which a demand exists, over which ownership rights can be established and whose ownership can be transferred from one institutional unit to another by engaging in transactions on markets."@en .
+<http://id.insee.fr/concepts/definition/c1359> <http://www.w3.org/2004/02/skos/core#definition> <http://id.insee.fr/concepts/definition/c1359/definition/v1/en> .
+<http://id.insee.fr/concepts/definition/c1359> <http://www.w3.org/2004/02/skos/core#prefLabel> "Biens"@fr .
+<http://id.insee.fr/concepts/definition/c1359> <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.yso.fi/onto/afo/p483> .
+<http://www.yso.fi/onto/yso/p13331> <http://www.w3.org/2004/02/skos/core#prefLabel> "wholesale trade"@en .
+<http://www.yso.fi/onto/yso/p13331> <http://www.w3.org/2004/02/skos/core#prefLabel> "tukkukauppa"@fi .
+<http://www.yso.fi/onto/yso/p13331> <http://www.w3.org/2004/02/skos/core#prefLabel> "partihandel"@sv .
+<http://id.insee.fr/concepts/definition/c1864> <http://www.w3.org/2004/02/skos/core#prefLabel> "Internet"@fr .
+<http://id.insee.fr/concepts/definition/c1864> <http://rdf-vocabulary.ddialliance.org/xkos#plainText> "All the interconnected worldwide networks that enable computers and servers to communicate effectively via a common communication protocol (IP). Its main services are the web, FTP, messaging and discussion groups."@en .
+<http://id.insee.fr/concepts/definition/c1864> <http://www.w3.org/2004/02/skos/core#definition> <http://id.insee.fr/concepts/definition/c1864/definition/v1/en> .
+<http://id.insee.fr/concepts/definition/c1864> <http://www.w3.org/2004/02/skos/core#prefLabel> "Internet"@en .
+<http://id.insee.fr/concepts/definition/c1864> <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.yso.fi/onto/yso/p20405> .
+<http://www.yso.fi/onto/afo/p353> <http://www.w3.org/2004/02/skos/core#prefLabel> "luonnonvarat"@fi .
+<http://www.yso.fi/onto/afo/p353> <http://www.w3.org/2004/02/skos/core#prefLabel> "natural resources"@en .
+<http://id.insee.fr/concepts/definition/c2068> <http://www.w3.org/2004/02/skos/core#prefLabel> "Time series"@en .
+<http://id.insee.fr/concepts/definition/c2068> <http://rdf-vocabulary.ddialliance.org/xkos#plainText> "A set of observations in an economic statistical variable made at regular intervals (year, quarter, month, day, etc.)."@en .
+<http://id.insee.fr/concepts/definition/c2068> <http://www.w3.org/2004/02/skos/core#definition> <http://id.insee.fr/concepts/definition/c2068/definition/v1/en> .
+<http://id.insee.fr/concepts/definition/c2068> <http://www.w3.org/2004/02/skos/core#prefLabel> "Série chronologique"@fr .
+<http://id.insee.fr/concepts/definition/c2068> <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.yso.fi/onto/yso/p12290> .
+<http://www.yso.fi/onto/yso/p11516> <http://www.w3.org/2004/02/skos/core#prefLabel> "ozon"@sv .
+<http://www.yso.fi/onto/yso/p11516> <http://www.w3.org/2004/02/skos/core#prefLabel> "ozone"@en .
+<http://www.yso.fi/onto/yso/p11516> <http://www.w3.org/2004/02/skos/core#prefLabel> "otsoni"@fi .
+<http://www.yso.fi/onto/yso/p485> <http://www.w3.org/2004/02/skos/core#prefLabel> "handarbeten (arbete)"@sv .
+<http://www.yso.fi/onto/yso/p485> <http://www.w3.org/2004/02/skos/core#prefLabel> "handicraft"@en .
+<http://www.yso.fi/onto/yso/p485> <http://www.w3.org/2004/02/skos/core#prefLabel> "käsityöt (työ)"@fi .
+<http://id.insee.fr/concepts/definition/c1225> <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.yso.fi/onto/yso/p10943> .
+<http://id.insee.fr/concepts/definition/c1225> <http://www.w3.org/2004/02/skos/core#prefLabel> "Agriculture"@fr .
+<http://id.insee.fr/concepts/definition/c1225> <http://rdf-vocabulary.ddialliance.org/xkos#plainText> "In the broadest sense, this sector of the economy includes crop farming, animal breeding, hunting, fishing and forestry. The classification of French activities establishes a distinction between agricultural activity (exploitation of natural resources to produce various crops and livestock), forestry and fishing activity (professional exploitation of halieutic resources in marine environments or freshwater).These activities correspond to section A of NAF rev. 2."@en .
+<http://id.insee.fr/concepts/definition/c1225> <http://www.w3.org/2004/02/skos/core#definition> <http://id.insee.fr/concepts/definition/c1225/definition/v1/en> .
+<http://id.insee.fr/concepts/definition/c1225> <http://www.w3.org/2004/02/skos/core#prefLabel> "Agriculture"@en .
+<http://id.insee.fr/concepts/definition/c1225> <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.yso.fi/onto/afo/p644> .
+<http://www.yso.fi/onto/yso/p4601> <http://www.w3.org/2004/02/skos/core#prefLabel> "legal status"@en .
+<http://www.yso.fi/onto/yso/p4601> <http://www.w3.org/2004/02/skos/core#prefLabel> "oikeusasema"@fi .
+<http://www.yso.fi/onto/yso/p4601> <http://www.w3.org/2004/02/skos/core#prefLabel> "rättsläge"@sv .
+<http://www.yso.fi/onto/yso/p13026> <http://www.w3.org/2004/02/skos/core#prefLabel> "birth"@en .
+<http://www.yso.fi/onto/yso/p13026> <http://www.w3.org/2004/02/skos/core#prefLabel> "födsel"@sv .
+<http://www.yso.fi/onto/yso/p13026> <http://www.w3.org/2004/02/skos/core#prefLabel> "syntymä"@fi .
+<http://id.insee.fr/concepts/definition/c1922> <http://www.w3.org/2004/02/skos/core#prefLabel> "Mortalité infantile"@fr .
+<http://id.insee.fr/concepts/definition/c1922> <http://rdf-vocabulary.ddialliance.org/xkos#plainText> "Infant mortality designates the deaths of infants aged under one year."@en .
+<http://id.insee.fr/concepts/definition/c1922> <http://www.w3.org/2004/02/skos/core#definition> <http://id.insee.fr/concepts/definition/c1922/definition/v1/en> .
+<http://id.insee.fr/concepts/definition/c1922> <http://www.w3.org/2004/02/skos/core#prefLabel> "Infant mortality"@en .
+<http://id.insee.fr/concepts/definition/c1922> <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.yso.fi/onto/yso/p15048> .
+<http://www.yso.fi/onto/yso/p8915> <http://www.w3.org/2004/02/skos/core#prefLabel> "asunnottomat"@fi .
+<http://www.yso.fi/onto/yso/p8915> <http://www.w3.org/2004/02/skos/core#prefLabel> "bostadslösa"@sv .
+<http://www.yso.fi/onto/yso/p8915> <http://www.w3.org/2004/02/skos/core#prefLabel> "homeless"@en .
+<http://www.yso.fi/onto/yso/p12772> <http://www.w3.org/2004/02/skos/core#prefLabel> "arbetskraftskostnader"@sv .
+<http://www.yso.fi/onto/yso/p12772> <http://www.w3.org/2004/02/skos/core#prefLabel> "työvoimakustannukset"@fi .
+<http://www.yso.fi/onto/yso/p12772> <http://www.w3.org/2004/02/skos/core#prefLabel> "labour costs"@en .
+<http://id.insee.fr/concepts/definition/c1893> <http://www.w3.org/2004/02/skos/core#prefLabel> "Tax at source"@en .
+<http://id.insee.fr/concepts/definition/c1893> <http://rdf-vocabulary.ddialliance.org/xkos#plainText> "Tax at source (or pay as you earn) is a mode of tax collection consisting of having the amount collected by a paying third party, more often than not the employer or the banker, at the time of payment to the taxpayer of the income on which tax is applied."@en .
+<http://id.insee.fr/concepts/definition/c1893> <http://www.w3.org/2004/02/skos/core#definition> <http://id.insee.fr/concepts/definition/c1893/definition/v1/en> .
+<http://id.insee.fr/concepts/definition/c1893> <http://www.w3.org/2004/02/skos/core#prefLabel> "Prélèvement à la source"@fr .
+<http://id.insee.fr/concepts/definition/c1893> <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.yso.fi/onto/yso/p15373> .
+<http://www.yso.fi/onto/yso/p10644> <http://www.w3.org/2004/02/skos/core#prefLabel> "maksutase"@fi .
+<http://www.yso.fi/onto/yso/p10644> <http://www.w3.org/2004/02/skos/core#prefLabel> "balance of payments"@en .
+<http://www.yso.fi/onto/yso/p10644> <http://www.w3.org/2004/02/skos/core#prefLabel> "betalningsbalans"@sv .
+<http://www.yso.fi/onto/yso/p9261> <http://www.w3.org/2004/02/skos/core#prefLabel> "folkräkning"@sv .
+<http://www.yso.fi/onto/yso/p9261> <http://www.w3.org/2004/02/skos/core#prefLabel> "population census"@en .
+<http://www.yso.fi/onto/yso/p9261> <http://www.w3.org/2004/02/skos/core#prefLabel> "väestönlaskenta"@fi .
+<http://www.yso.fi/onto/afo/p3512> <http://www.w3.org/2004/02/skos/core#prefLabel> "nitrates"@en .
+<http://www.yso.fi/onto/afo/p3512> <http://www.w3.org/2004/02/skos/core#prefLabel> "nitraatit"@fi .
+<http://www.yso.fi/onto/yso/p20086> <http://www.w3.org/2004/02/skos/core#prefLabel> "samhällstjänst"@sv .
+<http://www.yso.fi/onto/yso/p20086> <http://www.w3.org/2004/02/skos/core#prefLabel> "community service"@en .
+<http://www.yso.fi/onto/yso/p20086> <http://www.w3.org/2004/02/skos/core#prefLabel> "yhdyskuntapalvelu"@fi .
+<http://id.insee.fr/concepts/definition/c2197> <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.yso.fi/onto/afo/p846> .
+<http://id.insee.fr/concepts/definition/c2197> <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.yso.fi/onto/afo/p3023> .
+<http://id.insee.fr/concepts/definition/c2197> <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.yso.fi/onto/yso/p5268> .
+<http://id.insee.fr/concepts/definition/c2197> <http://www.w3.org/2004/02/skos/core#prefLabel> "Recycling"@en .
+<http://id.insee.fr/concepts/definition/c2197> <http://rdf-vocabulary.ddialliance.org/xkos#plainText> "Recovery operation whereby waste, including organic waste, is reprocessed into substances, materials or products for its original function or for other purposes. Energy recovery operations of waste, operations for the conversion of waste into fuel and land filling operations are not classified as recycling operations."@en .
+<http://id.insee.fr/concepts/definition/c2197> <http://www.w3.org/2004/02/skos/core#definition> <http://id.insee.fr/concepts/definition/c2197/definition/v1/en> .
+<http://id.insee.fr/concepts/definition/c2197> <http://www.w3.org/2004/02/skos/core#prefLabel> "Recyclage"@fr .
+<http://id.insee.fr/concepts/definition/c2197> <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.yso.fi/onto/afo/p2238> .
+<http://www.yso.fi/onto/yso/p998> <http://www.w3.org/2004/02/skos/core#prefLabel> "teollisuus"@fi .
+<http://www.yso.fi/onto/yso/p998> <http://www.w3.org/2004/02/skos/core#prefLabel> "industri"@sv .
+<http://www.yso.fi/onto/yso/p998> <http://www.w3.org/2004/02/skos/core#prefLabel> "industry"@en .
+<http://www.yso.fi/onto/afo/p3967> <http://www.w3.org/2004/02/skos/core#prefLabel> "handicraft"@en .
+<http://www.yso.fi/onto/afo/p3967> <http://www.w3.org/2004/02/skos/core#altLabel> "cottage industry"@en .
+<http://www.yso.fi/onto/afo/p3967> <http://www.w3.org/2004/02/skos/core#altLabel> "home manufacture"@en .
+<http://www.yso.fi/onto/afo/p3967> <http://www.w3.org/2004/02/skos/core#prefLabel> "kotiteollisuus"@fi .
+<http://www.yso.fi/onto/yso/p622> <http://www.w3.org/2004/02/skos/core#prefLabel> "inflation"@en .
+<http://www.yso.fi/onto/yso/p622> <http://www.w3.org/2004/02/skos/core#prefLabel> "inflation"@sv .
+<http://www.yso.fi/onto/yso/p622> <http://www.w3.org/2004/02/skos/core#prefLabel> "inflaatio"@fi .
+<http://www.yso.fi/onto/yso/p3917> <http://www.w3.org/2004/02/skos/core#prefLabel> "matkailu"@fi .
+<http://www.yso.fi/onto/yso/p3917> <http://www.w3.org/2004/02/skos/core#prefLabel> "travel"@en .
+<http://www.yso.fi/onto/yso/p3917> <http://www.w3.org/2004/02/skos/core#prefLabel> "turism"@sv .
+<http://www.yso.fi/onto/afo/p2043> <http://www.w3.org/2004/02/skos/core#prefLabel> "kauppa"@fi .
+<http://www.yso.fi/onto/afo/p2043> <http://www.w3.org/2004/02/skos/core#prefLabel> "trade"@en .
+<http://id.insee.fr/concepts/definition/c1496> <http://www.w3.org/2004/02/skos/core#prefLabel> "Enterprise"@en .
+<http://id.insee.fr/concepts/definition/c1496> <http://rdf-vocabulary.ddialliance.org/xkos#plainText> "An enterprise is the smallest combination of legal units that is an organisational unit producing goods and services, enjoying a certain decision-making autonomy, especially for the allocation of its current resources. An enterprise may be: an \"independent\" legal unit, i.e. not belonging to a group. The following are distinguished: · the sole proprietorship, whereby the legal entity is not distinct from the operator in person; · the corporation, most commonly in the form of a company, for example a public limited company or a limited liability company; an enterprise resulting from the profiling of a group, (incorrectly) shortened to \"profiled enterprise\". N.B.: for a \"small\" group, the result of the profiling only contains one enterprise, identical to the group itself. commentaire This definition of an enterprise it that of EEC Council Regulation of 15 March 1993 relating to statistical units for observing and analysing the production system. It is used in the French decree for implementation (n°2008-1354) of article 51 of the French law on modernisation of the economy. This definition of an enterprise as a statistical unit should not be confused with that of the enterprise as a legal unit. All independent legal units are enterprises. However, subsidiaries of groups, i.e. those in which a group has a majority control, are not."@en .
+<http://id.insee.fr/concepts/definition/c1496> <http://www.w3.org/2004/02/skos/core#definition> <http://id.insee.fr/concepts/definition/c1496/definition/v2/en> .
+<http://id.insee.fr/concepts/definition/c1496> <http://rdf-vocabulary.ddialliance.org/xkos#plainText> "An enterprise is the smallest combination of legal units that is an organisational unit producing goods and services, enjoying a certain decision-making autonomy, especially for the allocation of its current resources."@en .
+<http://id.insee.fr/concepts/definition/c1496> <http://www.w3.org/2004/02/skos/core#definition> <http://id.insee.fr/concepts/definition/c1496/definition/v3/en> .
+<http://id.insee.fr/concepts/definition/c1496> <http://www.w3.org/2004/02/skos/core#prefLabel> "Entreprise"@fr .
+<http://id.insee.fr/concepts/definition/c1496> <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.yso.fi/onto/yso/p1182> .
+<http://www.yso.fi/onto/yso/p5268> <http://www.w3.org/2004/02/skos/core#prefLabel> "återvinning"@sv .
+<http://www.yso.fi/onto/yso/p5268> <http://www.w3.org/2004/02/skos/core#prefLabel> "recycling"@en .
+<http://www.yso.fi/onto/yso/p5268> <http://www.w3.org/2004/02/skos/core#prefLabel> "kierrätys"@fi .
+<http://www.yso.fi/onto/yso/p2156> <http://www.w3.org/2004/02/skos/core#prefLabel> "varor"@sv .
+<http://www.yso.fi/onto/yso/p2156> <http://www.w3.org/2004/02/skos/core#prefLabel> "tavarat"@fi .
+<http://www.yso.fi/onto/yso/p2156> <http://www.w3.org/2004/02/skos/core#prefLabel> "goods"@en .
+<http://id.insee.fr/concepts/definition/c1433> <http://www.w3.org/2004/02/skos/core#prefLabel> "Roundwood"@en .
+<http://id.insee.fr/concepts/definition/c1433> <http://rdf-vocabulary.ddialliance.org/xkos#plainText> "Roundwood includes any felled and fashioned wood before the first industrial processing: log (cut, trimmed trunk still covered with its bark), bolt or billet."@en .
+<http://id.insee.fr/concepts/definition/c1433> <http://www.w3.org/2004/02/skos/core#definition> <http://id.insee.fr/concepts/definition/c1433/definition/v1/en> .
+<http://id.insee.fr/concepts/definition/c1433> <http://www.w3.org/2004/02/skos/core#prefLabel> "Bois rond"@fr .
+<http://id.insee.fr/concepts/definition/c1433> <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.yso.fi/onto/afo/p97> .
+<http://www.yso.fi/onto/yso/p4029> <http://www.w3.org/2004/02/skos/core#prefLabel> "kauppa"@fi .
+<http://www.yso.fi/onto/yso/p4029> <http://www.w3.org/2004/02/skos/core#prefLabel> "trade"@en .
+<http://www.yso.fi/onto/yso/p4029> <http://www.w3.org/2004/02/skos/core#prefLabel> "handel"@sv .
+<http://id.insee.fr/concepts/definition/c1959> <http://www.w3.org/2004/02/skos/core#prefLabel> "Holiday"@en .
+<http://id.insee.fr/concepts/definition/c1959> <http://rdf-vocabulary.ddialliance.org/xkos#plainText> "According to the World Tourism Organisation (UNWTO), since 1995, holidays have been defined as all journeys for pleasure including at least four consecutive nights away from home. The following are not counted as holidays : professional trips ; study trips ; vacations for reasons of illness or the death of a relative ; health vacations in specialised establishments ; short breaks (two or three nights) and weekends. This is the notion used in the permanent living conditions surveys (EPCV) conducted by INSEE. This definition, found in similar surveys in all European Community countries, excludes weekends. It does not encompass the common notion of tourism. It is both broader (including all family vacations and non-tourist sites) and narrower (business tourism is not studied)."@en .
+<http://id.insee.fr/concepts/definition/c1959> <http://www.w3.org/2004/02/skos/core#definition> <http://id.insee.fr/concepts/definition/c1959/definition/v1/en> .
+<http://id.insee.fr/concepts/definition/c1959> <http://www.w3.org/2004/02/skos/core#prefLabel> "Vacances"@fr .
+<http://id.insee.fr/concepts/definition/c1959> <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.yso.fi/onto/yso/p9882> .
+<http://www.yso.fi/onto/yso/p6482> <http://www.w3.org/2004/02/skos/core#prefLabel> "company takeover"@en .
+<http://www.yso.fi/onto/yso/p6482> <http://www.w3.org/2004/02/skos/core#prefLabel> "yritysvaltaus"@fi .
+<http://www.yso.fi/onto/yso/p6482> <http://www.w3.org/2004/02/skos/core#prefLabel> "företagskapning"@sv .
+<http://id.insee.fr/concepts/definition/c1362> <http://www.w3.org/2004/02/skos/core#prefLabel> "Growth rate"@en .
+<http://id.insee.fr/concepts/definition/c1362> <http://rdf-vocabulary.ddialliance.org/xkos#plainText> "The growth rate of a value (GDP, turnover, wages, etc.) measures its change from one period to another (month, quarter, year). It is very generally expressed as a percentage. For example the GDP growth rate between year n-1 and year n is given by the formula : ((GDPn- GDP-1) / GDPn-1) * 100"@en .
+<http://id.insee.fr/concepts/definition/c1362> <http://www.w3.org/2004/02/skos/core#definition> <http://id.insee.fr/concepts/definition/c1362/definition/v1/en> .
+<http://id.insee.fr/concepts/definition/c1362> <http://www.w3.org/2004/02/skos/core#prefLabel> "Taux de croissance"@fr .
+<http://id.insee.fr/concepts/definition/c1362> <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.yso.fi/onto/afo/p5041> .
+<http://www.yso.fi/onto/yso/p1818> <http://www.w3.org/2004/02/skos/core#prefLabel> "nationality"@en .
+<http://www.yso.fi/onto/yso/p1818> <http://www.w3.org/2004/02/skos/core#prefLabel> "nationalitet"@sv .
+<http://www.yso.fi/onto/yso/p1818> <http://www.w3.org/2004/02/skos/core#prefLabel> "kansallisuus"@fi .
+<http://www.yso.fi/onto/afo/p3023> <http://www.w3.org/2004/02/skos/core#prefLabel> "recycling"@en .
+<http://www.yso.fi/onto/afo/p3023> <http://www.w3.org/2004/02/skos/core#prefLabel> "lasinkeräys"@fi .
+<http://www.yso.fi/onto/yso/p15057> <http://www.w3.org/2004/02/skos/core#prefLabel> "samhällsekonomi"@sv .
+<http://www.yso.fi/onto/yso/p15057> <http://www.w3.org/2004/02/skos/core#prefLabel> "kansantalous"@fi .
+<http://www.yso.fi/onto/yso/p15057> <http://www.w3.org/2004/02/skos/core#prefLabel> "national economy"@en .
+<http://id.insee.fr/concepts/definition/c1149> <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.yso.fi/onto/afo/p3285> .
+<http://id.insee.fr/concepts/definition/c1149> <http://www.w3.org/2004/02/skos/core#prefLabel> "Coal"@en .
+<http://id.insee.fr/concepts/definition/c1149> <http://rdf-vocabulary.ddialliance.org/xkos#plainText> "This term covers fossil coal, lignite, coke, agglomerates and recovery products. Fossil coal is the richest in carbon and has a water and volatile matter content lower than lignite. Coal coke is obtained by carbonising fossil coal."@en .
+<http://id.insee.fr/concepts/definition/c1149> <http://www.w3.org/2004/02/skos/core#definition> <http://id.insee.fr/concepts/definition/c1149/definition/v1/en> .
+<http://id.insee.fr/concepts/definition/c1149> <http://www.w3.org/2004/02/skos/core#prefLabel> "Charbon"@fr .
+<http://id.insee.fr/concepts/definition/c1149> <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.yso.fi/onto/yso/p13315> .
+<http://id.insee.fr/concepts/definition/c1867> <http://www.w3.org/2004/02/skos/core#prefLabel> "Wholesale trade"@en .
+<http://id.insee.fr/concepts/definition/c1867> <http://rdf-vocabulary.ddialliance.org/xkos#plainText> "Wholesale trade consists of purchasingand selling goods, generally to retailers, professional (industrial or commercial) users or authorities, or to other wholesalers or intermediaries, regardless of the quantities sold. Wholesale trade intermediaries put buyers and vendors into contact (or perform commercial operations for a third party), without being owners of the goods (these are commission agents, brokers, sales agents, self-employed representatives, etc.). Trading groups, other trade intermediaries, may be the owners of goods, which they sell to their members and their affiliates for a very low trade margin. Almost all goods may give rise to wholesale trade but only some of them are sold in retail (retail trade)."@en .
+<http://id.insee.fr/concepts/definition/c1867> <http://www.w3.org/2004/02/skos/core#definition> <http://id.insee.fr/concepts/definition/c1867/definition/v2/en> .
+<http://id.insee.fr/concepts/definition/c1867> <http://www.w3.org/2004/02/skos/core#prefLabel> "Commerce de gros"@fr .
+<http://id.insee.fr/concepts/definition/c1867> <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.yso.fi/onto/yso/p13331> .
+<http://id.insee.fr/concepts/definition/c1796> <http://www.w3.org/2004/02/skos/core#prefLabel> "Nationalité"@fr .
+<http://id.insee.fr/concepts/definition/c1796> <http://rdf-vocabulary.ddialliance.org/xkos#plainText> "Nationality refers to the belonging of a person to a State. It underlies both obligations and rights conferred to this person as to this State. In France, nationality can either be given in a mandatory manner to some people when they are born (thanks to jus soli, jus sanguinis) or be asked for. French nationality can be the result : of attribution by filiation (jus sanguinis) or by birth in France (jus soli) ; of acquisition further to personal events (marriage to a French national, for example) or a decision by the French authorities (naturalisation) French nationality is granted as a right from birth : to children, either legitimate or born outside marriage, of whom at least one of the parents is French (jus sanguinis) ; to children, either legitimate or born outside marriage, born in France when at least one of the parents was also born there (double jus soli)."@en .
+<http://id.insee.fr/concepts/definition/c1796> <http://www.w3.org/2004/02/skos/core#definition> <http://id.insee.fr/concepts/definition/c1796/definition/v1/en> .
+<http://id.insee.fr/concepts/definition/c1796> <http://www.w3.org/2004/02/skos/core#prefLabel> "Nationality"@en .
+<http://id.insee.fr/concepts/definition/c1796> <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.yso.fi/onto/yso/p1818> .
+<http://www.yso.fi/onto/yso/p11490> <http://www.w3.org/2004/02/skos/core#prefLabel> "rikollisuus"@fi .
+<http://www.yso.fi/onto/yso/p11490> <http://www.w3.org/2004/02/skos/core#prefLabel> "brottslighet"@sv .
+<http://www.yso.fi/onto/yso/p11490> <http://www.w3.org/2004/02/skos/core#prefLabel> "crime"@en .
+<http://www.yso.fi/onto/yso/p9882> <http://www.w3.org/2004/02/skos/core#prefLabel> "loma"@fi .
+<http://www.yso.fi/onto/yso/p9882> <http://www.w3.org/2004/02/skos/core#prefLabel> "holiday"@en .
+<http://www.yso.fi/onto/yso/p9882> <http://www.w3.org/2004/02/skos/core#prefLabel> "ledighet"@sv .
+<http://id.insee.fr/concepts/definition/c2129> <http://www.w3.org/2004/02/skos/core#prefLabel> "Récession"@fr .
+<http://id.insee.fr/concepts/definition/c2129> <http://rdf-vocabulary.ddialliance.org/xkos#plainText> "Period of temporary economic decline during which trade and industrial activity are reduced, generally identified by a fall in GDP in two successive quarters."@en .
+<http://id.insee.fr/concepts/definition/c2129> <http://www.w3.org/2004/02/skos/core#definition> <http://id.insee.fr/concepts/definition/c2129/definition/v1/en> .
+<http://id.insee.fr/concepts/definition/c2129> <http://www.w3.org/2004/02/skos/core#prefLabel> "Recession"@en .
+<http://id.insee.fr/concepts/definition/c2129> <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.yso.fi/onto/yso/p6176> .
+<http://www.yso.fi/onto/yso/p18519> <http://www.w3.org/2004/02/skos/core#prefLabel> "interests"@en .
+<http://www.yso.fi/onto/yso/p18519> <http://www.w3.org/2004/02/skos/core#prefLabel> "intressit"@fi .
+<http://www.yso.fi/onto/yso/p18519> <http://www.w3.org/2004/02/skos/core#prefLabel> "intressen"@sv .
+<http://www.yso.fi/onto/yso/p1229> <http://www.w3.org/2004/02/skos/core#prefLabel> "ikä"@fi .
+<http://www.yso.fi/onto/yso/p1229> <http://www.w3.org/2004/02/skos/core#prefLabel> "age"@en .
+<http://www.yso.fi/onto/yso/p1229> <http://www.w3.org/2004/02/skos/core#prefLabel> "ålder"@sv .
+<http://www.yso.fi/onto/yso/p24553> <http://www.w3.org/2004/02/skos/core#prefLabel> "satellite account"@en .
+<http://www.yso.fi/onto/yso/p24553> <http://www.w3.org/2004/02/skos/core#prefLabel> "satelliträkenskaper"@sv .
+<http://www.yso.fi/onto/yso/p24553> <http://www.w3.org/2004/02/skos/core#prefLabel> "satelliittitilinpito"@fi .
+<http://www.yso.fi/onto/yso/p838> <http://www.w3.org/2004/02/skos/core#prefLabel> "services"@en .
+<http://www.yso.fi/onto/yso/p838> <http://www.w3.org/2004/02/skos/core#prefLabel> "service"@sv .
+<http://www.yso.fi/onto/yso/p838> <http://www.w3.org/2004/02/skos/core#prefLabel> "palvelut"@fi .
+<http://www.yso.fi/onto/yso/p475> <http://www.w3.org/2004/02/skos/core#prefLabel> "ammattikasvatus"@fi .
+<http://www.yso.fi/onto/yso/p475> <http://www.w3.org/2004/02/skos/core#prefLabel> "vocational training"@en .
+<http://www.yso.fi/onto/yso/p475> <http://www.w3.org/2004/02/skos/core#prefLabel> "fackutbildning"@sv .
+<http://www.yso.fi/onto/afo/p3799> <http://www.w3.org/2004/02/skos/core#prefLabel> "biodiversiteetti"@fi .
+<http://www.yso.fi/onto/afo/p3799> <http://www.w3.org/2004/02/skos/core#prefLabel> "biodiversity"@en .
+<http://www.yso.fi/onto/afo/p777> <http://www.w3.org/2004/02/skos/core#prefLabel> "building industry"@en .
+<http://www.yso.fi/onto/afo/p777> <http://www.w3.org/2004/02/skos/core#altLabel> "construction industry"@en .
+<http://www.yso.fi/onto/afo/p777> <http://www.w3.org/2004/02/skos/core#prefLabel> "rakennusteollisuus"@fi .
+<http://www.yso.fi/onto/yso/p9827> <http://www.w3.org/2004/02/skos/core#prefLabel> "eurozone"@en .
+<http://www.yso.fi/onto/yso/p9827> <http://www.w3.org/2004/02/skos/core#prefLabel> "euroområdet"@sv .
+<http://www.yso.fi/onto/yso/p9827> <http://www.w3.org/2004/02/skos/core#prefLabel> "euroalue"@fi .
+<http://www.yso.fi/onto/afo/p2238> <http://www.w3.org/2004/02/skos/core#prefLabel> "recycling"@en .
+<http://www.yso.fi/onto/afo/p2238> <http://www.w3.org/2004/02/skos/core#prefLabel> "kierrätys"@fi .
+<http://id.insee.fr/concepts/definition/c1144> <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.yso.fi/onto/afo/p5297> .
+<http://id.insee.fr/concepts/definition/c1144> <http://www.w3.org/2004/02/skos/core#prefLabel> "Catches"@en .
+<http://id.insee.fr/concepts/definition/c1144> <http://rdf-vocabulary.ddialliance.org/xkos#plainText> "Catches are quantities of fish, crustaceans, molluscs and algae fished by ships and kept on board. They are expressed in \"live weight\" equivalent. Some ships store their catch as it is, while others convert their fished products on board (evisceration or freezing for example)."@en .
+<http://id.insee.fr/concepts/definition/c1144> <http://www.w3.org/2004/02/skos/core#definition> <http://id.insee.fr/concepts/definition/c1144/definition/v1/en> .
+<http://id.insee.fr/concepts/definition/c1144> <http://www.w3.org/2004/02/skos/core#prefLabel> "Captures"@fr .
+<http://id.insee.fr/concepts/definition/c1144> <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.yso.fi/onto/yso/p5882> .
+<http://www.yso.fi/onto/afo/p5793> <http://www.w3.org/2004/02/skos/core#prefLabel> "Master"@en .
+<http://www.yso.fi/onto/afo/p5793> <http://www.w3.org/2004/02/skos/core#altLabel> "M.Sc. theses"@en .
+<http://www.yso.fi/onto/afo/p5793> <http://www.w3.org/2004/02/skos/core#altLabel> "MSc theses"@en .
+<http://www.yso.fi/onto/afo/p5793> <http://www.w3.org/2004/02/skos/core#altLabel> "tarkista"@en .
+<http://www.yso.fi/onto/afo/p5793> <http://www.w3.org/2004/02/skos/core#altLabel> "hyväksytty"@en .
+<http://www.yso.fi/onto/afo/p5793> <http://www.w3.org/2004/02/skos/core#altLabel> "s theses"@en .
+<http://www.yso.fi/onto/afo/p5793> <http://www.w3.org/2004/02/skos/core#prefLabel> "pro gradu -tutkielmat"@fi .
+<http://www.yso.fi/onto/yso/p14777> <http://www.w3.org/2004/02/skos/core#prefLabel> "affärsbranschen"@sv .
+<http://www.yso.fi/onto/yso/p14777> <http://www.w3.org/2004/02/skos/core#prefLabel> "liikeala"@fi .
+<http://www.yso.fi/onto/yso/p14777> <http://www.w3.org/2004/02/skos/core#prefLabel> "business sector"@en .
+<http://id.insee.fr/concepts/definition/c1094> <http://www.w3.org/2004/02/skos/core#prefLabel> "Tourism"@en .
+<http://id.insee.fr/concepts/definition/c1094> <http://rdf-vocabulary.ddialliance.org/xkos#plainText> "Tourism includes activities by people in the course of their travels and vacations in places located outside their habitual environment for a consecutive period not exceeding one year, for the purposes of leisure, business and other reasons with no relation to paid activity in the place visited."@en .
+<http://id.insee.fr/concepts/definition/c1094> <http://www.w3.org/2004/02/skos/core#definition> <http://id.insee.fr/concepts/definition/c1094/definition/v1/en> .
+<http://id.insee.fr/concepts/definition/c1094> <http://www.w3.org/2004/02/skos/core#prefLabel> "Tourisme"@fr .
+<http://id.insee.fr/concepts/definition/c1094> <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.yso.fi/onto/afo/p2550> .
+<http://www.yso.fi/onto/yso/p5421> <http://www.w3.org/2004/02/skos/core#prefLabel> "fjädring"@sv .
+<http://www.yso.fi/onto/yso/p5421> <http://www.w3.org/2004/02/skos/core#prefLabel> "suspension"@en .
+<http://www.yso.fi/onto/yso/p5421> <http://www.w3.org/2004/02/skos/core#prefLabel> "jousitus"@fi .
+<http://www.yso.fi/onto/afo/p664> <http://www.w3.org/2004/02/skos/core#prefLabel> "teollisuus"@fi .
+<http://www.yso.fi/onto/afo/p664> <http://www.w3.org/2004/02/skos/core#prefLabel> "industry"@en .
+<http://www.yso.fi/onto/yso/p13600> <http://www.w3.org/2004/02/skos/core#prefLabel> "etabloituminen"@fi .
+<http://www.yso.fi/onto/yso/p13600> <http://www.w3.org/2004/02/skos/core#prefLabel> "etablering"@sv .
+<http://www.yso.fi/onto/yso/p13600> <http://www.w3.org/2004/02/skos/core#prefLabel> "establishment"@en .
+<http://id.insee.fr/concepts/definition/c1244> <http://www.w3.org/2004/02/skos/core#prefLabel> "General government"@en .
+<http://id.insee.fr/concepts/definition/c1244> <http://rdf-vocabulary.ddialliance.org/xkos#plainText> "The sector of general government (S.13) consists of the institutional units whose main function is to produce non-market goods and services or to perform operations involving the redistribution of income and national wealth and whose resources mainly come from compulsory contributions paid by other units from other institutional sectors. The sector of general government includes legal entities vested with executive, legislative and judicial powers. The general government sector includes central government (S.1311), local government (S.1313) and social security funds (S.1314)."@en .
+<http://id.insee.fr/concepts/definition/c1244> <http://www.w3.org/2004/02/skos/core#definition> <http://id.insee.fr/concepts/definition/c1244/definition/v1/en> .
+<http://id.insee.fr/concepts/definition/c1244> <http://www.w3.org/2004/02/skos/core#prefLabel> "Administrations publiques"@fr .
+<http://id.insee.fr/concepts/definition/c1244> <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.yso.fi/onto/yso/p1691> .
+<http://www.yso.fi/onto/afo/p5175> <http://www.w3.org/2004/02/skos/core#prefLabel> "ammattikoulutus"@fi .
+<http://www.yso.fi/onto/afo/p5175> <http://www.w3.org/2004/02/skos/core#altLabel> "professional education"@en .
+<http://www.yso.fi/onto/afo/p5175> <http://www.w3.org/2004/02/skos/core#prefLabel> "vocational training"@en .
+<http://id.insee.fr/concepts/definition/c2187> <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.yso.fi/onto/yso/p20885> .
+<http://id.insee.fr/concepts/definition/c2187> <http://www.w3.org/2004/02/skos/core#prefLabel> "Equipment"@en .
+<http://id.insee.fr/concepts/definition/c2187> <http://rdf-vocabulary.ddialliance.org/xkos#plainText> "A facility is a service, commercial or not, accessible to the population. It can be a layout (bathing zone, remarkable space, heritage), an infrastructure (gymnasium, swimming pool, station, etc.) or a service (shops, bank, court, etc.).It is listed in the Base permanente des équipements (BPE) on January 1st of each year. Most of the time, the establishment is the entity identified as equipment, but equipment can also refer to the service provided within an establishment (for example, a maternity service may be provided in an autonomous establishment or in a multidisciplinary establishment). Facilities are grouped into categories called types of facilities. The types of facilities are grouped into 7 groups: personal services; shops; education; health and social services; transports and travel; sports-leisure-culture; tourism. The nomenclature of types of equipment is updated every year."@en .
+<http://id.insee.fr/concepts/definition/c2187> <http://www.w3.org/2004/02/skos/core#definition> <http://id.insee.fr/concepts/definition/c2187/definition/v1/en> .
+<http://id.insee.fr/concepts/definition/c2187> <http://www.w3.org/2004/02/skos/core#prefLabel> "Équipement"@fr .
+<http://id.insee.fr/concepts/definition/c2187> <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.yso.fi/onto/yso/p4577> .
+<http://www.yso.fi/onto/yso/p15373> <http://www.w3.org/2004/02/skos/core#prefLabel> "tax at source"@en .
+<http://www.yso.fi/onto/yso/p15373> <http://www.w3.org/2004/02/skos/core#prefLabel> "lähdevero"@fi .
+<http://www.yso.fi/onto/yso/p15373> <http://www.w3.org/2004/02/skos/core#prefLabel> "källskatt"@sv .
+<http://id.insee.fr/concepts/definition/c1486> <http://www.w3.org/2004/02/skos/core#prefLabel> "Recensement de la population"@fr .
+<http://id.insee.fr/concepts/definition/c1486> <http://rdf-vocabulary.ddialliance.org/xkos#plainText> "The aim of the population census is to count the homes and the population living in France and to determine their main characteristics: gender, age, activity, professions, characteristics of the households, size and type of housing, modes of transport, daily travel. The census, started in 1801, was performed every 5 years up to 1936. From 1946 to 1999, the periods between one census and the next varied from 6 to 9 years. The information collected is of interest to the local authorities, the State departments but also enterprises, sociologists, town planners, etc.Such information helps to define :- on the national level, the social policies and infrastructures to be implemented ;- on the local level, the urban policies for transport, housing, cultural and sports facilities, school infrastructures and the installation of facilities for young people and senior citizens. For private stakeholders, the census is used for projects for the location of enterprises, shops and services.The law of 27 February 2002 on local democracy brought about an in-depth change in the census methods. Since January 2004, the traditional count has been replaced by annual census surveys. Municipalities with less than 10,000 inhabitants are still covered by an exhaustive census as in the past but once every 5 years instead of every 8 or 9 years. The municipalities of 10,000 inhabitants and over are now covered by an annual survey but on a sample of 8% of the population, scattered over their territory. After 5 years, the entire territory of these municipalities has been covered and the results of the census are calculated on the basis of a sample of 40% of the population thus constituted.As from the end of 2008, after the first five census surveys, INSEE will publish for the first time the legal population of each municipality and then, as from 2009, the complete statistical results on the inhabitants and their housing. However, before 2008, INSEE will publish provisional results taken from the annual census surveys."@en .
+<http://id.insee.fr/concepts/definition/c1486> <http://www.w3.org/2004/02/skos/core#definition> <http://id.insee.fr/concepts/definition/c1486/definition/v2/en> .
+<http://id.insee.fr/concepts/definition/c1486> <http://www.w3.org/2004/02/skos/core#prefLabel> "Population census"@en .
+<http://id.insee.fr/concepts/definition/c1486> <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.yso.fi/onto/yso/p9261> .
+<http://id.insee.fr/concepts/definition/c1294> <http://www.w3.org/2004/02/skos/core#prefLabel> "Juridiction"@fr .
+<http://id.insee.fr/concepts/definition/c1294> <http://rdf-vocabulary.ddialliance.org/xkos#plainText> "This term refers to a tribunal or a court. There are two types of jurisdictions, administrative jurisdictions and judicial jurisdictions."@en .
+<http://id.insee.fr/concepts/definition/c1294> <http://www.w3.org/2004/02/skos/core#definition> <http://id.insee.fr/concepts/definition/c1294/definition/v1/en> .
+<http://id.insee.fr/concepts/definition/c1294> <http://www.w3.org/2004/02/skos/core#prefLabel> "Jurisdiction"@en .
+<http://id.insee.fr/concepts/definition/c1294> <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.yso.fi/onto/yso/p13041> .
+<http://www.yso.fi/onto/afo/p5041> <http://www.w3.org/2004/02/skos/core#prefLabel> "growth rate"@en .
+<http://www.yso.fi/onto/afo/p5041> <http://www.w3.org/2004/02/skos/core#prefLabel> "kasvunopeus"@fi .
+<http://id.insee.fr/concepts/definition/c1465> <http://www.w3.org/2004/02/skos/core#prefLabel> "Famille"@fr .
+<http://id.insee.fr/concepts/definition/c1465> <http://rdf-vocabulary.ddialliance.org/xkos#plainText> "A family is the part of a household with at least two persons who are :- a married couple or not, with its child (if they have) belonging to the same household ;- an adult with its child belonging to the same household (single-parent family).In a family, the child, to be considered as one, must be single (without its own children) and have no spouse or child who belong to the same household. A household can include zero, one or several families."@en .
+<http://id.insee.fr/concepts/definition/c1465> <http://www.w3.org/2004/02/skos/core#definition> <http://id.insee.fr/concepts/definition/c1465/definition/v2/en> .
+<http://id.insee.fr/concepts/definition/c1465> <http://rdf-vocabulary.ddialliance.org/xkos#plainText> "A family is the part of a household with at least two persons who are :- a couple living within a household, with its child (if they have) belonging to the same household ;- an adult with its child belonging to the same household (single-parent family).In a family, the child, to be considered as one, must be single (without its own children) and have no spouse or child who belong to the same household. A household can include zero, one or several families."@en .
+<http://id.insee.fr/concepts/definition/c1465> <http://www.w3.org/2004/02/skos/core#definition> <http://id.insee.fr/concepts/definition/c1465/definition/v3/en> .
+<http://id.insee.fr/concepts/definition/c1465> <http://www.w3.org/2004/02/skos/core#prefLabel> "Family"@en .
+<http://id.insee.fr/concepts/definition/c1465> <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.yso.fi/onto/yso/p2794> .
+<http://id.insee.fr/concepts/definition/c2195> <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.yso.fi/onto/yso/p11516> .
+<http://id.insee.fr/concepts/definition/c2195> <http://www.w3.org/2004/02/skos/core#prefLabel> "Ozone"@fr .
+<http://id.insee.fr/concepts/definition/c2195> <http://rdf-vocabulary.ddialliance.org/xkos#plainText> "Gas with a high oxidising power, formed of three oxygen atoms (O3). Outdoor air pollution is concerned with the ozone present in the lower layers of the atmosphere (between 0 and 12 km above the ground). It is formed from other pollutants emitted by human activities as well as by vegetation under the influence of solar activity. A too high concentration of ozone in the air is harmful to human health and ecosystems. The monitoring of the ozone hole focuses on the naturally occurring ozone in the Earth's stratosphere, mainly at an altitude of 15-20 km. By filtering out a large part of the sun's ultraviolet (UV) radiation, mainly UVC and UVB, this layer protects living beings, as overexposure to UV can have harmful effects on human health (cataracts, skin cancer, weakening of the immune system) and on plants (inhibition of the photosynthetic activity of plants). Guaranteeing the integrity of the ozone layer is therefore a major challenge, as its excessive thinning, or even its disappearance in certain areas, can have serious consequences for humans and ecosystems."@en .
+<http://id.insee.fr/concepts/definition/c2195> <http://www.w3.org/2004/02/skos/core#definition> <http://id.insee.fr/concepts/definition/c2195/definition/v1/en> .
+<http://id.insee.fr/concepts/definition/c2195> <http://www.w3.org/2004/02/skos/core#prefLabel> "Ozone"@en .
+<http://id.insee.fr/concepts/definition/c2195> <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.yso.fi/onto/afo/p597> .
+<http://www.yso.fi/onto/yso/p20405> <http://www.w3.org/2004/02/skos/core#prefLabel> "Internet"@fi .
+<http://www.yso.fi/onto/yso/p20405> <http://www.w3.org/2004/02/skos/core#prefLabel> "Internet"@sv .
+<http://www.yso.fi/onto/yso/p20405> <http://www.w3.org/2004/02/skos/core#prefLabel> "internet"@en .
+<http://id.insee.fr/concepts/definition/c1423> <http://www.w3.org/2004/02/skos/core#prefLabel> "Sociétés d'assurances"@fr .
+<http://id.insee.fr/concepts/definition/c1423> <http://rdf-vocabulary.ddialliance.org/xkos#plainText> "Set of financial companies and quasi-corporations the main function of which consists in providing financial intermediation services resulting from the pooling of risks."@en .
+<http://id.insee.fr/concepts/definition/c1423> <http://www.w3.org/2004/02/skos/core#definition> <http://id.insee.fr/concepts/definition/c1423/definition/v1/en> .
+<http://id.insee.fr/concepts/definition/c1423> <http://www.w3.org/2004/02/skos/core#prefLabel> "Insurance companies"@en .
+<http://id.insee.fr/concepts/definition/c1423> <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.yso.fi/onto/yso/p15553> .
+<http://www.yso.fi/onto/yso/p4628> <http://www.w3.org/2004/02/skos/core#prefLabel> "handelsomsättning"@sv .
+<http://www.yso.fi/onto/yso/p4628> <http://www.w3.org/2004/02/skos/core#prefLabel> "liikevaihto"@fi .
+<http://www.yso.fi/onto/yso/p4628> <http://www.w3.org/2004/02/skos/core#prefLabel> "turnover"@en .
+<http://id.insee.fr/concepts/definition/c1757> <http://www.w3.org/2004/02/skos/core#prefLabel> "Personnalité juridique"@fr .
+<http://id.insee.fr/concepts/definition/c1757> <http://rdf-vocabulary.ddialliance.org/xkos#plainText> "Natural persons and corporate bodies have a legal status. Natural persons acquire their legal status at birth and lose it upon their death. A corporate body is created by the private will of its member(s) materialised by the signing of articles of association and its listing with the Business Register for a company and with the Prefecture for an association. It ends when it is wound up. The legal status of the corporate body is distinct from the legal status of each of its members."@en .
+<http://id.insee.fr/concepts/definition/c1757> <http://www.w3.org/2004/02/skos/core#definition> <http://id.insee.fr/concepts/definition/c1757/definition/v1/en> .
+<http://id.insee.fr/concepts/definition/c1757> <http://www.w3.org/2004/02/skos/core#prefLabel> "Legal status"@en .
+<http://id.insee.fr/concepts/definition/c1757> <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.yso.fi/onto/yso/p4601> .
+<http://id.insee.fr/concepts/definition/c2132> <http://www.w3.org/2004/02/skos/core#prefLabel> "Carbon footprint"@en .
+<http://id.insee.fr/concepts/definition/c2132> <http://rdf-vocabulary.ddialliance.org/xkos#plainText> "France's carbon footprint represents the amount of greenhouse gases (GHGs) induced by a country's domestic final demand (consumption by households, public administrations and non-profit organisations and investments), whether the goods or services consumed are produced domestically or imported. France’s carbon footprint is therefore made up of: direct GHG emissions from households (mainly related to the combustion of passenger car fuels and the combustion of fossil fuels for home heating); GHG emissions from domestic production of goods and services for domestic demand (i.e. excluding exports); GHG emissions associated with imported goods and services, for intermediate consumption by companies or for final use by households. By taking into account the greenhouse gas content of imports, the carbon footprint makes it possible to assess the pressures on the climate of French domestic demand regardless of the geographical origin of the products consumed."@en .
+<http://id.insee.fr/concepts/definition/c2132> <http://www.w3.org/2004/02/skos/core#definition> <http://id.insee.fr/concepts/definition/c2132/definition/v1/en> .
+<http://id.insee.fr/concepts/definition/c2132> <http://www.w3.org/2004/02/skos/core#prefLabel> "Empreinte carbone"@fr .
+<http://id.insee.fr/concepts/definition/c2132> <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.yso.fi/onto/yso/p21899> .
+<http://www.yso.fi/onto/yso/p14651> <http://www.w3.org/2004/02/skos/core#prefLabel> "euro"@en .
+<http://www.yso.fi/onto/yso/p14651> <http://www.w3.org/2004/02/skos/core#prefLabel> "euro"@fi .
+<http://www.yso.fi/onto/yso/p14651> <http://www.w3.org/2004/02/skos/core#prefLabel> "euro"@sv .
+<http://id.insee.fr/concepts/definition/c1523> <http://www.w3.org/2004/02/skos/core#prefLabel> "IRIS"@fr .
+<http://id.insee.fr/concepts/definition/c1523> <http://rdf-vocabulary.ddialliance.org/xkos#plainText> "In order to prepare for the dissemination of the 1999 population census, INSEE developed a system for dividing the country into units of equal size, known as IRIS2000. In French, IRIS is an acronym of ‘aggregated units for statistical information’, and the 2000 refers to the target size of 2000 residents per basic unit.Since that time IRIS (the term which has replaced IRIS2000) has represented the fundamental unit for dissemination of infra-municipal data. These units must respect geographic and demographic criteria and have borders which are clearly identifiable and stable in the long term.Towns with more than 10,000 inhabitants, and a large proportion of towns with between 5,000 and 10,000 inhabitants, are divided into several IRIS units. This separation represents a division of the territory. France is composed of around 16,100 IRIS, of which 650 are in the overseas departments.By extension, in order to cover the whole of the country, all towns not divided into IRIS units constitute IRIS units in themselves.There are 3 types of IRIS unit:- the residential IRIS: population generally falls between 1,800 and 5,000. The unit is homogeneous in terms of living environment and the boundaries of the unit are based on the major dividing lines provided by the urban fabric (main roads, railways, bodies of water etc.)- the business IRIS: containing more than 1,000 employees, with at least twice as many employees as other residents.- the miscellaneous IRIS units: specific large zones which are sparsely inhabited and have a large surface area (leisure parks, ports, forests etc.).As of January 1st 2008, 92% of IRIS units were residential, with 5% business. Since their creation, the demographic characteristics of certain IRIS units may have evolved, although their classification will not have been updated.In 2008 a very partial reworking of the division system was undertaken to take into account major developments in the road network or demographics. This reworking was limited to around 100 IRIS units, in order to preserve continuity in the data publication series.Division of a territory into IRIS units may be affected by modifications in the geography of the municipalities (merging of towns or villages, founding or repopulation of municipalities, land exchanges). So it is useful to specify the year of reference, for example by noting either IRIS-geography 1999 or IRIS-geography 2008."@en .
+<http://id.insee.fr/concepts/definition/c1523> <http://www.w3.org/2004/02/skos/core#definition> <http://id.insee.fr/concepts/definition/c1523/definition/v1/en> .
+<http://id.insee.fr/concepts/definition/c1523> <http://www.w3.org/2004/02/skos/core#prefLabel> "IRIS"@en .
+<http://id.insee.fr/concepts/definition/c1523> <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.yso.fi/onto/afo/p1038> .
+<http://www.yso.fi/onto/yso/p10103> <http://www.w3.org/2004/02/skos/core#prefLabel> "tukipalkkiot"@fi .
+<http://www.yso.fi/onto/yso/p10103> <http://www.w3.org/2004/02/skos/core#prefLabel> "subsidies"@en .
+<http://www.yso.fi/onto/yso/p10103> <http://www.w3.org/2004/02/skos/core#prefLabel> "subventioner"@sv .
+<http://id.insee.fr/concepts/definition/c1473> <http://www.w3.org/2004/02/skos/core#prefLabel> "Inflation"@fr .
+<http://id.insee.fr/concepts/definition/c1473> <http://rdf-vocabulary.ddialliance.org/xkos#plainText> "Inflation is the loss of purchasing power of the currency that results in an increase general and sustainable prices. It must be distinguished from the increase in the cost of living. The loss in value of the money is a phenomenon that strikes the national economy as a whole (households, businesses, etc.). The index of consumer prices (CPI) is used to assess inflation . This measure is partial since inflation covers a broader scope than just the household consumption."@en .
+<http://id.insee.fr/concepts/definition/c1473> <http://www.w3.org/2004/02/skos/core#definition> <http://id.insee.fr/concepts/definition/c1473/definition/v1/en> .
+<http://id.insee.fr/concepts/definition/c1473> <http://www.w3.org/2004/02/skos/core#prefLabel> "Inflation"@en .
+<http://id.insee.fr/concepts/definition/c1473> <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.yso.fi/onto/yso/p622> .
+<http://id.insee.fr/concepts/definition/c1644> <http://www.w3.org/2004/02/skos/core#prefLabel> "Sustainable development"@en .
+<http://id.insee.fr/concepts/definition/c1644> <http://rdf-vocabulary.ddialliance.org/xkos#plainText> "Sustainable development is \"development that meets the needs of the present without compromising the ability of future generations to meet their own needs\", a quotation from Mrs Gro Harlem Brundtland, Norwegian Prime Minister (1987). In 1992, the Earth Summit in Rio de Janeiro, held under the aegis of the United Nations, made official the notion of sustainable development and that of the three pillars (economy/ecology/social): economically efficient, socially fair and ecologically sustainable development."@en .
+<http://id.insee.fr/concepts/definition/c1644> <http://www.w3.org/2004/02/skos/core#definition> <http://id.insee.fr/concepts/definition/c1644/definition/v1/en> .
+<http://id.insee.fr/concepts/definition/c1644> <http://www.w3.org/2004/02/skos/core#prefLabel> "Développement durable"@fr .
+<http://id.insee.fr/concepts/definition/c1644> <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.yso.fi/onto/yso/p8470> .
+<http://id.insee.fr/concepts/definition/c1452> <http://www.w3.org/2004/02/skos/core#prefLabel> "Productivity"@en .
+<http://id.insee.fr/concepts/definition/c1452> <http://rdf-vocabulary.ddialliance.org/xkos#plainText> "In economics, productivity is defined as the ratio, in volume, between production and the resources used to obtain that production.Production means goods and/or services produced. The resources used, also called production factors, mean labour, technical means (installations, machines, tooling, etc.), the capital invested, intermediate consumption (raw materials, power, transport, etc.) as well as factors less easy to grasp but extremely important, such as the accumulation of know-how.Productivity can also be calculated in relation to a single type of resources such as labour or capital. Then we speak about apparent productivity.The apparent productivity of labour is a widely used measurement. The apparent productivity of capital can also be calculated."@en .
+<http://id.insee.fr/concepts/definition/c1452> <http://www.w3.org/2004/02/skos/core#definition> <http://id.insee.fr/concepts/definition/c1452/definition/v2/en> .
+<http://id.insee.fr/concepts/definition/c1452> <http://www.w3.org/2004/02/skos/core#prefLabel> "Productivité"@fr .
+<http://id.insee.fr/concepts/definition/c1452> <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.yso.fi/onto/yso/p4259> .
+<http://www.yso.fi/onto/yso/p1182> <http://www.w3.org/2004/02/skos/core#prefLabel> "entreprenörskap"@sv .
+<http://www.yso.fi/onto/yso/p1182> <http://www.w3.org/2004/02/skos/core#prefLabel> "yrittäjyys"@fi .
+<http://www.yso.fi/onto/yso/p1182> <http://www.w3.org/2004/02/skos/core#prefLabel> "enterprise"@en .
+<http://id.insee.fr/concepts/definition/c2161> <http://www.w3.org/2004/02/skos/core#prefLabel> "Education and training"@en .
+<http://id.insee.fr/concepts/definition/c2161> <http://rdf-vocabulary.ddialliance.org/xkos#plainText> "An education or training activity is a form of learning activity that is both institutionalised and organised. The \" Classification of learning activities \" (CLA), elaborated by Eurostat, has been constructed to classify uniformly every offer of learning activity and of teaching/learning paths in all European Union countries. In the CLA, learning activities are determined by an intention : the intention of learning of the learner. Learning activities are divided in three categories : formal education or training, non formal education or training and informal learning. To be classified in education or training, formal or non formal, the learning activity needs to fulfil the following criteria : it must be planned / organised ; its framework must be institutionalised. The CLA specifies the criteria to determine whether learning activities are institutionalised or not. They must be planned by an agency or body which is responsible for setting at least : the teaching/learning methods (predetermined) ; the learning schedule ; the admission requirements ; the location where the learning/teaching will take place. The education or training can take place in the presence of a responsible teacher as well as via distance teaching/learning. It presupposes the existence, in an education or training activity, of a formalised relationship, as a student-teacher interaction. Informal learning differs from education and learning in that the activity doesn’t require any institutionalised framework ; in particular, there is no structured relationship or interaction like a student-teacher one."@en .
+<http://id.insee.fr/concepts/definition/c2161> <http://www.w3.org/2004/02/skos/core#definition> <http://id.insee.fr/concepts/definition/c2161/definition/v1/en> .
+<http://id.insee.fr/concepts/definition/c2161> <http://www.w3.org/2004/02/skos/core#prefLabel> "Formation"@fr .
+<http://id.insee.fr/concepts/definition/c2161> <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.yso.fi/onto/yso/p84> .
+<http://www.yso.fi/onto/yso/p2567> <http://www.w3.org/2004/02/skos/core#prefLabel> "nitrates"@en .
+<http://www.yso.fi/onto/yso/p2567> <http://www.w3.org/2004/02/skos/core#prefLabel> "nitraatit"@fi .
+<http://www.yso.fi/onto/yso/p2567> <http://www.w3.org/2004/02/skos/core#prefLabel> "nitrater"@sv .
+<http://id.insee.fr/concepts/definition/c2219> <http://www.w3.org/2004/02/skos/core#prefLabel> "Coût du travail"@fr .
+<http://id.insee.fr/concepts/definition/c2219> <http://rdf-vocabulary.ddialliance.org/xkos#plainText> "Labour costs represent the total expenditure incurred by employers for the employment of employees. They represent a cost of salaried labour force, that is why they are sometimes referred to as salary costs. In addition to gross wages, labour costs include the social contributions payable by the employer (social security, unemployment, pension, provident scheme, severance pay), whether compulsory, conventional or optional, but net of exemptions, in particular of reductions in social security contributions. They also cover the costs of vocational training (apprenticeship tax, employers' contributions to the financing of vocational training, etc.), taxes on wages and other taxes relating to employment, net of subsidies intended to promote employment and received by the employer, such as the tax credit for competitiveness and employment (CICE), for example. Finally, they include other expenses related to the employment of employees such as recruitment costs."@en .
+<http://id.insee.fr/concepts/definition/c2219> <http://www.w3.org/2004/02/skos/core#definition> <http://id.insee.fr/concepts/definition/c2219/definition/v1/en> .
+<http://id.insee.fr/concepts/definition/c2219> <http://www.w3.org/2004/02/skos/core#prefLabel> "Labour costs"@en .
+<http://id.insee.fr/concepts/definition/c2219> <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.yso.fi/onto/yso/p12772> .
+<http://id.insee.fr/concepts/definition/c1268> <http://www.w3.org/2004/02/skos/core#prefLabel> "Building industry"@en .
+<http://id.insee.fr/concepts/definition/c1268> <http://rdf-vocabulary.ddialliance.org/xkos#plainText> "The building industry is essentially an activity of deployment or installation on the customer's worksite and which concerns new work as well as renovation, repairs and maintenance. This industry corresponds to section F of NAF Rev. 2 classification."@en .
+<http://id.insee.fr/concepts/definition/c1268> <http://www.w3.org/2004/02/skos/core#definition> <http://id.insee.fr/concepts/definition/c1268/definition/v1/en> .
+<http://id.insee.fr/concepts/definition/c1268> <http://www.w3.org/2004/02/skos/core#prefLabel> "Construction"@fr .
+<http://id.insee.fr/concepts/definition/c1268> <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.yso.fi/onto/afo/p777> .
+<http://www.yso.fi/onto/yso/p84> <http://www.w3.org/2004/02/skos/core#prefLabel> "koulutus"@fi .
+<http://www.yso.fi/onto/yso/p84> <http://www.w3.org/2004/02/skos/core#prefLabel> "utbildning"@sv .
+<http://www.yso.fi/onto/yso/p84> <http://www.w3.org/2004/02/skos/core#prefLabel> "education and training"@en .
+<http://www.yso.fi/onto/yso/p3881> <http://www.w3.org/2004/02/skos/core#prefLabel> "förvaltningsrättslig lagskipning"@sv .
+<http://www.yso.fi/onto/yso/p3881> <http://www.w3.org/2004/02/skos/core#prefLabel> "administrative jurisdiction"@en .
+<http://www.yso.fi/onto/yso/p3881> <http://www.w3.org/2004/02/skos/core#prefLabel> "hallintolainkäyttö"@fi .
+<http://www.yso.fi/onto/afo/p1811> <http://www.w3.org/2004/02/skos/core#prefLabel> "population"@en .
+<http://www.yso.fi/onto/afo/p1811> <http://www.w3.org/2004/02/skos/core#altLabel> "human population"@en .
+<http://www.yso.fi/onto/afo/p1811> <http://www.w3.org/2004/02/skos/core#prefLabel> "väestö"@fi .
+<http://id.insee.fr/concepts/definition/c1831> <http://www.w3.org/2004/02/skos/core#prefLabel> "Secteur d'activité"@fr .
+<http://id.insee.fr/concepts/definition/c1831> <http://rdf-vocabulary.ddialliance.org/xkos#plainText> "A sector includes manufacturing, commercial or service enterprises which have the same main business (in respect to the classification of economic activities considered). The activity of a sector is not therefore homogeneous and includes secondary productions or services which would come under other items of the classification than that of the sector considered. In contrast, a branch includes homogeneous production units."@en .
+<http://id.insee.fr/concepts/definition/c1831> <http://www.w3.org/2004/02/skos/core#definition> <http://id.insee.fr/concepts/definition/c1831/definition/v2/en> .
+<http://id.insee.fr/concepts/definition/c1831> <http://www.w3.org/2004/02/skos/core#prefLabel> "Business sector"@en .
+<http://id.insee.fr/concepts/definition/c1831> <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.yso.fi/onto/yso/p14777> .
+<http://id.insee.fr/concepts/definition/c1084> <http://www.w3.org/2004/02/skos/core#prefLabel> "Enseignement du second degré"@fr .
+<http://id.insee.fr/concepts/definition/c1084> <http://rdf-vocabulary.ddialliance.org/xkos#plainText> "Secondary education follows pre-elementary and elementary education. It is taught in secondary middle schools and then in general technological and professional secondary high schools."@en .
+<http://id.insee.fr/concepts/definition/c1084> <http://www.w3.org/2004/02/skos/core#definition> <http://id.insee.fr/concepts/definition/c1084/definition/v2/en> .
+<http://id.insee.fr/concepts/definition/c1084> <http://rdf-vocabulary.ddialliance.org/xkos#plainText> "Secondary education covers the education given in general and technological secondary schools (middle schools and high schools), and the professional secondary schools of the Ministry for National Education or other ministries (mainly the Ministry for Agriculture)."@en .
+<http://id.insee.fr/concepts/definition/c1084> <http://www.w3.org/2004/02/skos/core#definition> <http://id.insee.fr/concepts/definition/c1084/definition/v1/en> .
+<http://id.insee.fr/concepts/definition/c1084> <http://www.w3.org/2004/02/skos/core#prefLabel> "Secondary education"@en .
+<http://id.insee.fr/concepts/definition/c1084> <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.yso.fi/onto/yso/p3387> .
+<http://www.yso.fi/onto/afo/p846> <http://www.w3.org/2004/02/skos/core#prefLabel> "paperinkeräys"@fi .
+<http://www.yso.fi/onto/afo/p846> <http://www.w3.org/2004/02/skos/core#prefLabel> "recycling"@en .
+<http://id.insee.fr/concepts/definition/c1447> <http://www.w3.org/2004/02/skos/core#prefLabel> "Contrefaçon"@fr .
+<http://id.insee.fr/concepts/definition/c1447> <http://rdf-vocabulary.ddialliance.org/xkos#plainText> "The forgery is defined as the reproduction, the imitation or the total or partial use of a brand, a drawing, a patent, a software or a copyright, without the authorization of his holder, by asserting or by letting presume that the copy is authentic."@en .
+<http://id.insee.fr/concepts/definition/c1447> <http://www.w3.org/2004/02/skos/core#definition> <http://id.insee.fr/concepts/definition/c1447/definition/v1/en> .
+<http://id.insee.fr/concepts/definition/c1447> <http://www.w3.org/2004/02/skos/core#prefLabel> "Forgery"@en .
+<http://id.insee.fr/concepts/definition/c1447> <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.yso.fi/onto/yso/p24075> .
+<http://www.yso.fi/onto/afo/p483> <http://www.w3.org/2004/02/skos/core#prefLabel> "tuotteet"@fi .
+<http://www.yso.fi/onto/afo/p483> <http://www.w3.org/2004/02/skos/core#altLabel> "products"@en .
+<http://www.yso.fi/onto/afo/p483> <http://www.w3.org/2004/02/skos/core#altLabel> "commodities"@en .
+<http://www.yso.fi/onto/afo/p483> <http://www.w3.org/2004/02/skos/core#prefLabel> "goods"@en .
+<http://id.insee.fr/concepts/definition/c1973> <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.yso.fi/onto/yso/p4207> .
+<http://id.insee.fr/concepts/definition/c1973> <http://www.w3.org/2004/02/skos/core#prefLabel> "Population"@fr .
+<http://id.insee.fr/concepts/definition/c1973> <http://rdf-vocabulary.ddialliance.org/xkos#plainText> "The population of a municipality includes : the population of the main residences; the population of the communities of the municipality; the homeless or those living in mobile accommodation."@en .
+<http://id.insee.fr/concepts/definition/c1973> <http://www.w3.org/2004/02/skos/core#definition> <http://id.insee.fr/concepts/definition/c1973/definition/v1/en> .
+<http://id.insee.fr/concepts/definition/c1973> <http://www.w3.org/2004/02/skos/core#prefLabel> "Population"@en .
+<http://id.insee.fr/concepts/definition/c1973> <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.yso.fi/onto/afo/p1811> .
+<http://id.insee.fr/concepts/definition/c1426> <http://www.w3.org/2004/02/skos/core#prefLabel> "Industrial economy"@en .
+<http://id.insee.fr/concepts/definition/c1426> <http://rdf-vocabulary.ddialliance.org/xkos#plainText> "Generally speaking, the industrial economy concerns those activities combining factors of production (facilities, supplies, work, knowledge) to produce material goods intended for the market. A distinction is generally made between manufacturing industry and extraction industries, but the precise perimeter of industry in each statistical operation is given by the list of the items taken into account in the economic classification to which the operation refers. (NAF, NES, etc.)."@en .
+<http://id.insee.fr/concepts/definition/c1426> <http://www.w3.org/2004/02/skos/core#definition> <http://id.insee.fr/concepts/definition/c1426/definition/v1/en> .
+<http://id.insee.fr/concepts/definition/c1426> <http://www.w3.org/2004/02/skos/core#prefLabel> "Industrie"@fr .
+<http://id.insee.fr/concepts/definition/c1426> <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.yso.fi/onto/yso/p6684> .
+<http://id.insee.fr/concepts/definition/c2198> <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.yso.fi/onto/afo/p353> .
+<http://id.insee.fr/concepts/definition/c2198> <http://www.w3.org/2004/02/skos/core#prefLabel> "Natural resources"@en .
+<http://id.insee.fr/concepts/definition/c2198> <http://rdf-vocabulary.ddialliance.org/xkos#plainText> "Sources of material and energy that are economically accessible in the natural environment in primary form before their transformation by human activity. A natural resource may be renewable on a human scale (animal or plant biomass, water) or not (metallic resources, minerals, fossil energy resources, uranium)."@en .
+<http://id.insee.fr/concepts/definition/c2198> <http://www.w3.org/2004/02/skos/core#definition> <http://id.insee.fr/concepts/definition/c2198/definition/v1/en> .
+<http://id.insee.fr/concepts/definition/c2198> <http://www.w3.org/2004/02/skos/core#prefLabel> "Ressources naturelles"@fr .
+<http://id.insee.fr/concepts/definition/c2198> <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.yso.fi/onto/yso/p4515> .
+<http://www.yso.fi/onto/afo/p3797> <http://www.w3.org/2004/02/skos/core#prefLabel> "generation"@en .
+<http://www.yso.fi/onto/afo/p3797> <http://www.w3.org/2004/02/skos/core#prefLabel> "sukupolvi"@fi .
+<http://id.insee.fr/concepts/definition/c2156> <http://www.w3.org/2004/02/skos/core#prefLabel> "Master"@fr .
+<http://id.insee.fr/concepts/definition/c2156> <http://rdf-vocabulary.ddialliance.org/xkos#plainText> "The Master's degree is a national university degree of the second cycle whose training takes place in four semesters after the bachelor's degree or the equivalent. The two years are called master 1 and master 2. This diploma constitutes the second degree of the three-cycle system (bachelor/master/doctorate). From 2002 to 2014, these masters were shared between professional ones and research ones. Since then, the implementation of the new national framework for trainings leads up to no longer distinguish them. The Master’s degree is granted to engineering degrees and other diplomas awarded by notably the “écoles normales supérieures” (higher teacher training schools), the business schools, Architecture or Art schools. This degree allows access to doctorate degree studies."@en .
+<http://id.insee.fr/concepts/definition/c2156> <http://www.w3.org/2004/02/skos/core#definition> <http://id.insee.fr/concepts/definition/c2156/definition/v1/en> .
+<http://id.insee.fr/concepts/definition/c2156> <http://www.w3.org/2004/02/skos/core#prefLabel> "Master"@en .
+<http://id.insee.fr/concepts/definition/c2156> <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.yso.fi/onto/afo/p5793> .
+<http://id.insee.fr/concepts/definition/c1547> <http://www.w3.org/2004/02/skos/core#prefLabel> "Génération"@fr .
+<http://id.insee.fr/concepts/definition/c1547> <http://rdf-vocabulary.ddialliance.org/xkos#plainText> "A generation refers to all the people born in the same calendar year. E.g. \"the 1946 generation\"."@en .
+<http://id.insee.fr/concepts/definition/c1547> <http://www.w3.org/2004/02/skos/core#definition> <http://id.insee.fr/concepts/definition/c1547/definition/v1/en> .
+<http://id.insee.fr/concepts/definition/c1547> <http://www.w3.org/2004/02/skos/core#prefLabel> "Generation"@en .
+<http://id.insee.fr/concepts/definition/c1547> <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.yso.fi/onto/afo/p3797> .
+<http://www.yso.fi/onto/yso/p4923> <http://www.w3.org/2004/02/skos/core#prefLabel> "käsityöt (konkreettinen eloton objekti)"@fi .
+<http://www.yso.fi/onto/yso/p4923> <http://www.w3.org/2004/02/skos/core#prefLabel> "handarbeten (konkret icke-levande objekt)"@sv .
+<http://www.yso.fi/onto/yso/p4923> <http://www.w3.org/2004/02/skos/core#prefLabel> "handicraft"@en .
+<http://www.yso.fi/onto/yso/p3889> <http://www.w3.org/2004/02/skos/core#prefLabel> "julkiset menot"@fi .
+<http://www.yso.fi/onto/yso/p3889> <http://www.w3.org/2004/02/skos/core#prefLabel> "public expenditure"@en .
+<http://www.yso.fi/onto/yso/p3889> <http://www.w3.org/2004/02/skos/core#prefLabel> "offentliga utgifter"@sv .
+<http://id.insee.fr/concepts/definition/c1142> <http://www.w3.org/2004/02/skos/core#prefLabel> "Imprisonment"@en .
+<http://id.insee.fr/concepts/definition/c1142> <http://rdf-vocabulary.ddialliance.org/xkos#plainText> "Imprisonment is a penalty of deprivation of correctional liberty. The scale of prison sentences is fixed by the article 131-4 of the Penal code and varies from two months to ten years in most. The court that pronounces a prison sentence may order that it will be suspended upon execution of this penalty. The suspension of sentence may be alone or accompanied by probation; the suspension implies the total or partial deferral of the penalty. Suspension may be revoked in the event of any new sentencing to a criminal or correctional sentence without suspension for a felony or a common law offence. The sentencing is considered as void if revocation does not take place in a five-year period. The suspension with probation is the combination of suspension in the detention and testing. It submits the condemned person, to monitoring and assistance measures and special obligations, under the supervision of the judge responsible for the application of sentences."@en .
+<http://id.insee.fr/concepts/definition/c1142> <http://www.w3.org/2004/02/skos/core#definition> <http://id.insee.fr/concepts/definition/c1142/definition/v1/en> .
+<http://id.insee.fr/concepts/definition/c1142> <http://rdf-vocabulary.ddialliance.org/xkos#plainText> "Imprisonment is a custodial sentence incurred for an offence. Prison sentences range from two months to ten years. They can be suspended. The suspended sentence can be simple or probationary. Simple suspension implies the total or partial suspension of the execution of the sentence. It may be revoked in the event of a new unsuspended criminal or correctional sentence. A suspended sentence with probation shall subject the sentenced person, under the supervision of the enforcement judge, to supervision, assistance and special obligations."@en .
+<http://id.insee.fr/concepts/definition/c1142> <http://www.w3.org/2004/02/skos/core#definition> <http://id.insee.fr/concepts/definition/c1142/definition/v2/en> .
+<http://id.insee.fr/concepts/definition/c1142> <http://www.w3.org/2004/02/skos/core#prefLabel> "Emprisonnement"@fr .
+<http://id.insee.fr/concepts/definition/c1142> <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.yso.fi/onto/yso/p6976> .
+<http://www.yso.fi/onto/yso/p24075> <http://www.w3.org/2004/02/skos/core#prefLabel> "förfalskande"@sv .
+<http://www.yso.fi/onto/yso/p24075> <http://www.w3.org/2004/02/skos/core#prefLabel> "forgery"@en .
+<http://www.yso.fi/onto/yso/p24075> <http://www.w3.org/2004/02/skos/core#prefLabel> "väärentäminen"@fi .
+<http://id.insee.fr/concepts/definition/c1476> <http://www.w3.org/2004/02/skos/core#prefLabel> "Juridiction de l'ordre administratif"@fr .
+<http://id.insee.fr/concepts/definition/c1476> <http://rdf-vocabulary.ddialliance.org/xkos#plainText> "These jurisdictions are responsible for judging matters opposing private individuals and the administration."@en .
+<http://id.insee.fr/concepts/definition/c1476> <http://www.w3.org/2004/02/skos/core#definition> <http://id.insee.fr/concepts/definition/c1476/definition/v1/en> .
+<http://id.insee.fr/concepts/definition/c1476> <http://www.w3.org/2004/02/skos/core#prefLabel> "Administrative jurisdiction"@en .
+<http://id.insee.fr/concepts/definition/c1476> <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.yso.fi/onto/yso/p3881> .
+<http://id.insee.fr/concepts/definition/c1647> <http://www.w3.org/2004/02/skos/core#prefLabel> "Retail trade"@en .
+<http://id.insee.fr/concepts/definition/c1647> <http://rdf-vocabulary.ddialliance.org/xkos#plainText> "Retail trade consists of selling merchandise in the state that it is purchased (or after minor transformations), generally to a customer base of private individuals, regardless of the quantities sold. In addition to sales, retail trade activity may also cover delivery and installation at the customer's home (of furniture or household appliances for example). The marketing of a good generally successively includes wholesale trade activity followed by retail trade activity, but certain goods (capital goods) are not the subject of retail trade."@en .
+<http://id.insee.fr/concepts/definition/c1647> <http://www.w3.org/2004/02/skos/core#definition> <http://id.insee.fr/concepts/definition/c1647/definition/v2/en> .
+<http://id.insee.fr/concepts/definition/c1647> <http://www.w3.org/2004/02/skos/core#prefLabel> "Commerce de détail"@fr .
+<http://id.insee.fr/concepts/definition/c1647> <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.yso.fi/onto/yso/p14002> .
+<http://id.insee.fr/concepts/definition/c1455> <http://www.w3.org/2004/02/skos/core#prefLabel> "Loyer"@fr .
+<http://id.insee.fr/concepts/definition/c1455> <http://rdf-vocabulary.ddialliance.org/xkos#plainText> "A rent is the amount paid by a tenant for the use of a dwelling. The rent does not include rental charges (maintenance of common areas, water, energy, etc.)."@en .
+<http://id.insee.fr/concepts/definition/c1455> <http://www.w3.org/2004/02/skos/core#definition> <http://id.insee.fr/concepts/definition/c1455/definition/v1/en> .
+<http://id.insee.fr/concepts/definition/c1455> <http://www.w3.org/2004/02/skos/core#prefLabel> "Rent"@en .
+<http://id.insee.fr/concepts/definition/c1455> <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.yso.fi/onto/yso/p2702> .
+<http://www.yso.fi/onto/yso/p4577> <http://www.w3.org/2004/02/skos/core#prefLabel> "utrustning"@sv .
+<http://www.yso.fi/onto/yso/p4577> <http://www.w3.org/2004/02/skos/core#prefLabel> "equipment"@en .
+<http://www.yso.fi/onto/yso/p4577> <http://www.w3.org/2004/02/skos/core#prefLabel> "varusteet"@fi .
+<http://id.insee.fr/concepts/definition/c1789> <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.yso.fi/onto/yso/p4257> .
+<http://id.insee.fr/concepts/definition/c1789> <http://www.w3.org/2004/02/skos/core#prefLabel> "Profitabilité"@fr .
+<http://id.insee.fr/concepts/definition/c1789> <http://rdf-vocabulary.ddialliance.org/xkos#plainText> "The profitability is the ratio between the profit and the production. The rate of profitability brings back the profit or loss for the year to the turnover exclusive of tax ( RNC / CAHT)."@en .
+<http://id.insee.fr/concepts/definition/c1789> <http://www.w3.org/2004/02/skos/core#definition> <http://id.insee.fr/concepts/definition/c1789/definition/v1/en> .
+<http://id.insee.fr/concepts/definition/c1789> <http://www.w3.org/2004/02/skos/core#prefLabel> "Profitability"@en .
+<http://id.insee.fr/concepts/definition/c1789> <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.yso.fi/onto/yso/p5864> .
+<http://www.yso.fi/onto/yso/p6170> <http://www.w3.org/2004/02/skos/core#prefLabel> "biomassa"@fi .
+<http://www.yso.fi/onto/yso/p6170> <http://www.w3.org/2004/02/skos/core#prefLabel> "biomassa"@sv .
+<http://www.yso.fi/onto/yso/p6170> <http://www.w3.org/2004/02/skos/core#prefLabel> "biomass"@en .
+<http://id.insee.fr/concepts/definition/c1534> <http://www.w3.org/2004/02/skos/core#prefLabel> "Aquaculture"@fr .
+<http://id.insee.fr/concepts/definition/c1534> <http://rdf-vocabulary.ddialliance.org/xkos#plainText> "Aquaculture is the set of activities that involve growing plants and breeding animals in continental or marine water to improve production. It involves the individual or legal possession of cultured stocks.It groups together fish-farming, shellfish farming (farming of oysters, mussels, clams, cockles, etc.), algal culture and carcinoculture (farming of crustaceans, mainly shrimp and crayfish)."@en .
+<http://id.insee.fr/concepts/definition/c1534> <http://www.w3.org/2004/02/skos/core#definition> <http://id.insee.fr/concepts/definition/c1534/definition/v1/en> .
+<http://id.insee.fr/concepts/definition/c1534> <http://www.w3.org/2004/02/skos/core#prefLabel> "Aquaculture"@en .
+<http://id.insee.fr/concepts/definition/c1534> <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.yso.fi/onto/afo/p19> .
