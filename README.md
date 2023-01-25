@@ -60,5 +60,11 @@ java -jar limes-core-1.7.9-SNAPSHOT.jar myconfigFiles.xml
 
 ```
 
+## Target Datasets
+The datasets used for the alignments are availabe in Zenodo. See the reference below:
+
+``` Atemezing Auguste Ghislain, & Daneau Caroline. (2023). SKOS Datasets for Aligning INSEE Concepts [Data set]. Zenodo. https://doi.org/10.5281/zenodo.7568355
+```
+
 # License
 Creative Commons Attribution 4.0 International (CC-BY 4.0)
