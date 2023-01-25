@@ -1,0 +1,776 @@
+@prefix cc:      <http://creativecommons.org/ns#> .
+@prefix dc:      <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv:     <http://purl.org/iso25964/DataSet/Versioning#> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix gbv:     <http://purl.org/ontology/gbv/> .
+@prefix geo-ont: <http://www.geonames.org/ontology#> .
+@prefix geo-pos: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix owl:     <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sh:      <http://purl.org/skos-history/> .
+@prefix skos:    <http://www.w3.org/2004/02/skos/core#> .
+@prefix stw:     <http://zbw.eu/stw/> .
+@prefix void:    <http://rdfs.org/ns/void#> .
+@prefix waiver:  <http://vocab.org/waiver/terms/> .
+@prefix xkos:    <http://rdf-vocabulary.ddialliance.org/xkos#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+@prefix zbwext:  <http://zbw.eu/namespaces/zbw-extensions/> .
+
+<http://zbw.eu/stw/descriptor/18065-3>
+        skos:altLabel   "License"@en , "Licensing"@en ;
+        skos:prefLabel  "Lizenz"@de , "Licence"@en .
+
+<http://id.insee.fr/concepts/definition/c1400>
+        xkos:plainText   "These industries correspond to code EG of the NES classification, the summary economic classification which was in use until december 2007 :- production of fuels (extraction of fossil coal, lignite and peat, extraction of hydrocarbons, extraction of uranium ore, coking and nuclear industry, petroleum refining) ;- water, gas, electricity (production and distribution of electricity, gas and heat, collection, treatment and distribution of water).There is no such grouping in NA, the agregated economic classification which replaced NES since 2008. The precise perimeter of energy in each statistical operation is given by the list of the items taken into account in the economic classification to which the operation refers."@en ;
+        skos:definition  <http://id.insee.fr/concepts/definition/c1400/definition/v1/en> ;
+        skos:exactMatch  <http://zbw.eu/stw/descriptor/14175-2> ;
+        skos:prefLabel   "Energy"@en , "Énergie"@fr .
+
+<http://zbw.eu/stw/descriptor/10030-6>
+        skos:prefLabel  "Güter"@de , "Goods"@en .
+
+<http://id.insee.fr/concepts/definition/c1329>
+        xkos:plainText   "Housing benefit (or housing allowance) is a group of social benefits aimed at reducing households' housing expenditure. It is a mean-tested benefit, also based on household composition, housing type and location of residence."@en ;
+        skos:definition  <http://id.insee.fr/concepts/definition/c1329/definition/v1/en> ;
+        skos:exactMatch  <http://zbw.eu/stw/descriptor/11574-3> ;
+        skos:prefLabel   "Housing benefit"@en , "Aides au logement"@fr .
+
+<http://zbw.eu/stw/descriptor/29951-2>
+        skos:altLabel   "Family background"@en , "Family size"@en ;
+        skos:prefLabel  "Family structure"@en , "Familienstruktur"@de .
+
+<http://zbw.eu/stw/descriptor/13490-6>
+        skos:altLabel   "Superstore"@en , "Big-box store"@en ;
+        skos:prefLabel  "SB-Warenhaus"@de , "Hypermarket"@en .
+
+<http://id.insee.fr/concepts/definition/c1529>
+        xkos:plainText   "The perimeter of the civil service sends back to the legal persons and agencies involved in administrative law activities in which the recruitment is made on the basis of the public law.Three civil services are distinguished:- the central civil service,- the local civil service,- and the hospital civil service.The nature of each civil service leans essentially on the legal category of the employer.There is a wider notion: civil employment, which sends back to an economic approach, used by national accounts. The civil employment records persons working on main title in government services (administrations, public agencies and private agencies financed mainly by total tax burden)."@en , "Three public services are distinguished:- The public service of State,- The territorial public service,- And the hospital public service.In the strict sense, an agent of the public service works in a organism in which the recruitment is made on the basis of the public law. Nevertheless, certain missions of public service are assured, outside this perimeter, by agents working in the other types of public organism, by private organism or by public or private enterprises. These persons work for civil services or military services of the State (the central administrations and decentralized services), in territorial authority (regions, departments, municipalities) and in public institutions with national or local administrative character, such as CNRS, universities, public hospitals, centers of management for the territorial public service, local schools' fundThere are two definitions of public-sector employment depending on the approach (legal or economic) adopted to measure it.- the approach used by the Public-Sector Employment Observatory is based on legal criteria combining the status of the employer and the status of the employee: any employee working in an organisation of an administrative nature recruiting civil servants under public law depends on the civil service ;- The economic approach is the one used in the national accounts, counting all the employees of the public services, mainly financed by mandatory levies."@en ;
+        skos:definition  <http://id.insee.fr/concepts/definition/c1529/definition/v3/en> , <http://id.insee.fr/concepts/definition/c1529/definition/v2/en> ;
+        skos:exactMatch  <http://zbw.eu/stw/descriptor/11559-6> ;
+        skos:prefLabel   "Civil service"@en , "Fonction publique"@fr .
+
+<http://zbw.eu/stw/descriptor/13837-1>
+        skos:prefLabel  "Miete"@de , "Rent"@en .
+
+<http://zbw.eu/stw/descriptor/13829-0>
+        skos:prefLabel  "Wohnung"@de , "Dwelling"@en .
+
+<http://id.insee.fr/concepts/definition/c1458>
+        xkos:plainText   "Disposable income is the income available to the household for consumption and saving. It includes income from employment net of social security contributions, unemployment benefits, pensions, capital income (real estate and financial) and other social benefits received, net of direct taxes. The latter include income tax, housing tax, the general social contribution (CSG), the contribution to the reduction of the social debt (CRDS) and other taxes on capital income. It includes part of the balance of inter-household transfers."@en , "The disposable income of a household includes the income from its activity, the income from its assets, the transfers from other households, and social benefits (including retirement pensions and unemployment benefits), net of direct tax. Four direct taxes are generally taken into account: income tax, accommodation tax, the general social contribution (CSG) and the social debt repayment contribution (CRDS)."@en ;
+        skos:definition  <http://id.insee.fr/concepts/definition/c1458/definition/v2/en> , <http://id.insee.fr/concepts/definition/c1458/definition/v1/en> ;
+        skos:exactMatch  <http://zbw.eu/stw/descriptor/10268-1> ;
+        skos:prefLabel   "Revenu disponible"@fr , "Disposable income"@en .
+
+<http://id.insee.fr/concepts/definition/c1032>
+        xkos:plainText   "Any birth occurring on the French territory gives rise to a declaration to the registry of births. This declaration must be made within five days (eight days for some districts of Guyane) following the birth, and the day on which birth occurs is not included in this period. Additionally, if the last day of the period is a holiday, the period is extended until the first business day following the holiday. Since March 1993, the registrar records a birth certificate if the child has breathed. Otherwise, a stillborn birth is recorded."@en , "Any birth occurring on the French territory gives rise to a declaration to the registry of births, deaths and marriages. This declaration must be made within three days following the birth, and the day on which birth occurs is not included in this period. Additionally, if the last day of the period is a holiday, the period is extended until the first business day following the holiday. Since March 1993, the registrar records a birth certificate if the child has breathed. Otherwise, a stillborn birth is recorded. The information is requested from the person making the declaration and checked against the family record book."@en ;
+        skos:definition  <http://id.insee.fr/concepts/definition/c1032/definition/v2/en> , <http://id.insee.fr/concepts/definition/c1032/definition/v1/en> ;
+        skos:exactMatch  <http://zbw.eu/stw/descriptor/29620-4> ;
+        skos:prefLabel   "Naissance"@fr , "Birth"@en .
+
+<http://id.insee.fr/concepts/definition/c1011>
+        xkos:plainText   "Burkina Faso, Benin, Cameroon, Central African Republic, DR Congo, Ivory Coast, Comoros, Gabon, Equatorial Guinea, Guinea Bissau, Mali, Niger, Senegal, Chad, Togo."@en ;
+        skos:definition  <http://id.insee.fr/concepts/definition/c1011/definition/v1/en> ;
+        skos:exactMatch  <http://zbw.eu/stw/descriptor/29674-2> ;
+        skos:prefLabel   "CFA franc zone"@en , "Pays de la zone franc"@fr .
+
+<http://id.insee.fr/concepts/definition/c2125>
+        xkos:plainText   "Public expenditure is expenditure made by the State, social security administrations, local authorities and the administrations and bodies attached to them. They can be classified into three main categories: - operating expenses, which are used to ensure the smooth running of public services (current staff and maintenance costs, purchase of supplies, etc.); - redistribution expenditure: cash benefits paid to households (e.g. retirement pensions, family allowances, minimum social benefits, etc.), subsidies paid to companies and households, etc; - investment expenditure, which aims to renew or increase public productive capital (e.g. research and development expenditure, arms purchases, construction of buildings and infrastructure, etc.)."@en ;
+        skos:definition  <http://id.insee.fr/concepts/definition/c2125/definition/v1/en> ;
+        skos:exactMatch  <http://zbw.eu/stw/descriptor/11554-2> ;
+        skos:prefLabel   "Public expenditure"@en , "Dépenses publiques"@fr .
+
+<http://id.insee.fr/concepts/definition/c1153>
+        xkos:plainText   "A satellite account is a framework of presentation for the economic data of a particular area in relation to the overall economic analysis of the central framework of the national accounts. Education, health, social protection and the environment are some examples."@en ;
+        skos:definition  <http://id.insee.fr/concepts/definition/c1153/definition/v1/en> ;
+        skos:exactMatch  <http://zbw.eu/stw/descriptor/29916-4> ;
+        skos:prefLabel   "Satellite account"@en , "Compte satellite"@fr .
+
+<http://id.insee.fr/concepts/definition/c1850>
+        xkos:plainText   "Services provided to businesses include scientific and technical activities and (administrative and support services… Scientific and technical activities require a high level of training and provide users with specialized knowledge and skills, unlike administrative and support services, which do not have as their primary objective the transfer of specialized knowledge."@en ;
+        skos:definition  <http://id.insee.fr/concepts/definition/c1850/definition/v1/en> ;
+        skos:exactMatch  <http://zbw.eu/stw/descriptor/18397-6> ;
+        skos:prefLabel   "Services rendus aux entreprises"@fr , "Business services"@en .
+
+<http://id.insee.fr/concepts/definition/c1303>
+        xkos:plainText   "Unemployment represents all people aged 15 and older who do not have a job and are looking for one. Its measurement is complex. The borders between employment, unemployment and inactivity are not always easy to define, what often brings to speak about a \"halo\" around the unemployment.In France there are two main statistical sources concerning employment : the monthly statistics of the Ministry of Labour, developed based on job seeker files recorded by the Pole Emploi (Pole Employment), and Insee's Labour Force Survey (LFS), which measures unemployment in the sense of the ILO."@en ;
+        skos:definition  <http://id.insee.fr/concepts/definition/c1303/definition/v4/en> ;
+        skos:exactMatch  <http://zbw.eu/stw/descriptor/11182-6> ;
+        skos:prefLabel   "Unemployment"@en , "Chômage"@fr .
+
+<http://id.insee.fr/concepts/definition/c2054>
+        xkos:plainText   "A patent protects a technical innovation, that is, a product or a process that provides a technical solution to a given technical problem. The invention for which a patent may be obtained must also be new, involve an inventive activity and be likely to have industrial application. Numerous innovations may be the subject of a patent application, as long as they meet patentability criteria and are not expressly excluded from protection by the law. Some inventions are not patentable but may be subject to other types of protection, such as the registration of designs and models or copyright."@en ;
+        skos:definition  <http://id.insee.fr/concepts/definition/c2054/definition/v1/en> ;
+        skos:exactMatch  <http://zbw.eu/stw/descriptor/10478-4> ;
+        skos:prefLabel   "Patent"@en , "Brevet"@fr .
+
+<http://zbw.eu/stw/descriptor/11271-0>
+        skos:altLabel   "Labor potential"@en ;
+        skos:prefLabel  "Labour force"@en , "Arbeitskräftepotenzial"@de .
+
+<http://id.insee.fr/concepts/definition/c2033>
+        xkos:plainText   "A retail outlet or store is a retail sales establishment which has a genuine retail activity and which therefore has a sales area. This therefore excludes ancillary establishments such as warehouses or the offices of commercial enterprises without their own turnover."@en ;
+        skos:definition  <http://id.insee.fr/concepts/definition/c2033/definition/v1/en> ;
+        skos:exactMatch  <http://zbw.eu/stw/descriptor/19136-1> ;
+        skos:prefLabel   "Point de vente"@fr , "Retail outlet"@en .
+
+<http://zbw.eu/stw/descriptor/19628-1>
+        skos:altLabel   "Natural heritage"@en , "Protected area"@en , "Wildlife park"@en , "National park"@en , "Biosphere reserve"@en ;
+        skos:prefLabel  "Nature reserve"@en , "Naturschutzgebiet"@de .
+
+<http://id.insee.fr/concepts/definition/c1950>
+        xkos:plainText   "Balance of the production account. It is equal to the value of production minus intermediate consumption."@en ;
+        skos:definition  <http://id.insee.fr/concepts/definition/c1950/definition/v1/en> ;
+        skos:exactMatch  <http://zbw.eu/stw/descriptor/10028-0> ;
+        skos:prefLabel   "Valeur ajoutée"@fr , "Value added"@en .
+
+<http://id.insee.fr/concepts/definition/c1403>
+        xkos:plainText   "The felonies and misdemeanours recorded in France are evidentiary facts brought for the first time to the knowledge of police and gendarmerie services. Their qualification may be modified by the judicial authority. Excluded from crime statistics are all offences and misdemeanours relative to road circulation, offences covered by the administrative police and offences recorded by other administrations (customs, tax services and fraud prevention, labour inspection, etc.)."@en ;
+        skos:definition  <http://id.insee.fr/concepts/definition/c1403/definition/v1/en> ;
+        skos:exactMatch  <http://zbw.eu/stw/descriptor/16195-0> ;
+        skos:prefLabel   "Criminalité"@fr , "Crime"@en .
+
+<http://zbw.eu/stw/descriptor/17255-3>
+        skos:prefLabel  "Frankreich"@de , "France"@en .
+
+<http://id.insee.fr/concepts/definition/c1182>
+        xkos:plainText   "The latest version of the Oslo Manual defines four categories of innovations : products or services (for a commercial or service company) : creation of a new product or a new commercial offering or service ; processes: implementation of new techniques for the production of goods or of services ; organisation: quality circles are an example of this ; marketing: for example, franchising or promotion on the internet."@en , "An innovation is a new or improved product or business process that differs significantly from the legal unit's previous products or business processes and which has been implemented on the market. Two kinds of innovation are distinguished : product innovations (goods or services) and business process innovation (including organizational and marketing innovations). More precisely: - Product innovation includes significant design changes and digital goods or services. It excludes the resale in the same condition as new goods or services and changes of an aesthetic nature; - Business process innovation concerns production and development methods, logistics and distribution, information and communication systems, administrative tasks and accounting, procedure organisation, supplier relationship management, work organisation, decision-making processes, human resources, marketing, packaging, pricing and after-sales service."@en ;
+        skos:definition  <http://id.insee.fr/concepts/definition/c1182/definition/v1/en> , <http://id.insee.fr/concepts/definition/c1182/definition/v2/en> ;
+        skos:exactMatch  <http://zbw.eu/stw/descriptor/10459-1> ;
+        skos:prefLabel   "Innovation"@en , "Innovation"@fr .
+
+<http://id.insee.fr/concepts/definition/c1353>
+        xkos:plainText   "Territorial authorities are French administrative structures, separate from State administration, which have responsibility for the interests of the population in a defined territory.The following are defined as territorial authorities :- municipalities ;- departments along with the five overseas departments ;- regions along with the five overseas regions ;- authorities with a special status ;- overseas authorities.New Caledonia (archipelago of Oceania located in Melanesia) is a so-called sui generis (\"of its own kind\") authority, that is, a territorial authority of the French Republic and not an overseas authority (COM)."@en ;
+        skos:definition  <http://id.insee.fr/concepts/definition/c1353/definition/v2/en> ;
+        skos:exactMatch  <http://zbw.eu/stw/descriptor/13409-1> ;
+        skos:prefLabel   "Territorial authority"@en , "Collectivité territoriale"@fr .
+
+<http://id.insee.fr/concepts/definition/c1161>
+        xkos:plainText   "A service activity is essentially characterized by the provision of a technical or intellectual service. Unlike an industrial activity, it cannot be described solely by the characteristics of a tangible asset acquired by the customer. Its final product is immaterial, it is neither storable nor transportable. In their broadest sense, tertiary services or activities encompass a wide range of activities: trade, transport, financial activities, real estate, business services, personal services, education, health, social action. In French statistical practice, service activities do not include transport or trade. They include business services, personal services, mixed services (hotels and restaurants, real estate, information and communication) and mainly non-market services."@en ;
+        skos:definition  <http://id.insee.fr/concepts/definition/c1161/definition/v1/en> ;
+        skos:exactMatch  <http://zbw.eu/stw/descriptor/13301-0> ;
+        skos:prefLabel   "Services"@en , "Services"@fr .
+
+<http://id.insee.fr/concepts/definition/c1879>
+        xkos:plainText   "A household in the statistical sense of the word means all the occupants of the same dwelling, without these people necessarily being related (e. g. roommates). A household may consist of only one person."@en ;
+        skos:definition  <http://id.insee.fr/concepts/definition/c1879/definition/v2/en> ;
+        skos:exactMatch  <http://zbw.eu/stw/descriptor/13398-1> ;
+        skos:prefLabel   "Ménage"@fr , "Household"@en .
+
+<http://zbw.eu/stw/descriptor/10478-4>
+        skos:prefLabel  "Patent"@en , "Patent"@de .
+
+<http://zbw.eu/stw/descriptor/29681-5>
+        skos:prefLabel  "Core inflation"@en , "Kerninflation"@de .
+
+<http://zbw.eu/stw/descriptor/18072-6>
+        skos:altLabel   "Carbon tax"@en , "Pollution tax"@en , "Green taxation"@en , "Carbon taxation"@en ;
+        skos:prefLabel  "Environmental tax"@en , "Ökosteuer"@de .
+
+<http://zbw.eu/stw/descriptor/13398-1>
+        skos:prefLabel  "Household"@en , "Privater Haushalt"@de .
+
+<http://zbw.eu/stw/descriptor/11554-2>
+        skos:altLabel   "Government spending"@en ;
+        skos:prefLabel  "Public expenditure"@en , "Öffentliche Ausgaben"@de .
+
+<http://id.insee.fr/concepts/definition/c1219>
+        xkos:plainText   "Trade includes statistical units (enterprises, legal units or establishments) whose main activity is to resell goods purchased from third parties without processing them. The activity of trade intermediary, who puts buyers and vendors into contact (or who performs commercial operations for a third party), without being the owner of the products in question, is included in trade."@en ;
+        skos:definition  <http://id.insee.fr/concepts/definition/c1219/definition/v2/en> ;
+        skos:exactMatch  <http://zbw.eu/stw/descriptor/13210-3> ;
+        skos:prefLabel   "Commerce"@fr , "Trade"@en .
+
+<http://zbw.eu/stw/descriptor/11852-1>
+        skos:prefLabel  "Municipality"@en , "Gemeinde"@de .
+
+<http://id.insee.fr/concepts/definition/c2191>
+        xkos:plainText   "Any substance or object, or more generally any movable property, which the holder discards or intends to discard. Definition given in the environmental code at the article L541-1-1."@en ;
+        skos:definition  <http://id.insee.fr/concepts/definition/c2191/definition/v1/en> ;
+        skos:exactMatch  <http://zbw.eu/stw/descriptor/15009-0> ;
+        skos:prefLabel   "Déchet"@fr , "Waste"@en .
+
+<http://zbw.eu/stw/descriptor/10791-0>
+        skos:prefLabel  "Balance of payments"@en , "Zahlungsbilanz"@de .
+
+<http://id.insee.fr/concepts/definition/c1419>
+        xkos:plainText   "Data on the activity of the criminal courts is extracted from the printed forms describing the stages in the criminal process. The \"Cadres du Parquet\" (public prosecution forms), completed each year by the criminal courts, supply flows: flows of official reports referred to the Public Prosecutor in the course of the year, flows of matters oriented by the Public Prosecutor and handled in the course of the year by the competent jurisdiction. Furthermore, since 1989 the trials register has provided all the information collected throughout the procedure on judicial investigations, on safety measures (judicial review and provisional custody), on the qualification of the principal offence featuring in the indictment, and on the closure of proceedings. It also enables calculation of the length of trial procedures, as well as that of any safety measures.Judicial jurisdictions are competent to hear disputes opposing individuals (civil justice) and to punish criminal law offences (criminal justice)."@en ;
+        skos:definition  <http://id.insee.fr/concepts/definition/c1419/definition/v1/en> ;
+        skos:exactMatch  <http://zbw.eu/stw/descriptor/29727-0> ;
+        skos:prefLabel   "Justice pénale"@fr , "Criminal justice"@en .
+
+<http://id.insee.fr/concepts/definition/c1056>
+        xkos:plainText   "There are several forms of divorce (law of May 26th, 2004, come into effect on January 1st, 2005):- by mutual consent (by joint or accepted request);- for separation (after 2 years of separation);- or for fault.Three types of judgements may be pronounced :- A legal separation order. This judgement must be written in the margin of the marriage certificate but does not authorise remarriage. It is revocable further to the simple agreement of the spouses when they resume living together ;- A conversion of separation. It transforms a separation into a divorce and authorises remarriage ;- A divorce following a direct request. This judgement must be written in the margin of the marriage certificate. It is irrevocable and authorises remarriage."@en ;
+        skos:definition  <http://id.insee.fr/concepts/definition/c1056/definition/v2/en> ;
+        skos:exactMatch  <http://zbw.eu/stw/descriptor/25681-4> ;
+        skos:prefLabel   "Divorce"@en , "Divorce"@fr .
+
+<http://zbw.eu/stw/descriptor/10028-0>
+        skos:prefLabel  "Wertschöpfung"@de , "Value added"@en .
+
+<http://zbw.eu/stw/descriptor/15745-3>
+        skos:altLabel   "Environmental goods"@en ;
+        skos:prefLabel  "Natürliche Ressourcen"@de , "Natural resources"@en .
+
+<http://id.insee.fr/concepts/definition/c1022>
+        xkos:plainText   "There are two notions of agricultural workers, depending on whether the  following are considered:- the main profession exercised, in the sense of the socioprofessional category (INSEE notion of agricultural workers);- the fact of working on a farm, full-time or not (notion of agricultural workers in the sense of the Statistics and forecasting department (SSP) of the ministry of agriculture).These two notions do not exactly overlap."@en ;
+        skos:definition  <http://id.insee.fr/concepts/definition/c1022/definition/v1/en> ;
+        skos:exactMatch  <http://zbw.eu/stw/descriptor/11276-4> ;
+        skos:prefLabel   "Agricultural workers"@en , "Actifs agricoles"@fr .
+
+<http://zbw.eu/stw/descriptor/19786-4>
+        skos:altLabel   "Outpatient treatment"@en ;
+        skos:prefLabel  "Ambulatory care"@en , "Ambulante Behandlung"@de .
+
+<http://zbw.eu/stw/descriptor/18660-3>
+        skos:altLabel   "EDIFACT"@en , "XML"@en , "myOpenFactory"@en , "Extensible Markup Language"@en , "EDI (Electronic Data Interchange)"@en , "SWIFT"@en , "E-invoicing"@en , "XBRL"@en ;
+        skos:prefLabel  "Electronic data interchange"@en , "Elektronischer Datenaustausch"@de .
+
+<http://zbw.eu/stw/descriptor/29916-4>
+        skos:prefLabel  "Satellite account"@en , "Satellitenkonto"@de .
+
+<http://id.insee.fr/concepts/definition/c1669>
+        xkos:plainText   "Temporary employment (or temporary work or temporary work) consists of making employees available on a temporary basis to client companies, who, on the basis of an agreed remuneration, are hired and paid for this purpose by the temporary work company. It is therefore characterised by a triangular relationship between the temporary employment agency, the client company and the employee, and involves the conclusion of two contracts: a supply contract (between the temporary employment agency and the client company) and an assignment contract (between the temporary employment agency and the employee)."@en ;
+        skos:definition  <http://id.insee.fr/concepts/definition/c1669/definition/v1/en> ;
+        skos:exactMatch  <http://zbw.eu/stw/descriptor/18792-0> ;
+        skos:prefLabel   "Intérim"@fr , "Temporary employment"@en .
+
+<http://zbw.eu/stw/descriptor/12295-2>
+        skos:prefLabel  "Profitability"@en , "Rentabilität"@de .
+
+<http://id.insee.fr/concepts/definition/c1264>
+        xkos:plainText   "Biodiversity is the diversity of living organisms, which is assessed by considering the diversity of species, the diversity of genes within each species, and the organisation and distribution of ecosystems. Biodiversity is defined by the Convention on biological diversity as \"the variability of living beings of all origins including, among others, aquatic ecosystems and the ecological complexes they are a part of: this includes diversity within species and the diversity of ecosystems\" (art. 2). The concept of biodiversity thus concerns all of the components and variations of the living world. Scientists distinguish between three levels: ecological diversity (ecosystems) ; specific diversity (species) ; genetic diversity (genes). Another essential constituent of the biodiversity are the interactions within and between each of these three levels of organization."@en , "Biodiversity is defined by the Convention on biological diversity as: \"the variability of living beings of all origins including, among others, aquatic ecosystems and the ecological complexes they are a part of: this includes diversity within species and the diversity of ecosystems\" (art. 2). The concept of biodiversity thus concerns all of the components and variations of the living world. Scientists distinguish between three levels : ecological diversity (ecosystems) ; specific diversity (species) ; genetic diversity (genes)."@en ;
+        skos:definition  <http://id.insee.fr/concepts/definition/c1264/definition/v2/en> , <http://id.insee.fr/concepts/definition/c1264/definition/v1/en> ;
+        skos:exactMatch  <http://zbw.eu/stw/descriptor/19625-0> ;
+        skos:prefLabel   "Biodiversité"@fr , "Biodiversity"@en .
+
+<http://id.insee.fr/concepts/definition/c2023>
+        xkos:plainText   "Deflation is an increase in a currency's purchasing power which leads to a general and lasting drop in prices; it is negative inflation."@en ;
+        skos:definition  <http://id.insee.fr/concepts/definition/c2023/definition/v1/en> ;
+        skos:exactMatch  <http://zbw.eu/stw/descriptor/11496-4> ;
+        skos:prefLabel   "Deflation"@en , "Déflation"@fr .
+
+<http://zbw.eu/stw/descriptor/11574-3>
+        skos:altLabel   "Housing allowance"@en , "Housing assistance"@en ;
+        skos:prefLabel  "Wohngeld"@de , "Housing benefit"@en .
+
+<http://zbw.eu/stw/descriptor/13644-5>
+        skos:prefLabel  "Tourismus"@de , "Tourism"@en .
+
+<http://id.insee.fr/concepts/definition/c2144>
+        xkos:plainText   "Vocational training is a process for acquiring knowledge and skills needed in specific jobs or more broadly to be useful in the labour market. It can take place within initial education (for instance through apprenticeship) or after initial education."@en ;
+        skos:definition  <http://id.insee.fr/concepts/definition/c2144/definition/v1/en> ;
+        skos:exactMatch  <http://zbw.eu/stw/descriptor/11360-1> ;
+        skos:prefLabel   "Formation professionnelle"@fr , "Vocational training"@en .
+
+<http://id.insee.fr/concepts/definition/c1009>
+        xkos:plainText   "The Euro is the name of the European single currency created by the Maastricht Treaty. Although it has only been in circulation since 1st January 2002, it has existed since 1999, the date when the exchange rates were pegged between the currencies of the 11 countries in the Euro Zone. The number of these countries then increased to 12 with the arrival of Greece in January 2001, to 13 with Slovenia in 2007, to 15 with the arrival of Cyprus and Malta in 2008, to 16 with the arrival of Slovakia in 2009, to 17 with Estonia in January 2011 and to 18 with Latvia in January 2014. The Euro is managed by the European Central Bank."@en , "The Euro is the name of the European single currency created by the Maastricht Treaty. Although it has only been in circulation since 1st January 2002, it has existed since 1999, the date when the exchange rates were pegged between the currencies of the 11 countries in the Euro Zone. The number of these countries then increased to 12 with the arrival of Greece in January 2001, to 13 with Slovenia in 2007, to 15 with the arrival of Cyprus and Malta in 2008, to 16 with the arrival of Slovakia in 2009, to 17 with Estonia in 2011 and to 18 with Latvia in 2014 and 19 with Lithuania in 2015. The Euro is managed by the European Central Bank."@en ;
+        skos:definition  <http://id.insee.fr/concepts/definition/c1009/definition/v2/en> , <http://id.insee.fr/concepts/definition/c1009/definition/v3/en> ;
+        skos:exactMatch  <http://zbw.eu/stw/descriptor/19353-0> ;
+        skos:prefLabel   "Euro"@en , "Euro"@fr .
+
+<http://id.insee.fr/concepts/definition/c1890>
+        xkos:plainText   "The standard of living is equal to the disposable income of the household divided by the number of consumer units. The standard of living is therefore the same for all the individuals in a given household. The consumer units are generally calculated using the modified OECD scale which allocates 1 consumer unit to the first adult in the household, 0.5 to the persons of 14 years or older and 0.3 to children under the age of 14 years."@en , "The standard of living is equal to the disposable income of the household divided by the number of consumer units. The standard of living is therefore the same for all the individuals in a given household. Eurostat calls it \"equivalised disposible income\". The consumer units are generally calculated using the modified OECD scale which allocates 1 consumer unit to the first adult in the household, 0.5 to the persons of 14 years or older and 0.3 to children under the age of 14 years."@en ;
+        skos:definition  <http://id.insee.fr/concepts/definition/c1890/definition/v1/en> , <http://id.insee.fr/concepts/definition/c1890/definition/v2/en> ;
+        skos:exactMatch  <http://zbw.eu/stw/descriptor/16639-4> ;
+        skos:prefLabel   "Niveau de vie"@fr , "Standard of living"@en .
+
+<http://id.insee.fr/concepts/definition/c1151>
+        xkos:plainText   "The balance of payments is a statistical report that traces, in accounting form, all flows of real, financial and monetary assets between the residents of an economy and non-residents over a defined period. The economic and financial flows at the origin of these operations are divided up with a distinction made between the current transaction account (exchanges of goods, services, revenues and current transfers), the capital account (capital transfers) and the financial account (direct or portfolio investments).For France, it is developed by the Banque de France, on behalf of the DGTPE."@en ;
+        skos:definition  <http://id.insee.fr/concepts/definition/c1151/definition/v1/en> ;
+        skos:exactMatch  <http://zbw.eu/stw/descriptor/10791-0> ;
+        skos:prefLabel   "Balance of payments"@en , "Balance des paiements"@fr .
+
+<http://id.insee.fr/concepts/definition/c1130>
+        xkos:plainText   "Family benefits are the social benefits intended to provide families with support to partially compensate the expenses incurred for subsistence and the education of children.Three main types of family benefits can be distinguished, according to their objective :- births and infants: support for the family to employ an approved child-minder (AFEAMA), allowance for home child care (AGED), early childhood benefit (PAJE, for births or adoptions after 1st January 2004), etc ;- maintenance for children: for example family allowances (AF), family supplements (CF), return-to-school grants (ARS) ;- single-parent families: family support allowance (ASF) and one-parent benefit (API)."@en , "Family benefits are the social benefits intended to provide families with support to partially compensate the expenses incurred for subsistence and the education of children.Two main types of family benefits can be distinguished, according to their objective:- births and infants: the various constituents of the early childhood benefit (PAJE);- maintenance for children: for example family allowances (AF), family supplements (CF), return-to-school grants (ARS)."@en ;
+        skos:definition  <http://id.insee.fr/concepts/definition/c1130/definition/v1/en> , <http://id.insee.fr/concepts/definition/c1130/definition/v2/en> ;
+        skos:exactMatch  <http://zbw.eu/stw/descriptor/11564-6> ;
+        skos:prefLabel   "Prestations familiales"@fr , "Family benefits"@en .
+
+<http://zbw.eu/stw/descriptor/18325-3>
+        skos:altLabel   "Green growth"@en , "Sustainable growth"@en , "Sustainable economics"@en ;
+        skos:prefLabel  "Nachhaltige Entwicklung"@de , "Sustainable development"@en .
+
+<http://id.insee.fr/concepts/definition/c2223>
+        xkos:plainText   "Domestic railway transport includes all passenger movements on national territory using trains, RER and metros (excluding trams, considered as road transport)."@en ;
+        skos:definition  <http://id.insee.fr/concepts/definition/c2223/definition/v1/en> ;
+        skos:exactMatch  <http://zbw.eu/stw/descriptor/13255-2> ;
+        skos:prefLabel   "Railway transport"@en , "Transport ferroviaire intérieur"@fr .
+
+<http://id.insee.fr/concepts/definition/c1251>
+        xkos:plainText   "Under French law, a corporation is a grouping which has a single identity for legal purposes. Generally speaking, a corporation is composed of a group of natural persons joined together to achieve a common objective. The grouping may also comprise natural persons and corporations. It may equally be composed of one sole element. The single legal identity confers certain rights and duties upon the corporation. French law distinguishes between: corporations governed by public law: the state, regional authorities, public institutions etc.; legal entities governed by private law: the most common being enterprises, non-commercial companies, economic interest groups, associations. Some corporations governed by private law are responsible for managing certain public services."@en , "Under French law, a legal person is a grouping with legal personality. Usually a legal person consists of a group of natural persons gathered to accomplish something in common. This group may also include individuals and legal entities. It may also consist of only one element. Legal personality gives a legal person rights and duties; French law distinguishes: legal persons governed by public law: the State, local authorities, public institutions... legal persons governed by private law: the most common being private companies, civil companies, economic interest groups and associations. Some legal entities under private law are responsible for the management of a public service."@en ;
+        skos:definition  <http://id.insee.fr/concepts/definition/c1251/definition/v2/en> , <http://id.insee.fr/concepts/definition/c1251/definition/v3/en> ;
+        skos:exactMatch  <http://zbw.eu/stw/descriptor/12186-0> ;
+        skos:prefLabel   "Corporation"@en , "Personne morale"@fr .
+
+<http://zbw.eu/stw/descriptor/14175-2>
+        skos:prefLabel  "Energy"@en , "Energie"@de .
+
+<http://id.insee.fr/concepts/definition/c1401>
+        xkos:plainText   "Ambulatory care (or town care) is care provided in town surgeries, dispensaries, care centres, outpatient consultations in public or private hospitals, spa treatments and laboratory analysis. They are provided by doctors, dentists and medical auxiliaries (nurses, physiotherapists, speech therapists, orthoptists) as part of their self-employed activity."@en , "Outpatient services (local care) are all medical services conducted in local offices, dispensaries, medical centres or during external consultations with staff of public or private hospitals. They consist of medical treatment administered as part of their independent activity by doctors, dentists and medical support staff (nurses, physiotherapists, speech therapists, orthoptists etc.), diagnoses made in laboratories and treatment received at thermal spas."@en ;
+        skos:definition  <http://id.insee.fr/concepts/definition/c1401/definition/v3/en> , <http://id.insee.fr/concepts/definition/c1401/definition/v2/en> ;
+        skos:exactMatch  <http://zbw.eu/stw/descriptor/19786-4> ;
+        skos:prefLabel   "Ambulatory care"@en , "Soins ambulatoires"@fr .
+
+<http://zbw.eu/stw/descriptor/13210-3>
+        skos:prefLabel  "Trade"@en , "Handel"@de .
+
+<http://zbw.eu/stw/descriptor/16639-4>
+        skos:altLabel   "Living standard"@en ;
+        skos:prefLabel  "Standard of living"@en , "Lebensstandard"@de .
+
+<http://zbw.eu/stw/descriptor/29682-3>
+        skos:altLabel   "Weekend"@en , "Christmas"@en ;
+        skos:prefLabel  "Feiertag"@de , "Holiday"@en .
+
+<http://zbw.eu/stw/descriptor/16195-0>
+        skos:prefLabel  "Kriminalität"@de , "Crime"@en .
+
+<http://zbw.eu/stw/descriptor/29674-2>
+        skos:altLabel   "WAEMU countries"@en , "CEMAC countries"@en , "UEMOA countries"@en , "Franc zone"@en ;
+        skos:prefLabel  "CFA franc zone"@en , "CFA-Franc-Zone"@de .
+
+<http://id.insee.fr/concepts/definition/c1359>
+        xkos:plainText   "Goods are physical, produced objects for which a demand exists, over which ownership rights can be established and whose ownership can be transferred from one institutional unit to another by engaging in transactions on markets."@en ;
+        skos:definition  <http://id.insee.fr/concepts/definition/c1359/definition/v1/en> ;
+        skos:exactMatch  <http://zbw.eu/stw/descriptor/10030-6> ;
+        skos:prefLabel   "Biens"@fr , "Goods"@en .
+
+<http://id.insee.fr/concepts/definition/c1864>
+        xkos:plainText   "All the interconnected worldwide networks that enable computers and servers to communicate effectively via a common communication protocol (IP). Its main services are the web, FTP, messaging and discussion groups."@en ;
+        skos:definition  <http://id.insee.fr/concepts/definition/c1864/definition/v1/en> ;
+        skos:exactMatch  <http://zbw.eu/stw/descriptor/18659-2> ;
+        skos:prefLabel   "Internet"@en , "Internet"@fr .
+
+<http://zbw.eu/stw/descriptor/14200-1>
+        skos:prefLabel  "Kohle"@de , "Coal"@en .
+
+<http://zbw.eu/stw/descriptor/15009-0>
+        skos:altLabel   "Domestic waste"@en , "Waste generation"@en ;
+        skos:prefLabel  "Abfall"@de , "Waste"@en .
+
+<http://zbw.eu/stw/descriptor/19136-1>
+        skos:altLabel   "Retail store"@en , "Point of purchase"@en , "Point of sale"@en ;
+        skos:prefLabel  "Retail outlet"@en , "Ladengeschäft"@de .
+
+<http://zbw.eu/stw/descriptor/13409-1>
+        skos:altLabel   "Territorial authorities"@en ;
+        skos:prefLabel  "Territorial authority"@en , "Gebietskörperschaft"@de .
+
+<http://zbw.eu/stw/descriptor/18659-2>
+        skos:altLabel   "World Wide Web"@en , "WWW"@en , "Information superhighway"@en ;
+        skos:prefLabel  "Internet"@en , "Internet"@de .
+
+<http://id.insee.fr/concepts/definition/c2218>
+        xkos:plainText   "Organic farming is a method of agricultural production that excludes the use of synthetic substances, such as pesticides, synthetic medicines or fertilisers, and genetically modified organisms. May be labelled as organic agricultural products, whether processed or unprocessed, which meet the requirements of the European Union regulations on organic production and labelling of organic products or, where applicable, the conditions defined by the specifications approved by order of the minister concerned on the proposal of the National Institute of Origin and Quality (article L641-13 of the rural code)."@en ;
+        skos:definition  <http://id.insee.fr/concepts/definition/c2218/definition/v1/en> ;
+        skos:exactMatch  <http://zbw.eu/stw/descriptor/18137-4> ;
+        skos:prefLabel   "Agriculture biologique"@fr , "Organic farming"@en .
+
+<http://id.insee.fr/concepts/definition/c1225>
+        xkos:plainText   "In the broadest sense, this sector of the economy includes crop farming, animal breeding, hunting, fishing and forestry. The classification of French activities establishes a distinction between agricultural activity (exploitation of natural resources to produce various crops and livestock), forestry and fishing activity (professional exploitation of halieutic resources in marine environments or freshwater).These activities correspond to section A of NAF rev. 2."@en ;
+        skos:definition  <http://id.insee.fr/concepts/definition/c1225/definition/v1/en> ;
+        skos:exactMatch  <http://zbw.eu/stw/descriptor/12945-3> ;
+        skos:prefLabel   "Agriculture"@en , "Agriculture"@fr .
+
+<http://zbw.eu/stw/descriptor/11506-6>
+        skos:prefLabel  "Inflation"@en , "Inflation"@de .
+
+<http://id.insee.fr/concepts/definition/c2197>
+        xkos:plainText   "Recovery operation whereby waste, including organic waste, is reprocessed into substances, materials or products for its original function or for other purposes. Energy recovery operations of waste, operations for the conversion of waste into fuel and land filling operations are not classified as recycling operations."@en ;
+        skos:definition  <http://id.insee.fr/concepts/definition/c2197/definition/v1/en> ;
+        skos:exactMatch  <http://zbw.eu/stw/descriptor/13324-2> ;
+        skos:prefLabel   "Recyclage"@fr , "Recycling"@en .
+
+<http://zbw.eu/stw/descriptor/10268-1>
+        skos:prefLabel  "Verfügbares Einkommen"@de , "Disposable income"@en .
+
+<http://zbw.eu/stw/descriptor/11360-1>
+        skos:altLabel   "Vocational education"@en ;
+        skos:prefLabel  "Vocational training"@en , "Berufsbildung"@de .
+
+<http://id.insee.fr/concepts/definition/c1496>
+        xkos:plainText   "An enterprise is the smallest combination of legal units that is an organisational unit producing goods and services, enjoying a certain decision-making autonomy, especially for the allocation of its current resources."@en , "An enterprise is the smallest combination of legal units that is an organisational unit producing goods and services, enjoying a certain decision-making autonomy, especially for the allocation of its current resources. An enterprise may be: an \"independent\" legal unit, i.e. not belonging to a group. The following are distinguished: · the sole proprietorship, whereby the legal entity is not distinct from the operator in person; · the corporation, most commonly in the form of a company, for example a public limited company or a limited liability company; an enterprise resulting from the profiling of a group, (incorrectly) shortened to \"profiled enterprise\". N.B.: for a \"small\" group, the result of the profiling only contains one enterprise, identical to the group itself. commentaire This definition of an enterprise it that of EEC Council Regulation of 15 March 1993 relating to statistical units for observing and analysing the production system. It is used in the French decree for implementation (n°2008-1354) of article 51 of the French law on modernisation of the economy. This definition of an enterprise as a statistical unit should not be confused with that of the enterprise as a legal unit. All independent legal units are enterprises. However, subsidiaries of groups, i.e. those in which a group has a majority control, are not."@en ;
+        skos:definition  <http://id.insee.fr/concepts/definition/c1496/definition/v3/en> , <http://id.insee.fr/concepts/definition/c1496/definition/v2/en> ;
+        skos:exactMatch  <http://zbw.eu/stw/descriptor/12072-1> ;
+        skos:prefLabel   "Entreprise"@fr , "Enterprise"@en .
+
+<http://zbw.eu/stw/descriptor/13209-2>
+        skos:altLabel   "Wholesalers"@en , "Rack jobbers"@en ;
+        skos:prefLabel  "Großhandel"@de , "Wholesale trade"@en .
+
+<http://zbw.eu/stw/descriptor/12945-3>
+        skos:altLabel   "Agricultural sector"@en ;
+        skos:prefLabel  "Landwirtschaft"@de , "Agriculture"@en .
+
+<http://id.insee.fr/concepts/definition/c2234>
+        xkos:plainText   "An environmental tax is characterized by its action on the costs of activities or the prices of products that have a negative effect on the environment (\"internalization of the negative externality\"). Environmental taxes are taxes, identified in National Accounts as a tax, that is to say compulsory, unrequited payments to government units or EU Institutions. The tax base is a physical unit (or approximation of a physical unit) of something that has a proven, negative impact on the environment. Environmental taxes are definied by EU regulation N° 691/2011"@en ;
+        skos:definition  <http://id.insee.fr/concepts/definition/c2234/definition/v1/en> ;
+        skos:exactMatch  <http://zbw.eu/stw/descriptor/18072-6> ;
+        skos:prefLabel   "Taxe environnementale"@fr , "Environmental tax"@en .
+
+<http://zbw.eu/stw/descriptor/18397-6>
+        skos:altLabel   "B2B services"@en , "Business service"@en ;
+        skos:prefLabel  "Unternehmensdienstleistung"@de , "Business services"@en .
+
+<http://id.insee.fr/concepts/definition/c1959>
+        xkos:plainText   "According to the World Tourism Organisation (UNWTO), since 1995, holidays have been defined as all journeys for pleasure including at least four consecutive nights away from home. The following are not counted as holidays : professional trips ; study trips ; vacations for reasons of illness or the death of a relative ; health vacations in specialised establishments ; short breaks (two or three nights) and weekends. This is the notion used in the permanent living conditions surveys (EPCV) conducted by INSEE. This definition, found in similar surveys in all European Community countries, excludes weekends. It does not encompass the common notion of tourism. It is both broader (including all family vacations and non-tourist sites) and narrower (business tourism is not studied)."@en ;
+        skos:definition  <http://id.insee.fr/concepts/definition/c1959/definition/v1/en> ;
+        skos:exactMatch  <http://zbw.eu/stw/descriptor/29682-3> ;
+        skos:prefLabel   "Vacances"@fr , "Holiday"@en .
+
+<http://id.insee.fr/concepts/definition/c1383>
+        xkos:plainText   "Terms of trade are the ratio for a given product between the export price index and the import price index, with these indices expressed in relation to the same base year. A 1% improvement in the terms of trade means that the growth in export prices is 1% higher than that of import prices. It also signifies a deterioration in French price-competitiveness.Conversely, a drop in the terms of trade indicates an improvement in price-competitiveness. This ratio can be calculated by product, for a set of products, or globally."@en ;
+        skos:definition  <http://id.insee.fr/concepts/definition/c1383/definition/v1/en> ;
+        skos:exactMatch  <http://zbw.eu/stw/descriptor/10675-2> ;
+        skos:prefLabel   "Terms of trade"@en , "Termes de l'échange"@fr .
+
+<http://zbw.eu/stw/descriptor/10460-2>
+        skos:prefLabel  "Produktivität"@de , "Productivity"@en .
+
+<http://id.insee.fr/concepts/definition/c1149>
+        xkos:plainText   "This term covers fossil coal, lignite, coke, agglomerates and recovery products. Fossil coal is the richest in carbon and has a water and volatile matter content lower than lignite. Coal coke is obtained by carbonising fossil coal."@en ;
+        skos:definition  <http://id.insee.fr/concepts/definition/c1149/definition/v1/en> ;
+        skos:exactMatch  <http://zbw.eu/stw/descriptor/14200-1> ;
+        skos:prefLabel   "Charbon"@fr , "Coal"@en .
+
+<http://zbw.eu/stw/descriptor/29891-1>
+        skos:prefLabel  "Median"@en , "Median"@de .
+
+<http://id.insee.fr/concepts/definition/c1696>
+        xkos:plainText   "France comprises 96 departments on the European continent, 5 overseas departments (DOM): Guadeloupe, Martinique, French Guiana, Reunion Island and Mayotte (since april 2011), and the following territories: New Caledonia, French Polynesia, Wallis and Futuna, French Southern and Antarctic Lands, scattered islands in the Indian Ocean and a territory with a specific status: Saint Pierre and Miquelon.In the dissemination process of statistics, a distinction is made between three geographical definitions of France to take account of the geographic coverage of the statistical outputs:- Metropolitan France, which includes the 96 departments on the European continent. All the statistics are available for this territory. In the national accounts, this was the reference geographical territory until the 1980 base: trade between Metropolitan France and the overseas departments was considered as foreign trade at that time;- Metropolitan France and the overseas departments, in total 101 departments. They are part of the European Union (EU). This has been the reference economic territory for the national accounts from the 1995 base on (first accounts relating to the year 1998, disseminated in 1999);- The territory of the French Republic, which includes Metropolitan France, the 5 overseas departments, and those which are not part of the European Union: New Caledonia, French Polynesia, Wallis and Futuna, French Southern and Antarctic Lands, scattered islands in the Indian Ocean and the territory with a specific status Saint Pierre and Miquelon. Those last ones are not part of European Union. They are considered as foreign trade in the national accounts."@en ;
+        skos:definition  <http://id.insee.fr/concepts/definition/c1696/definition/v2/en> ;
+        skos:exactMatch  <http://zbw.eu/stw/descriptor/17255-3> ;
+        skos:prefLabel   "France"@en , "France"@fr .
+
+<http://id.insee.fr/concepts/definition/c1867>
+        xkos:plainText   "Wholesale trade consists of purchasingand selling goods, generally to retailers, professional (industrial or commercial) users or authorities, or to other wholesalers or intermediaries, regardless of the quantities sold. Wholesale trade intermediaries put buyers and vendors into contact (or perform commercial operations for a third party), without being owners of the goods (these are commission agents, brokers, sales agents, self-employed representatives, etc.). Trading groups, other trade intermediaries, may be the owners of goods, which they sell to their members and their affiliates for a very low trade margin. Almost all goods may give rise to wholesale trade but only some of them are sold in retail (retail trade)."@en ;
+        skos:definition  <http://id.insee.fr/concepts/definition/c1867/definition/v2/en> ;
+        skos:exactMatch  <http://zbw.eu/stw/descriptor/13209-2> ;
+        skos:prefLabel   "Commerce de gros"@fr , "Wholesale trade"@en .
+
+<http://zbw.eu/stw/descriptor/18137-4>
+        skos:altLabel   "Ecofarming"@en , "Chemical-free farming"@en , "Eco-farming"@en ;
+        skos:prefLabel  "Organic farming"@en , "Ökologischer Landbau"@de .
+
+<http://id.insee.fr/concepts/definition/c1825>
+        xkos:plainText   "A hypermarket is a self-service retail store deriving more than one-third of its sales from food and having a sales floor area of 2,500 m² or more."@en ;
+        skos:definition  <http://id.insee.fr/concepts/definition/c1825/definition/v1/en> ;
+        skos:exactMatch  <http://zbw.eu/stw/descriptor/13490-6> ;
+        skos:prefLabel   "Hypermarché"@fr , "Hypermarket"@en .
+
+<http://zbw.eu/stw/descriptor/19353-0>
+        skos:prefLabel  "Euro"@en , "Euro"@de .
+
+<http://zbw.eu/stw/descriptor/29727-0>
+        skos:altLabel   "Criminal justice system"@en , "Criminal court"@en ;
+        skos:prefLabel  "Strafjustiz"@de , "Criminal justice"@en .
+
+<http://id.insee.fr/concepts/definition/c1946>
+        xkos:plainText   "The labour force includes the occupied labour force (also called the \"labour force with a job\") and the unemployed.Measurement of the labour force differs according to statistical observation. Three main approaches can currently be distinguished: in the sense of the ILO, of the population census, or of the national accounts."@en ;
+        skos:definition  <http://id.insee.fr/concepts/definition/c1946/definition/v1/en> ;
+        skos:exactMatch  <http://zbw.eu/stw/descriptor/11271-0> ;
+        skos:prefLabel   "Labour force"@en , "Population active"@fr .
+
+<http://zbw.eu/stw/descriptor/14184-1>
+        skos:prefLabel  "Primärenergie"@de , "Primary energy"@en .
+
+<http://zbw.eu/stw/descriptor/10675-2>
+        skos:altLabel   "Barter terms of trade"@en , "Income terms of trade"@en , "Prebisch-Singer hypothesis"@en , "Commodity terms of trade"@en , "Factorial terms of trade"@en ;
+        skos:prefLabel  "Terms of trade"@en , "Terms of Trade"@de .
+
+<http://zbw.eu/stw/descriptor/12135-3>
+        skos:prefLabel  "Abteilung"@de , "Department"@en .
+
+<http://zbw.eu/stw/descriptor/10122-1>
+        skos:altLabel   "Capital-labour ratio"@en ;
+        skos:prefLabel  "Kapitalintensität"@de , "Capital intensity"@en .
+
+<http://zbw.eu/stw/descriptor/11414-4>
+        skos:altLabel   "Financial intermediary"@en ;
+        skos:prefLabel  "Finanzintermediation"@de , "Financial intermediation"@en .
+
+<http://zbw.eu/stw/descriptor/11855-2>
+        skos:altLabel   "Peripheral region"@en , "Marginal region"@en , "Remote area"@en ;
+        skos:prefLabel  "Periphery"@en , "Periphere Region"@de .
+
+<http://zbw.eu/stw/descriptor/15938-6>
+        skos:altLabel   "Relatives"@en ;
+        skos:prefLabel  "Familie"@de , "Family"@en .
+
+<http://id.insee.fr/concepts/definition/c2016>
+        xkos:plainText   "In companies with 50 or more employees, the head of the company is required to establish a works council made up of representatives elected by the employees (titulars and substitutes) and possibly one or more union representatives chosen by the unions. The head of the company (or his representative) serves as president of the council. This committee is entrusted with economic, social and cultural responsibilities and is provided with the necessary materials and financial means to acquit these duties. In companies with less than 50 employees, a works council can be established by convention or  collective agreement between the employer and the trade unions .From 1993 to 17 August 2015, in companies with fewer than 200 employees (workforce assessed in line with the provisions of the Labour Code), the employer could opt instead for a Single  Staff  Delegation, grouping the works council and employee delegates. The Law No. 2015-994 of 17 August 2015 on the social dialogue and employment raises the maximum number to set up a Single Staff Delegation from 199 employees to 299 ; Works Councils, employee delegates, committees on hygiene, safety and working conditions can be grouped by decision of the employer within a Single Employee Delegation. Companies with a Single Staff  Delegation (previous configuration) on the day of entry into force of the law can keep this body for two more election cycles. Since August 17, 2015, companies exceeding the threshold of 300 employees can partially or completely group bodies through a majority agreement."@en ;
+        skos:definition  <http://id.insee.fr/concepts/definition/c2016/definition/v1/en> ;
+        skos:exactMatch  <http://zbw.eu/stw/descriptor/11311-0> ;
+        skos:prefLabel   "Comité d'entreprise "@fr , "Works Council"@en .
+
+<http://id.insee.fr/concepts/definition/c1762>
+        xkos:plainText   "A creation of the French Revolution (22 December 1789 law), the department became an autonomous local authority, with an elected deliberating body and executive, under the 10 August 1871 law. It is managed by a departmental council elected for 6 years by universal suffrage, which in turn elects a president, the department's executive, who prepares and executes the deliberations of the departmental council, manages the budget and manages the personnel. The department has wide-reaching competencies: social action, construction and maintenance of secondary schools, rural reparcelling, organisation of school transport, etc. Since april 2011, there are 101 departments (including 5 overseas). A department belongs to one and only one region. Each overseas region has only one department."@en ;
+        skos:definition  <http://id.insee.fr/concepts/definition/c1762/definition/v2/en> ;
+        skos:exactMatch  <http://zbw.eu/stw/descriptor/12135-3> ;
+        skos:prefLabel   "Department"@en , "Département"@fr .
+
+<http://id.insee.fr/concepts/definition/c1002>
+        xkos:plainText   "The capital intensity measures, for a unit, the assets needed to generate income. It is calculated by dividing gross tangible fixed assets to full-time equivalent employeses ."@en ;
+        skos:definition  <http://id.insee.fr/concepts/definition/c1002/definition/v1/en> ;
+        skos:exactMatch  <http://zbw.eu/stw/descriptor/10122-1> ;
+        skos:prefLabel   "Intensité capitalistique"@fr , "Capital intensity"@en .
+
+<http://zbw.eu/stw/descriptor/19625-0>
+        skos:altLabel   "Genetic diversity"@en , "Genetic resources"@en ;
+        skos:prefLabel  "Artenvielfalt"@de , "Biodiversity"@en .
+
+<http://zbw.eu/stw/descriptor/18069-2>
+        skos:altLabel   "Global warming"@en , "Greenhouse effect"@en , "Greenhouse warming"@en ;
+        skos:prefLabel  "Climate change"@en , "Klimawandel"@de .
+
+<http://zbw.eu/stw/descriptor/19566-4>
+        skos:altLabel   "Wage costs"@en , "Labour cost"@en , "Staff costs"@en , "Labor cost"@en ;
+        skos:prefLabel  "Labour costs"@en , "Arbeitskosten"@de .
+
+<http://id.insee.fr/concepts/definition/c1094>
+        xkos:plainText   "Tourism includes activities by people in the course of their travels and vacations in places located outside their habitual environment for a consecutive period not exceeding one year, for the purposes of leisure, business and other reasons with no relation to paid activity in the place visited."@en ;
+        skos:definition  <http://id.insee.fr/concepts/definition/c1094/definition/v1/en> ;
+        skos:exactMatch  <http://zbw.eu/stw/descriptor/13644-5> ;
+        skos:prefLabel   "Tourisme"@fr , "Tourism"@en .
+
+<http://zbw.eu/stw/descriptor/15909-6>
+        skos:prefLabel  "Population"@en , "Bevölkerung"@de .
+
+<http://zbw.eu/stw/descriptor/12072-1>
+        skos:altLabel   "Company"@en , "Firm"@en ;
+        skos:prefLabel  "Unternehmen"@de , "Enterprise"@en .
+
+<http://id.insee.fr/concepts/definition/c1557>
+        xkos:plainText   "The consumer price index (CPI) is the instrument to measure inflation. It is used to estimate the average variation between two given periods in the prices of products consumed by households. It is a composite measurement of trends in the prices of products, at constant quality. It is published each month in the Official Journal. The price index excluding tobacco is used to index link many private contracts, alimony, annuities and also the minimum wage (SMIC). The index used for the SMIC is that of the \"Households that belong to the lowest equivalized disposable income quintile, excluding tobacco\". As of the dissemination of the consumer price index for January 2016, INSEE published a new index with the 2015 base = 100 to replace the 1998 base = 100. This renewed index is the eighth generation of indices since 1914."@en ;
+        skos:definition  <http://id.insee.fr/concepts/definition/c1557/definition/v1/en> ;
+        skos:exactMatch  <http://zbw.eu/stw/descriptor/15088-6> ;
+        skos:prefLabel   "Prix à la consommation (Indice des)"@fr , "Consumer price index"@en .
+
+<http://zbw.eu/stw/descriptor/13255-2>
+        skos:prefLabel  "Railway transport"@en , "Schienenverkehr"@de .
+
+<http://zbw.eu/stw/descriptor/10459-1>
+        skos:prefLabel  "Innovation"@en , "Innovation"@de .
+
+<http://id.insee.fr/concepts/definition/c1465>
+        xkos:plainText   "A family is the part of a household with at least two persons who are :- a couple living within a household, with its child (if they have) belonging to the same household ;- an adult with its child belonging to the same household (single-parent family).In a family, the child, to be considered as one, must be single (without its own children) and have no spouse or child who belong to the same household. A household can include zero, one or several families."@en , "A family is the part of a household with at least two persons who are :- a married couple or not, with its child (if they have) belonging to the same household ;- an adult with its child belonging to the same household (single-parent family).In a family, the child, to be considered as one, must be single (without its own children) and have no spouse or child who belong to the same household. A household can include zero, one or several families."@en ;
+        skos:definition  <http://id.insee.fr/concepts/definition/c1465/definition/v3/en> , <http://id.insee.fr/concepts/definition/c1465/definition/v2/en> ;
+        skos:exactMatch  <http://zbw.eu/stw/descriptor/15938-6> ;
+        skos:prefLabel   "Family"@en , "Famille"@fr .
+
+<http://id.insee.fr/concepts/definition/c2203>
+        xkos:plainText   "Climate variation due to natural or human factors."@en ;
+        skos:definition  <http://id.insee.fr/concepts/definition/c2203/definition/v1/en> ;
+        skos:exactMatch  <http://zbw.eu/stw/descriptor/18069-2> ;
+        skos:prefLabel   "Changement climatique"@fr , "Climate change"@en .
+
+<http://id.insee.fr/concepts/definition/c1799>
+        xkos:plainText   "A department store is a retail establishment deriving less than one-third of its sales from food and having a sales floor area of 2,500 m² or more."@en ;
+        skos:definition  <http://id.insee.fr/concepts/definition/c1799/definition/v1/en> ;
+        skos:exactMatch  <http://zbw.eu/stw/descriptor/13493-0> ;
+        skos:prefLabel   "Grand magasin"@fr , "Department store"@en .
+
+<http://zbw.eu/stw/descriptor/25681-4>
+        skos:prefLabel  "Scheidung"@de , "Divorce"@en .
+
+<http://zbw.eu/stw/descriptor/11276-4>
+        skos:altLabel   "Rural workers"@en , "Farm workers"@en ;
+        skos:prefLabel  "Agricultural workers"@en , "Agrarberufe"@de .
+
+<http://id.insee.fr/concepts/definition/c2153>
+        xkos:plainText   "The “Licence” is a national university diploma leading to the level “bac+3”. Its training proceeds in three years after the “Baccalauréat” or equivalent. This diploma constitutes the first university degree of the three-cycle system. Since the entry into force of the new training national context (2014), its title is defined with a field appellation and a mention name whose list is set by ministerial decree. Before the implementation of the three-cycle system (2003-2006), the “Licence” diploma was used to name a diploma prepared in one year after obtaining a “Deug”. The Bachelor’s degree is given to other diplomas awarded out of university, notably at the end of paramedical or architectural trainings."@en ;
+        skos:definition  <http://id.insee.fr/concepts/definition/c2153/definition/v1/en> ;
+        skos:exactMatch  <http://zbw.eu/stw/descriptor/18065-3> ;
+        skos:prefLabel   "Licence"@en , "Licence"@fr .
+
+<http://zbw.eu/stw/descriptor/13301-0>
+        skos:altLabel   "Service"@en ;
+        skos:prefLabel  "Services"@en , "Dienstleistung"@de .
+
+<http://zbw.eu/stw/descriptor/12186-0>
+        skos:altLabel   "Company limited by shares"@en ;
+        skos:prefLabel  "Corporation"@en , "Kapitalgesellschaft"@de .
+
+<http://id.insee.fr/concepts/definition/c1502>
+        xkos:plainText   "The region, as the most recent structure in French local government, became a territorial authority following the decentralisation laws of March 16, 1986, date of the first election of regional councillors elected by universal suffrage. Its existence was confirmed by the constitutional revision of March 28, 2003. The regional councillors elect the president of the regional council who manages the budget, the personnel and the policy of the region.The specific purviews of the region concern mainly regional development, economic development, vocational training, construction or maintenance of high schools, rail passenger transport. There are 17 regions in France including 5 overseas. The territorial authority of Corsica is more often than not assimilated with a region."@en ;
+        skos:definition  <http://id.insee.fr/concepts/definition/c1502/definition/v2/en> ;
+        skos:exactMatch  <http://zbw.eu/stw/descriptor/11857-5> ;
+        skos:prefLabel   "Région"@fr , "Region"@en .
+
+<http://id.insee.fr/concepts/definition/c1473>
+        xkos:plainText   "Inflation is the loss of purchasing power of the currency that results in an increase general and sustainable prices. It must be distinguished from the increase in the cost of living. The loss in value of the money is a phenomenon that strikes the national economy as a whole (households, businesses, etc.). The index of consumer prices (CPI) is used to assess inflation . This measure is partial since inflation covers a broader scope than just the household consumption."@en ;
+        skos:definition  <http://id.insee.fr/concepts/definition/c1473/definition/v1/en> ;
+        skos:exactMatch  <http://zbw.eu/stw/descriptor/11506-6> ;
+        skos:prefLabel   "Inflation"@en , "Inflation"@fr .
+
+<http://id.insee.fr/concepts/definition/c1644>
+        xkos:plainText   "Sustainable development is \"development that meets the needs of the present without compromising the ability of future generations to meet their own needs\", a quotation from Mrs Gro Harlem Brundtland, Norwegian Prime Minister (1987). In 1992, the Earth Summit in Rio de Janeiro, held under the aegis of the United Nations, made official the notion of sustainable development and that of the three pillars (economy/ecology/social): economically efficient, socially fair and ecologically sustainable development."@en ;
+        skos:definition  <http://id.insee.fr/concepts/definition/c1644/definition/v1/en> ;
+        skos:exactMatch  <http://zbw.eu/stw/descriptor/18325-3> ;
+        skos:prefLabel   "Développement durable"@fr , "Sustainable development"@en .
+
+<http://id.insee.fr/concepts/definition/c1452>
+        xkos:plainText   "In economics, productivity is defined as the ratio, in volume, between production and the resources used to obtain that production.Production means goods and/or services produced. The resources used, also called production factors, mean labour, technical means (installations, machines, tooling, etc.), the capital invested, intermediate consumption (raw materials, power, transport, etc.) as well as factors less easy to grasp but extremely important, such as the accumulation of know-how.Productivity can also be calculated in relation to a single type of resources such as labour or capital. Then we speak about apparent productivity.The apparent productivity of labour is a widely used measurement. The apparent productivity of capital can also be calculated."@en ;
+        skos:definition  <http://id.insee.fr/concepts/definition/c1452/definition/v2/en> ;
+        skos:exactMatch  <http://zbw.eu/stw/descriptor/10460-2> ;
+        skos:prefLabel   "Productivité"@fr , "Productivity"@en .
+
+<http://zbw.eu/stw/descriptor/11564-6>
+        skos:altLabel   "AFDC"@en , "TANF"@en , "Aid for families with dependent children"@en , "Family allowances"@en , "Child benefits"@en , "Temporary assistance to needy families"@en , "Child care subsidies"@en ;
+        skos:prefLabel  "Family benefits"@en , "Familienleistungsausgleich"@de .
+
+<http://id.insee.fr/concepts/definition/c1026>
+        xkos:plainText   "The electronic data interchange (EDI) is a technique that replaces physical exchanges of documents between companies (orders, invoices, delivery slips, etc.) with exchanges, according to a standardised format, between computers connected through specialised connections or through a (private) value-added network (VAN). The data are structured according to reference international technical standards (e.g. Edifact). For example, the sending by fax of an order and then its input by an operator from the supplier company is replaced by the issuing of information that is routed to a computer of the supplier company capable of interpreting the order."@en ;
+        skos:definition  <http://id.insee.fr/concepts/definition/c1026/definition/v1/en> ;
+        skos:exactMatch  <http://zbw.eu/stw/descriptor/18660-3> ;
+        skos:prefLabel   "Échange de données informatisé "@fr , "Electronic data interchange"@en .
+
+<http://zbw.eu/stw/descriptor/11559-6>
+        skos:altLabel   "Public servants"@en ;
+        skos:prefLabel  "Civil service"@en , "Öffentlicher Dienst"@de .
+
+<http://id.insee.fr/concepts/definition/c1189>
+        xkos:plainText   "Primary energy includes all energy products not transformed, directly exploited or imported. It mainly includes crude oil, oil shale, natural gas, solid mineral fuels, biomass, solar radiation, hydraulic energy, wind energy, geothermic energy and the energy taken from uranium fission."@en ;
+        skos:definition  <http://id.insee.fr/concepts/definition/c1189/definition/v1/en> ;
+        skos:exactMatch  <http://zbw.eu/stw/descriptor/14184-1> ;
+        skos:prefLabel   "Énergie primaire"@fr , "Primary energy"@en .
+
+<http://id.insee.fr/concepts/definition/c1702>
+        xkos:plainText   "A dwelling is a place used for housing: - separate, i.e. closed by walls and partitions, without communication with another place except the common parts within the building (corridor, stairs, etc.); - independent, i.e. having an entrance with direct access to the outside or to the common parts within the building. The dwellings are divided into four categories : main residences, second homes, occasional dwellings, vacant dwellings. Although having specific characteristics, hotel accommodation for the elderly, the furnished rooms and precarious or makeshift dwellings (caravans, mobile homes, etc.) are also dwellings with regards to INSEE’s definition."@en ;
+        skos:definition  <http://id.insee.fr/concepts/definition/c1702/definition/v4/en> ;
+        skos:exactMatch  <http://zbw.eu/stw/descriptor/13829-0> ;
+        skos:prefLabel   "Dwelling"@en , "Logement"@fr .
+
+<http://zbw.eu/stw/descriptor/11857-5>
+        skos:prefLabel  "Region"@en , "Region"@de .
+
+<http://zbw.eu/stw/descriptor/13493-0>
+        skos:prefLabel  "Warenhaus"@de , "Department store"@en .
+
+<http://id.insee.fr/concepts/definition/c1481>
+        xkos:plainText   "The core inflation index is a seasonally-adjusted index which allows us to observe deeper trends in the changes in prices.It presents the fundamental growth of production costs and the relationship between supply and demand.It does not include prices which are subject to government intervention (electricity, gas, tobacco etc.) and products whose price is highly volatile (petrol, seasonal produce, dairy products, meats, flowers and plants etc.) which experience high variability due to climatic factors or tensions on the global markets.The core inflation index is corrected for tax measures (rise or fall in VAT, specific measures imposed on products etc.) in order to neutralise the effect on the price index of variations in indirect taxation or government measures which directly affect consumer prices. Core inflation is thus better suited to analysis of inflationary tensions, as it is less sensitive to exogenous phenomena."@en ;
+        skos:definition  <http://id.insee.fr/concepts/definition/c1481/definition/v1/en> ;
+        skos:exactMatch  <http://zbw.eu/stw/descriptor/29681-5> ;
+        skos:prefLabel   "Inflation sous jacente"@fr , "Core inflation"@en .
+
+<http://id.insee.fr/concepts/definition/c2219>
+        xkos:plainText   "Labour costs represent the total expenditure incurred by employers for the employment of employees. They represent a cost of salaried labour force, that is why they are sometimes referred to as salary costs. In addition to gross wages, labour costs include the social contributions payable by the employer (social security, unemployment, pension, provident scheme, severance pay), whether compulsory, conventional or optional, but net of exemptions, in particular of reductions in social security contributions. They also cover the costs of vocational training (apprenticeship tax, employers' contributions to the financing of vocational training, etc.), taxes on wages and other taxes relating to employment, net of subsidies intended to promote employment and received by the employer, such as the tax credit for competitiveness and employment (CICE), for example. Finally, they include other expenses related to the employment of employees such as recruitment costs."@en ;
+        skos:definition  <http://id.insee.fr/concepts/definition/c2219/definition/v1/en> ;
+        skos:exactMatch  <http://zbw.eu/stw/descriptor/19566-4> ;
+        skos:prefLabel   "Labour costs"@en , "Coût du travail"@fr .
+
+<http://zbw.eu/stw/descriptor/29620-4>
+        skos:altLabel   "Obstetrics"@en , "Prenatal care"@en ;
+        skos:prefLabel  "Geburt"@de , "Birth"@en .
+
+<http://zbw.eu/stw/descriptor/18792-0>
+        skos:altLabel   "Temporary work"@en , "Interim management"@en , "Temporary contract"@en , "Fixed-term contract"@en ;
+        skos:prefLabel  "Temporary employment"@en , "Befristete Beschäftigung"@de .
+
+<http://id.insee.fr/concepts/definition/c1873>
+        xkos:plainText   "The financial intermediation process channels funds between third parties with a surplus and those with a lack of funds. A financial intermediary does not only act as an agent for other institutional units, but places itself at risk by acquiring financial assets and incurring liabilities on its own account (for example banks, insurance corporations, investments funds)."@en ;
+        skos:definition  <http://id.insee.fr/concepts/definition/c1873/definition/v2/en> ;
+        skos:exactMatch  <http://zbw.eu/stw/descriptor/11414-4> ;
+        skos:prefLabel   "Intermédiation financière"@fr , "Financial intermediation"@en .
+
+<http://zbw.eu/stw/descriptor/30262-1>
+        skos:prefLabel  "Generation"@en , "Generation"@de .
+
+<http://id.insee.fr/concepts/definition/c1305>
+        xkos:plainText   "The periphery covers all of the municipalities of the urban area with the exclusion of its centre. These are municipalities or urban units with at least 40% of active residents who work in the centre or in the municipalities which are attracted by the centre."@en ;
+        skos:definition  <http://id.insee.fr/concepts/definition/c1305/definition/v2/en> ;
+        skos:exactMatch  <http://zbw.eu/stw/descriptor/11855-2> ;
+        skos:prefLabel   "Couronne"@fr , "Periphery"@en .
+
+<http://zbw.eu/stw/descriptor/13200-6>
+        skos:prefLabel  "Einzelhandel"@de , "Retail trade"@en .
+
+<http://id.insee.fr/concepts/definition/c1468>
+        xkos:plainText   "The municipality is the smallest French administrative subdivision but is also the oldest, because it succeeded the towns and parishes of the Middle Ages. It was established in 1789 before experiencing initial autonomy with the 5 April 1884 law, a municipality charter.The mayor is the executive of the municipality that he represents and manages its budget. He employs the municipality's personnel and has local competence (schools, town planning, social action, streets, school transport, collection of household waste, sewerage, etc.).He is also an agent of the State for the functions of civil status, public order, the organisation of elections and the issuance of regulatory titles.At 1 January 2010, there were 36,682 municipalities, including 36,570 in Metropolitan France."@en ;
+        skos:definition  <http://id.insee.fr/concepts/definition/c1468/definition/v3/en> ;
+        skos:exactMatch  <http://zbw.eu/stw/descriptor/11852-1> ;
+        skos:prefLabel   "Commune"@fr , "Municipality"@en .
+
+<http://id.insee.fr/concepts/definition/c1973>
+        xkos:plainText   "The population of a municipality includes : the population of the main residences; the population of the communities of the municipality; the homeless or those living in mobile accommodation."@en ;
+        skos:definition  <http://id.insee.fr/concepts/definition/c1973/definition/v1/en> ;
+        skos:exactMatch  <http://zbw.eu/stw/descriptor/15909-6> ;
+        skos:prefLabel   "Population"@en , "Population"@fr .
+
+<http://id.insee.fr/concepts/definition/c2198>
+        xkos:plainText   "Sources of material and energy that are economically accessible in the natural environment in primary form before their transformation by human activity. A natural resource may be renewable on a human scale (animal or plant biomass, water) or not (metallic resources, minerals, fossil energy resources, uranium)."@en ;
+        skos:definition  <http://id.insee.fr/concepts/definition/c2198/definition/v1/en> ;
+        skos:exactMatch  <http://zbw.eu/stw/descriptor/15745-3> ;
+        skos:prefLabel   "Ressources naturelles"@fr , "Natural resources"@en .
+
+<http://zbw.eu/stw/descriptor/13324-2>
+        skos:altLabel   "Waste recycling"@en , "Circular economy"@en ;
+        skos:prefLabel  "Kreislaufwirtschaft"@de , "Recycling"@en .
+
+<http://zbw.eu/stw/descriptor/11496-4>
+        skos:prefLabel  "Deflation"@en , "Deflation"@de .
+
+<http://zbw.eu/stw/descriptor/11311-0>
+        skos:altLabel   "Shop committee"@en ;
+        skos:prefLabel  "Betriebsrat"@de , "Works council"@en .
+
+<http://id.insee.fr/concepts/definition/c1376>
+        xkos:plainText   "If a distribution is ordered, the median divides this distribution into two equal parts. Thus, for a distribution of wages, 50 % of the wages are below the median and 50 % above it."@en ;
+        skos:definition  <http://id.insee.fr/concepts/definition/c1376/definition/v3/en> ;
+        skos:exactMatch  <http://zbw.eu/stw/descriptor/29891-1> ;
+        skos:prefLabel   "Median"@en , "Médiane"@fr .
+
+<http://id.insee.fr/concepts/definition/c1547>
+        xkos:plainText   "A generation refers to all the people born in the same calendar year. E.g. \"the 1946 generation\"."@en ;
+        skos:definition  <http://id.insee.fr/concepts/definition/c1547/definition/v1/en> ;
+        skos:exactMatch  <http://zbw.eu/stw/descriptor/30262-1> ;
+        skos:prefLabel   "Generation"@en , "Génération"@fr .
+
+<http://id.insee.fr/concepts/definition/c2085>
+        xkos:plainText   "A nature reserve is a part of the territory where the preservation of the fauna, flora, soil, water, mineral and fossil deposits and, in general, of the natural environment is of particular importance. No artificial intervention likely to degrade such a territory should be allowed in it.A distinction is made between national nature reserves (RNN), nature reserves of the territorial authority of Corsica (RNC) and regional nature reserves (RNR). Their management is entrusted to associations for the protection of nature, including the conservatories of natural space, to public institutions (national parks, national forestry commission) and to local authorities (municipalities, associations of municipalities, mixed syndicates, etc.). A management plan drafted by the organisation in charge of managing the reserve for 5 years, sets out the objectives and the resources to be deployed in the field to maintain or restore the relevant environments.The RNR, created upon the initiative of the regions, have replaced the voluntary nature reserves (RNV)."@en ;
+        skos:definition  <http://id.insee.fr/concepts/definition/c2085/definition/v1/en> ;
+        skos:exactMatch  <http://zbw.eu/stw/descriptor/19628-1> ;
+        skos:prefLabel   "Réserve naturelle"@fr , "Nature reserve"@en .
+
+<http://id.insee.fr/concepts/definition/c1647>
+        xkos:plainText   "Retail trade consists of selling merchandise in the state that it is purchased (or after minor transformations), generally to a customer base of private individuals, regardless of the quantities sold. In addition to sales, retail trade activity may also cover delivery and installation at the customer's home (of furniture or household appliances for example). The marketing of a good generally successively includes wholesale trade activity followed by retail trade activity, but certain goods (capital goods) are not the subject of retail trade."@en ;
+        skos:definition  <http://id.insee.fr/concepts/definition/c1647/definition/v2/en> ;
+        skos:exactMatch  <http://zbw.eu/stw/descriptor/13200-6> ;
+        skos:prefLabel   "Commerce de détail"@fr , "Retail trade"@en .
+
+<http://id.insee.fr/concepts/definition/c1455>
+        xkos:plainText   "A rent is the amount paid by a tenant for the use of a dwelling. The rent does not include rental charges (maintenance of common areas, water, energy, etc.)."@en ;
+        skos:definition  <http://id.insee.fr/concepts/definition/c1455/definition/v1/en> ;
+        skos:exactMatch  <http://zbw.eu/stw/descriptor/13837-1> ;
+        skos:prefLabel   "Rent"@en , "Loyer"@fr .
+
+<http://id.insee.fr/concepts/definition/c1626>
+        xkos:plainText   "Each person in a household may belong to only one family. A family includes :- either a couple (married or not) and, if applicable, its children ;- or a person without a spouse and his/her children (single parent family).The child of the family is counted as such, regardless of his/her age. This may be the child of both parents, of one of the parents, an adopted child, or a child under the guardianship of one or other parent. No age limit is set to be a child of the family. A grandson or granddaughter is not considered to be a \"child of the family\"."@en ;
+        skos:definition  <http://id.insee.fr/concepts/definition/c1626/definition/v2/en> ;
+        skos:exactMatch  <http://zbw.eu/stw/descriptor/29951-2> ;
+        skos:prefLabel   "Family structure"@en , "Composition des familles"@fr .
+
+<http://zbw.eu/stw/descriptor/12969-3>
+        skos:altLabel   "Fish farming"@en ;
+        skos:prefLabel  "Aquaculture"@en , "Aquakultur"@de .
+
+<http://zbw.eu/stw/descriptor/11182-6>
+        skos:altLabel   "Unemployed workers"@en ;
+        skos:prefLabel  "Unemployment"@en , "Arbeitslosigkeit"@de .
+
+<http://id.insee.fr/concepts/definition/c1789>
+        xkos:plainText   "The profitability is the ratio between the profit and the production. The rate of profitability brings back the profit or loss for the year to the turnover exclusive of tax ( RNC / CAHT)."@en ;
+        skos:definition  <http://id.insee.fr/concepts/definition/c1789/definition/v1/en> ;
+        skos:exactMatch  <http://zbw.eu/stw/descriptor/12295-2> ;
+        skos:prefLabel   "Profitability"@en , "Profitabilité"@fr .
+
+<http://zbw.eu/stw/descriptor/15088-6>
+        skos:altLabel   "Cost-of-living index"@en , "CPI (Consumer Price Index)"@en , "Retail price index"@en ;
+        skos:prefLabel  "Verbraucherpreisindex"@de , "Consumer price index"@en .
+
+<http://id.insee.fr/concepts/definition/c1534>
+        xkos:plainText   "Aquaculture is the set of activities that involve growing plants and breeding animals in continental or marine water to improve production. It involves the individual or legal possession of cultured stocks.It groups together fish-farming, shellfish farming (farming of oysters, mussels, clams, cockles, etc.), algal culture and carcinoculture (farming of crustaceans, mainly shrimp and crayfish)."@en ;
+        skos:definition  <http://id.insee.fr/concepts/definition/c1534/definition/v1/en> ;
+        skos:exactMatch  <http://zbw.eu/stw/descriptor/12969-3> ;
+        skos:prefLabel   "Aquaculture"@en , "Aquaculture"@fr .
